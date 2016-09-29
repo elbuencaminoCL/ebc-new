@@ -1,0 +1,61 @@
+{
+	"cases": [
+
+		{
+			"bg": "./../../assets/images/cases/cabecera-caso-charco.jpg",
+			"logo": "./../../assets/images/cases/cabecera-caso-charco.jpg",
+			"name": "Terral",
+			"work": "Rediseño de presencia online"
+		},
+
+		{
+			"bg": "./../../assets/images/cases/cabecera-caso-charco.jpg",
+			"logo": "./../../assets/images/cases/cabecera-caso-charco.jpg",
+			"name": "Charco",
+			"work": "Rediseño de presencia online"
+		},
+
+		{
+			"bg": "./../../assets/images/cases/cabecera-caso-charco.jpg",
+			"logo": "./../../assets/images/cases/cabecera-caso-charco.jpg",
+			"name": "Metlife",
+			"work": "Rediseño de presencia online"
+		},
+ 
+		{
+			"bg": "./../../assets/images/cases/cabecera-caso-charco.jpg",
+			"logo": "./../../assets/images/cases/cabecera-caso-charco.jpg",
+			"name": "Mi Espera",
+			"work": "Diseño de App de salud"
+		},
+
+		{
+			"bg": "./../../assets/images/cases/cabecera-caso-charco.jpg",
+			"logo": "./../../assets/images/cases/cabecera-caso-charco.jpg",
+			"name": "Metlife",
+			"work": "Rediseño de presencia online"
+		},
+
+		{
+			"bg": "./../../assets/images/cases/cabecera-caso-charco.jpg",
+			"logo": "./../../assets/images/cases/cabecera-caso-charco.jpg",
+			"name": "Hoyts",
+			"work": "Rediseño de presencia online"
+		},
+
+		{
+			"bg": "./../../assets/images/cases/cabecera-caso-charco.jpg",
+			"logo": "./../../assets/images/cases/cabecera-caso-charco.jpg",
+			"name": "Santander Río",
+			"work": "Rediseño de presencia online"
+		},
+
+		{
+			"bg": "./../../assets/images/cases/cabecera-caso-charco.jpg",
+			"logo": "./../../assets/images/cases/cabecera-caso-charco.jpg",
+			"name": "Colegios Domingo Santa María",
+			"work": "Rediseño de presencia online"
+		}
+
+	]
+}

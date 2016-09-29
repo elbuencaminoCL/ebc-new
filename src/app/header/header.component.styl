@@ -1,0 +1,141 @@
+
+	.header__container
+		left 0
+		position absolute
+		right 0
+		top 0
+		
+	.header__description
+		margin-bottom 0
+	
+		
+	.overlay 
+		background #2D4044
+		bottom 0
+		height 0
+		left 0
+		opacity 0
+		overflow hidden
+		position fixed
+		right 0
+		top 0
+		transition opacity .35s, visibility .35s, height .35s
+		visibility hidden
+		width 100%
+		&.open 
+			height 100%
+			opacity 0.9
+			visibility visible
+			z-index 101
+		
+	.overlay__list-item
+		border 2px solid white
+		font-weight 600
+		height 50%
+		line-height 50px
+		margin 0
+		padding 0
+		text-align center
+		width 33.33%
+	
+	.overlay__list-item a,
+	.overlay__list-item a:link,
+	.overlay__list-item a:visited
+		background-color transparent
+		height 100%
+		padding 10px 20px
+		width 100%
+	
+	.overlay__list-item a:hover,
+	.overlay__list-item a:focus,
+	.overlay__list-item a:active
+		background-color #C72527
+	
+	.overlay__list-item span
+		color white
+		display block
+		font-size 25px
+		height auto
+		line-height 1.25em
+		position relative
+		top 50%
+		transform translateY(-50%)
+		width 100%
+		
+
+	.navbar
+		&.sticky
+			.navbar__container-sticky
+				opacity 1
+				visibility visible
+				transition all .2s cubic-bezier( .4,0,.2,1 )
+				z-index 100
+			.navbar__figure
+				height 0
+				margin 0
+				opacity 0
+				visibility hidden
+
+			.navbar__figure-sticky
+				img
+					opacity 1
+					visibility visible
+					
+			.navbar__toggle
+				top 15px
+
+	.navbar__container-sticky
+		background-color #9F1D1F
+		box-shadow 0 2px 8px rgba(0,0,0,0.5)
+		left 0
+		opacity 0
+		padding 1rem 3rem
+		position fixed
+		right 0
+		top 0
+		visibility hidden
+
+			
+	.navbar__figure
+		height auto
+		margin 3rem 0 6rem
+		
+
+	.navbar__figure-sticky
+		img			
+			opacity 0
+			visibility hidden
+			
+
+	.navbar__toggle
+		cursor pointer
+		height 27px
+		position fixed
+		right 6rem
+		top 3rem
+		width 35px
+		z-index 102
+		span 
+			background-color white
+			border medium none
+			cursor pointer
+			height 5px
+			left 0
+			position absolute
+			top 0
+			width 100%
+			&:nth-of-type(2) 
+				top 11px
+			&:nth-of-type(3) 
+				top 22px
+				
+		&.active
+			.bottom 
+				background white
+				transform translateY(-11px) translateX(0) rotate(-45deg)
+			.middle 
+				background white
+				opacity 0
+			.top
+				background white
+				transform translateY(11px) translateX(0) rotate(45deg)

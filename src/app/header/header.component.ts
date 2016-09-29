@@ -1,4 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, AfterViewInit } from '@angular/core';
+	
+import { Location } from '@angular/common';
+
+declare var $: any;
 
 @Component({
   selector: 'app-header',
@@ -7,9 +11,35 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
 
-  ngOnInit() {
-  }
+
+	constructor( private location: Location ) {}
+
+	isActive( path ) {
+		return this.location.path().indexOf(path) > -1;
+	}
+
+	ngOnInit() {}
+
+	ngAfterViewInit() {
+
+		let $navToggle = $('.navToggle');
+
+		$navToggle.click(function() {
+			$(this).toggleClass('active');
+			$('.overlay').toggleClass('open');
+		});
+
+		let $element = $( '.navbar' );
+
+		$( window ).scroll( function () {
+			if( $(this).scrollTop() > 60 ) {
+				$element.addClass( 'sticky' );
+			} else {
+				$element.removeClass( 'sticky' );				
+			}
+		});
+
+	}
 
 }

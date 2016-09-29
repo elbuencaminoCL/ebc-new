@@ -1,4 +1,166 @@
-<p>
-  header works!
-  <a routerLink="/about/" routerLinkActive="active">About</a>
-</p>
+
+	<header class="header" *ngIf="!isActive('/')">
+		<figure class="header__bg">
+			<img src="./../../assets/images/home/header.jpg" alt="Fondo header" />
+		</figure>
+		<div class="header__container">
+			<nav class="navbar">
+				<div class="navbar__container u-container">
+					<a class="navbar__link" routerLink="/" rel="nofollow">
+						<figure class="navbar__figure center-xs">
+							<img width="174" height="143" alt="Logotipo El buen camino" src="./../../assets/images/global/logo2.png" />
+						</figure>
+					</a>
+				</div>
+				<div class="navbar__container-sticky">
+					<a class="navbar__link" routerLink="/" rel="nofollow">
+						<figure class="navbar__figure-sticky">
+							<img width="150" height="35" alt="Logotipo El buen camino" src="./../../assets/images/global/logo3.png" />
+						</figure>
+					</a>
+				</div>
+
+				<div class="navbar__toggle smooth navToggle">
+					<span class="top smooth"></span>
+					<span class="middle smooth"></span>
+					<span class="bottom smooth"></span>
+				</div>
+
+
+				<div class="overlay">
+					<nav class="overlay__container u-container">
+						<ul id="overlay__list u-row">
+							<li class="overlay__list-item col-xs-12 col-sm-4">
+								<a class="smooth" routerLink="/" routerLinkActive="active" rel="follow">
+									<span class="text-mavenPro text-uppercase">
+										inicio
+									</span>
+								</a>
+							</li>
+							<li class="overlay__list-item col-xs-12 col-sm-4">
+								<a class="smooth" routerLink="/about/" routerLinkActive="active" rel="follow">
+									<span class="text-mavenPro text-uppercase">
+										nosotros
+									</span>
+								</a>
+							</li>
+							<li class="overlay__list-item col-xs-12 col-sm-4">
+								<a class="smooth" routerLink="/services/" routerLinkActive="active" rel="follow">
+									<span class="text-mavenPro text-uppercase">
+										nuestros servicios
+									</span>
+								</a>
+							</li>
+							<li class="overlay__list-item col-xs-12 col-sm-4">
+								<a class="smooth" routerLink="/cases/" routerLinkActive="active" rel="follow">
+									<span class="text-mavenPro text-uppercase">
+										casos
+									</span>
+								</a>
+							</li>
+							<li class="overlay__list-item col-xs-12 col-sm-4">
+								<a class="smooth" href="/contact/" rel="follow">
+									<span class="text-mavenPro text-uppercase">
+										contáctanos
+									</span>
+								</a>
+							</li>
+							<li class="overlay__list-item col-xs-12 col-sm-4">
+								<a class="smooth gold" href="#" rel="follow">
+									<span class="text-mavenPro text-uppercase">
+										cuéntanos de tu proyecto
+									</span>
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</nav>
+			<div class="header__content center-xs">
+				<h2 class="header__title white text-mavenPro">Somos un estudio especializado en Ux</h2>
+				<p class="header__description white">Eso significa que no sólo diseñamos sitios lindos, sino que además nos preocupamos de</p> 
+				<p class="header__description white">entender tu negocio y a tus clientes para crear experiencias simples de usar que te</p>
+				<p class="header__description white">ayuden a cumplir tus objetivos.</p>
+			</div>
+		</div>
+	</header>	
+
+	<div class="hader" *ngIf="isActive('/')">
+		<div class="header__container" style="background-color: firebrick">
+			<nav class="navbar">
+				<div class="navbar__container u-container">
+					<a class="navbar__link" routerLink="/" rel="nofollow">
+						<figure class="navbar__figure center-xs">
+							<img width="174" height="143" alt="Logotipo El buen camino" src="./../../assets/images/global/logo2.png" />
+						</figure>
+					</a>
+				</div>
+				<div class="navbar__container-sticky">
+					<a class="navbar__link" routerLink="/" rel="nofollow">
+						<figure class="navbar__figure-sticky">
+							<img width="150" height="35" alt="Logotipo El buen camino" src="./../../assets/images/global/logo3.png" />
+						</figure>
+					</a>
+				</div>
+
+				<div class="navbar__toggle smooth navToggle">
+					<span class="top smooth"></span>
+					<span class="middle smooth"></span>
+					<span class="bottom smooth"></span>
+				</div>
+
+
+				<div class="overlay">
+					<nav class="overlay__container u-container">
+						<ul id="overlay__list u-row">
+							<li class="overlay__list-item col-xs-12 col-sm-4">
+								<a class="smooth" routerLink="/" routerLinkActive="active" rel="follow">
+									<span class="text-mavenPro text-uppercase">
+										inicio
+									</span>
+								</a>
+							</li>
+							<li class="overlay__list-item col-xs-12 col-sm-4">
+								<a class="smooth" routerLink="/about/" routerLinkActive="active" rel="follow">
+									<span class="text-mavenPro text-uppercase">
+										nosotros
+									</span>
+								</a>
+							</li>
+							<li class="overlay__list-item col-xs-12 col-sm-4">
+								<a class="smooth" routerLink="/services/" routerLinkActive="active" rel="follow">
+									<span class="text-mavenPro text-uppercase">
+										nuestros servicios
+									</span>
+								</a>
+							</li>
+							<li class="overlay__list-item col-xs-12 col-sm-4">
+								<a class="smooth" routerLink="/cases/" routerLinkActive="active" rel="follow">
+									<span class="text-mavenPro text-uppercase">
+										casos
+									</span>
+								</a>
+							</li>
+							<li class="overlay__list-item col-xs-12 col-sm-4">
+								<a class="smooth" href="/contact/" rel="follow">
+									<span class="text-mavenPro text-uppercase">
+										contáctanos
+									</span>
+								</a>
+							</li>
+							<li class="overlay__list-item col-xs-12 col-sm-4">
+								<a class="smooth gold" href="#" rel="follow">
+									<span class="text-mavenPro text-uppercase">
+										cuéntanos de tu proyecto
+									</span>
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</nav>
+		</div>
+	</div>
+
+
+	

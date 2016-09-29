@@ -11,6 +11,10 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
+import { ServicesComponent } from './services/services.component';
+import { CasesComponent } from './cases/cases.component';
+import { CaseComponent } from './case/case.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +22,11 @@ import { HomeComponent } from './home/home.component';
     HeaderComponent,
     FooterComponent,
     AboutComponent,
-    HomeComponent
+    HomeComponent,
+    ServicesComponent,
+    CasesComponent,
+    CaseComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
