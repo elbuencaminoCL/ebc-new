@@ -10,6 +10,7 @@ declare var $: any;
   templateUrl: './cases.component.html',
   styleUrls: ['./cases.component.styl']
 })
+
 export class CasesComponent implements OnInit {
 
   public cases;
@@ -21,12 +22,13 @@ export class CasesComponent implements OnInit {
     this.getCases();
   }
     
-  getCases() {
+  getCases(){
     this.http.get('./app/_data/cases.json') 
       .map((res:Response) => res.json())
       .subscribe(
         data => {
-        	console.log( data );
+          console.log( data );
+          this.cases = data.cases; 
         },
         err => console.error(err),
         () => console.log('done')

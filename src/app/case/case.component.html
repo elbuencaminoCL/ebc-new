@@ -1,128 +1,102 @@
-<section id="casoTerraHotelDisplay">
-			<article class="container">
-				<div class="row">
-					<h3 class="text-center">
-						La Situación
-					</h3>
-					<div class="underline"></div>
+	
+	<div *ngIf="case" class="case case-{{case.slug}} case-{{case.template}}">
+
+		<header class="case__header center-xs">
+			<div class="case__header__container">
+				<figure class="case__header__bg" *ngIf="case.bg">
+					<img src="{{case.bg}}" />
+				</figure>
+				<h2 class="case__header__name" *ngIf="!case.logo">{{case.name}}</h2>
+				<figure class="case__header__logo" *ngIf="case.logo">
+					<img src="{{case.logo}}">
+				</figure>
+				<div class="case__header__categories" *ngIf="case.categories">
+					<span *ngFor="let category of case.categories">{{category}} </span>
 				</div>
-				<div class="row">
-					<p class="text-center text-lato">
-						El Valle de elqui en la ciudad de vicuña, Chile es conocido mundialmente por sus impresionables cielos estrellados. En el centro de este valle se encuentra el hotel y Spa Terral, único hotel de 4 estrellas de la zona. Pese a su inmejorable ubicación y oferta de servicios, la presencia online de este hotel estaba muy dejada. Los dueños del hotel, consciente de ello, nos contactaron para que los ayudaremos a crear un sitio que les permitiera transmitir la vibra y onda de Terral además de reservar y pagar las habitaciones online.
-					</p>
-				</div>
-				<div class="row">
-					<!-- <img width="auto" height="auto" alt="..." src="includes/img/casos/caso-terral-1.jpg" /> -->
-				</div>
-				<div class="row">
-					<h3 class="text-center">
-						Lo que hicimos
-					</h3>
-					<div class="underline"></div>
-				</div>
-				<div class="row">
-					<div class="col-xs-6 col-md-offset-2 col-md-2 margin-bottom-20">
-						<!-- <img class="img-responsive img-circle" width="100%" height="auto" alt="..." src="includes/img/casoConsultoria.png" /> -->
-						<h4 class="width-100 margin-top-10 text-center text-lato">
-							Consultor&iacute;a
-						</h4>
-					</div>
-					<div class="col-xs-6 col-md-2 margin-bottom-20">
-						<!-- <img class="img-responsive img-circle" width="100%" height="auto" alt="..." src="includes/img/casoRediseno.png" /> -->
-						<h4 class="width-100 margin-top-10 text-center text-lato">
-							Redise&ntilde;o del sitio Web
-						</h4>
-					</div>
-					<div class="col-xs-6 col-md-2 margin-bottom-20">
-						<!-- <img class="img-responsive img-circle" width="100%" height="auto" alt="..." src="includes/img/casoContenidos.png" /> -->
-						<h4 class="width-100 margin-top-10 text-center text-lato">
-							Estrategia de contenidos digitales
-						</h4>
-					</div>
-					<div class="col-xs-6 col-md-2 margin-bottom-20">
-						<!-- <img class="img-responsive img-circle" width="100%" height="auto" alt="..." src="includes/img/casoMetricas.png" /> -->
-						<h4 class="width-100 margin-top-10 text-center text-lato">
-							M&eacute;tricas
-						</h4>
-					</div>
-				</div>
-				<div class="col-sm-offset-1 col-sm-10">
-					<p>Partimos por viajar a Vicuña a conocer el hotel y vivir los tours para comprender las distintas necesidades que tendríamos que abordar en el proyecto. </p>
-					<p>Durante 4 días vivimos la experiencia Terral completa: Spa, restaurant, barra, tours y habitaciones. ¡Que trabajo más sacrificado! Claro que no todo fue mirar las estrellas y alinearnos los chakras, Durante el viaje entrevistamos a huéspedes y trabajadores del hotel para conocer sus ideas y opiniones y planificamos junto a los directores las funcionalidades y características del proyecto.</p>
-					<p>Ya de vuelta a la realidad con la experiencia todavía viva comenzamos a trabajar en la propuesta de sitio. Partimos por  organizar y redactar el contenido de todas las páginas y fichas de tours disponibles antes de diseñar las principales plantillas que utilizaríamos en el proyecto. </p>
-					<p>Luego volvimos al hotel a tomar fotos para la web (y a refrescar la experiencia, claro)</p>
-					<p>En el intertanto surgió la idea de diseñar un tótem que permitiera a los pasajeros del hotel enterarse de las actividades y tours ofrecidos y poder reservarlos desde ahí mismo.</p>
-				</div>
+			</div>
+		</header>
 
 
-
-				<!-- <div class="row">
-					<h3 class="text-center">
-						Dise&ntilde;o UX/UI
-					</h3>
-					<div class="underline"></div>
-				</div> -->
-			</article>
+		<section class="case__situation" *ngIf="case.situation">
+			<div class="case__situation__container">
+				<div class="case__situation__content u-container">
+					<h3 class="case__situation__title text-center">{{case.situation.title}}</h3>
+					<p class="case__situation__description text-center text-lato">{{case.situation.description}}</p>
+				</div>
+				<figure class="case__situation__image">
+					<img width="auto" height="auto" alt="..." src="{{case.situation.image}}" />
+				</figure>
+			</div>
 		</section>
-		<section id="casoSlider">
-			<div class="owl-carousel">
-				<div id="caso-terral1" class="item">
-					<article class="container">sdf
-					</article>
+
+
+		<section class="case__works" *ngIf="case.works">
+			<div class="case__works__container u-container">
+				<h3 class="case__works__title text-center">{{case.works.title}}</h3>
+
+				<ul class="case__works__list u-row center-xs">
+					<li class="case__works__list-item col-xs-6 col-sm-3" *ngFor="let worksList of case.works.list">
+						<figure class="case__works__list__image">
+							<img class="img-responsive img-circle" width="100%" height="auto" alt="..." src="{{worksList.image}}" />
+						</figure>
+						<h4 class="case__works__list__title width-100 margin-top-10 text-center text-lato">{{worksList.title}}</h4>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="case__items" *ngIf="case.items">
+			<div class="case__items__container u-container">
+				<div class="case__items__row u-row" *ngFor="let item of case.items">
+					<div class="case__items__content col-xs-12 col-sm-6">
+						<h3 class="case__items__content__title">{{item.title}}</h3>
+						<p class="case__items__content__description">{{item.description}}</p>
+					</div>
+					<figure class="case__items__image col-xs-12 col-sm-6">
+						<img src="{{item.image}}">
+					</figure>
 				</div>
-				<div id="caso-terral2" class="item">
-					<article class="container">sdf
-					</article>
-				</div>
-				<div id="caso-terral3" class="item">
-					<article class="container">sdf
-					</article>
-				</div>
-				<div id="caso-terral4" class="item">
-					<article class="container">sdf
-					</article>
-				</div>
-				<div id="caso-terral5" class="item">
-					<article class="container">sdf
-					</article>
+			</div>
+		</section>
+
+		<section id="slide_{{case.template}}" class="case__slider" *ngIf="case.slides">
+			<div class="case__slider__container">
+				<div class="owl-carousel">
+					<div *ngFor="let slide of case.slides; let i = item">
+						<div id="caso-terral{{i}}" class="item">
+							<img src="{{slide.image}}">
+							<article class="container">{{slide.title}}</article>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
 		
 
-		<section id="casoTerraHotelSlider">
-			<article class="container">
-				<div class="row">
-					<div class="owl-carousel">
-						<div class="item">
-							<!-- <img width="100%" height="auto" alt="..." src="includes/img/mobileDesign.png" /> -->
-						</div>
-						<div class="item">
-							<!-- <img width="100%" height="auto" alt="..." src="includes/img/mobileDesign.png" /> -->
-						</div>
-						<div class="item">
-							<!-- <img width="100%" height="auto" alt="..." src="includes/img/mobileDesign.png" /> -->
-						</div>
+		<section class="case__deliverable" *ngIf="case.deliverable">
+			<div class="case__deliverable__container u-container">
+				<h3 class="case__deliverable__title">{{case.deliverable.title}}</h3>
+				<div class="case__deliverable__step" *ngFor="let step of case.deliverable.steps; let i=index">
+					<div class="case__deliverable__step__row u-row">
+						<h4 class="case__deliverable__step__number col-xs-2">{{i+1}}</h4>
+						<p class="case__deliverable__step__description col-xs-10" *ngIf="step.description"><strong>{{step.title}} </strong>{{step.description}}</p>
+					</div>
+					<figure class="case__deliverable__step__image center-xs" *ngIf="step.preview">
+						<img src="{{step.preview}}">
+					</figure>
+					<figure class="case__deliverable__step__image center-xs" *ngIf="step.image">
+						<img src="{{step.image}}">
+					</figure>
+					<div class="case__deliverable__step__image center-xs" *ngIf="step.images">
+						<figure *ngFor="let image of step.images">
+							<img src="{{image}}">
+						</figure>
+					</div>
+					<div class="case__deliverable__step__btn center-xs" *ngIf="step.btn">
+						<a href="{{step.link}}" class="btn">{{step.btn}}</a>
 					</div>
 				</div>
-			</article>
-		</section>
+			</div>
+		</section> 
 
-		<section id="casoTerraHotelScreens">
-			<article class="container">
-				<div class="row margin-bottom-40">
-					<!-- <img width="auto" height="auto" alt="..." src="includes/img/casos/caso-terral-7.jpg" /> -->
-				</div>
-				<div class="row">
-					<!-- <img width="auto" height="auto" alt="..." src="includes/img/casos/caso-terral-8.jpg" /> -->
-				</div>
-				<div class="row">
-					<div class="col-md-12 text-center">
-						<a class="btn smooth text-mavenPro text-uppercase" href="http://www.terralhotel.cl/" target="_blank" rel="nofollow">
-							Visitar sitio Web
-							<i class="fa fa-arrow-right" aria-hidden="true"></i>
-						</a>
-					</div>
-				</div>
-			</article>
-		</section>
+	</div>

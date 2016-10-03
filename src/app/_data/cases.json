@@ -4,57 +4,89 @@
 		{
 			"bg": "./../../assets/images/cases/cabecera-caso-charco.jpg",
 			"logo": "./../../assets/images/cases/cabecera-caso-charco.jpg",
+			"name": "Metlife",			
+			"slug": "metlife",
+			"work": "Diseño flujo de compra Seguro Online"
+		},
+
+		{
+			"bg": "./../../assets/images/cases/cabecera-caso-charco.jpg",
+			"logo": "./../../assets/images/cases/cabecera-caso-charco.jpg",
 			"name": "Terral",
+			"slug": "terral",
 			"work": "Rediseño de presencia online"
 		},
 
 		{
 			"bg": "./../../assets/images/cases/cabecera-caso-charco.jpg",
 			"logo": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-			"name": "Charco",
-			"work": "Rediseño de presencia online"
-		},
-
-		{
-			"bg": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-			"logo": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-			"name": "Metlife",
-			"work": "Rediseño de presencia online"
+			"name": "Metlife",			
+			"slug": "metlife-2",
+			"work": "Diseño tótem de autoatención"
 		},
  
 		{
 			"bg": "./../../assets/images/cases/cabecera-caso-charco.jpg",
 			"logo": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-			"name": "Mi Espera",
-			"work": "Diseño de App de salud"
+			"name": "Mi Espera",			
+			"slug": "mi-espera",
+			"work": "Diseño de interfaz"
 		},
-
+ 
 		{
 			"bg": "./../../assets/images/cases/cabecera-caso-charco.jpg",
 			"logo": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-			"name": "Metlife",
-			"work": "Rediseño de presencia online"
+			"name": "Rail Europe",			
+			"slug": "rail-europe",
+			"work": "Investigación con usuarios"
 		},
-
+ 
 		{
 			"bg": "./../../assets/images/cases/cabecera-caso-charco.jpg",
 			"logo": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-			"name": "Hoyts",
-			"work": "Rediseño de presencia online"
+			"name": "Pontifica Universidad de Chile",			
+			"slug": "pontifica-universidad-de-chile",
+			"work": "Test de Usuario Sitio Móvil"
 		},
-
+ 
 		{
 			"bg": "./../../assets/images/cases/cabecera-caso-charco.jpg",
 			"logo": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-			"name": "Santander Río",
-			"work": "Rediseño de presencia online"
+			"name": "Cine Hoyts",			
+			"slug": "cine-hoyts",
+			"work": "Flujo de compra Online"
 		},
-
+ 
 		{
 			"bg": "./../../assets/images/cases/cabecera-caso-charco.jpg",
 			"logo": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-			"name": "Colegios Domingo Santa María",
-			"work": "Rediseño de presencia online"
+			"name": "Lexdir",			
+			"slug": "lexdir",
+			"work": "Test de usuarios y mejoras en pantallas"
+		},
+ 
+		{
+			"bg": "./../../assets/images/cases/cabecera-caso-charco.jpg",
+			"logo": "./../../assets/images/cases/cabecera-caso-charco.jpg",
+			"name": "Charco",			
+			"slug": "charco",
+			"work": "Test de usuarios y mejoras en pantallas"
+		},
+ 
+		{
+			"bg": "./../../assets/images/cases/cabecera-caso-charco.jpg",
+			"logo": "./../../assets/images/cases/cabecera-caso-charco.jpg",
+			"name": "Santander Río",			
+			"slug": "santander-rio",
+			"work": "Test de usuarios y mejoras en pantallas"
+		},
+ 
+		{
+			"bg": "./../../assets/images/cases/cabecera-caso-charco.jpg",
+			"logo": "./../../assets/images/cases/cabecera-caso-charco.jpg",
+			"name": "Colegios Domingo Santa María",			
+			"slug": "colegios-domingo-santa-maria",
+			"work": "Rediseño Presencia Online"
 		}
 
 	]
