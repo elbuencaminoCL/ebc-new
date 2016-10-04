@@ -1,81 +1,78 @@
 
-	<!-- <header class="header" *ngIf="!isActive('/')"> -->
-	<header class="header">
-		<figure class="header__bg">
-			<img src="./../../assets/images/home/header.jpg" alt="Fondo header" />
-		</figure>
-		<div class="header__container">
-			<nav class="navbar">
-				<div class="navbar__container u-container">
-					<a class="navbar__link" routerLink="/" rel="nofollow">
-						<figure class="navbar__figure center-xs">
-							<img width="174" height="143" alt="Logotipo El buen camino" src="./../../assets/images/global/logo2.png" />
-						</figure>
-					</a>
-				</div>
-				<div class="navbar__container-sticky">
-					<a class="navbar__link" routerLink="/" rel="nofollow">
-						<figure class="navbar__figure-sticky">
-							<img width="150" height="35" alt="Logotipo El buen camino" src="./../../assets/images/global/logo3.png" />
-						</figure>
-					</a>
-				</div>
+	<nav id="navbar" class="navbar">
+		<div class="navbar__container u-container">
+			<a class="navbar__link" routerLink="/" rel="nofollow">
+				<figure class="navbar__figure center-xs" *ngIf="!isActive('/')">
+					<img width="174" height="143" alt="Logotipo El buen camino" src="./../../assets/images/global/logo2.png" />
+				</figure>
+				<figure class="navbar__figure" *ngIf="isActive('/')">
+					<img width="174" height="143" alt="Logotipo El buen camino" src="./../../assets/images/global/logo3.png" />
+				</figure>
+			</a>
 
-				<div class="navbar__toggle smooth navToggle">
-					<span class="top smooth"></span>
-					<span class="middle smooth"></span>
-					<span class="bottom smooth"></span>
-				</div>
-
-
-				<div class="overlay">
-					<nav class="overlay__container u-container">
-						<ul id="overlay__list u-row">
-							<li class="overlay__list-item col-xs-12 col-sm-4">
-								<a class="smooth" routerLink="/" routerLinkActive="active" rel="follow">
-									<span class="text-mavenPro text-uppercase">
-										inicio
-									</span>
-								</a>
-							</li>
-							<li class="overlay__list-item col-xs-12 col-sm-4">
-								<a class="smooth" routerLink="/about/" routerLinkActive="active" rel="follow">
-									<span class="text-mavenPro text-uppercase">
-										nosotros
-									</span>
-								</a>
-							</li>
-							<li class="overlay__list-item col-xs-12 col-sm-4">
-								<a class="smooth" routerLink="/services/" routerLinkActive="active" rel="follow">
-									<span class="text-mavenPro text-uppercase">
-										nuestros servicios
-									</span>
-								</a>
-							</li>
-							<li class="overlay__list-item col-xs-12 col-sm-4">
-								<a class="smooth" routerLink="/cases/" routerLinkActive="active" rel="follow">
-									<span class="text-mavenPro text-uppercase">
-										casos
-									</span>
-								</a>
-							</li>
-							<li class="overlay__list-item col-xs-12 col-sm-4">
-								<a class="smooth" href="/contact/" rel="follow">
-									<span class="text-mavenPro text-uppercase">
-										contáctanos
-									</span>
-								</a>
-							</li>
-							<li class="overlay__list-item col-xs-12 col-sm-4">
-								<a class="smooth gold" href="#" rel="follow">
-									<span class="text-mavenPro text-uppercase">
-										cuéntanos de tu proyecto
-									</span>
-								</a>
-							</li>
-						</ul>
-					</nav>
-				</div>
-			</nav>
+			<div id="navToggle" class="navbar__toggle smooth">
+				<span class="top smooth"></span>
+				<span class="middle smooth"></span>
+				<span class="bottom smooth"></span>
+			</div>
 		</div>
-	</header>	
+
+		<div class="navbar__container-sticky">
+			<a class="navbar__link" routerLink="/" rel="nofollow">
+				<figure class="navbar__figure-sticky">
+					<img width="150" height="35" alt="Logotipo El buen camino" src="./../../assets/images/global/logo3.png" />
+				</figure>
+			</a>
+		</div>
+	</nav>
+
+	<div id="overlay" class="overlay smooth">
+		<nav class="overlay__container u-container">
+			<ul class="overlay__list u-row">
+				<li class="overlay__list-item col-xs-12 col-sm-4">
+					<a class="smooth u-row center-xs middle-xs" routerLink="/" routerLinkActive="active" rel="follow">
+						<div class="overlay__list-item__content">
+							<span>Inicio</span>
+						</div>
+					</a>
+				</li>
+				<li class="overlay__list-item col-xs-12 col-sm-4">
+					<a class="smooth u-row center-xs middle-xs" routerLink="/about/" routerLinkActive="active" rel="follow">
+						<div class="overlay__list-item__content">
+							<span>Nosotros</span>							
+						</div>
+					</a>
+				</li>
+				<li class="overlay__list-item col-xs-12 col-sm-4">
+					<a class="smooth u-row center-xs middle-xs" routerLink="/services/" routerLinkActive="active" rel="follow">
+						<div class="overlay__list-item__content">
+							<span>Nuestros</span>
+							<span>Servicios</span>							
+						</div>
+					</a>
+				</li>
+				<li class="overlay__list-item col-xs-12 col-sm-4">
+					<a class="smooth u-row center-xs middle-xs" routerLink="/cases/" routerLinkActive="active" rel="follow">
+						<div class="overlay__list-item__content">
+							<span>Casos</span>							
+						</div>
+					</a>
+				</li>
+				<li class="overlay__list-item col-xs-12 col-sm-4">
+					<a class="smooth u-row center-xs middle-xs" routerLink="/contact/" rel="follow">
+						<div class="overlay__list-item__content">
+							<span>Contáctanos</span>							
+						</div>
+					</a>
+				</li>
+				<li class="overlay__list-item col-xs-12 col-sm-4">
+					<a class="smooth u-row center-xs middle-xs" href="#" rel="follow">
+						<div class="overlay__list-item__content">
+							<span>Cuéntanos de</span>
+							<span>tu proyecto</span>							
+						</div>
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</div>

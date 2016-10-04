@@ -23,14 +23,22 @@ export class HeaderComponent implements OnInit {
 
 	ngAfterViewInit() {
 
-		let $navToggle = $('.navToggle');
+		let $navToggle = $( '#navToggle' )
+		,	$overlay = $( '#overlay' )
+		,	$overlayList = $overlay.find( 'li' )
+		,	$element = $( '#navbar' );
 
-		$navToggle.click(function() {
-			$(this).toggleClass('active');
-			$('.overlay').toggleClass('open');
+		$navToggle.on( 'click', function() {
+			$( this ).toggleClass( 'active' );
+			$overlay.toggleClass( 'open' );
 		});
 
-		let $element = $( '.navbar' );
+
+		$overlayList.on( 'click', function () {
+			$( this ).toggleClass( 'active' );
+			$navToggle.toggleClass( 'active' );
+			$overlay.toggleClass( 'open' );			
+		})
 
 		$( window ).scroll( function () {
 			if( $(this).scrollTop() > 60 ) {
@@ -39,6 +47,8 @@ export class HeaderComponent implements OnInit {
 				$element.removeClass( 'sticky' );				
 			}
 		});
+
+
 
 	}
 
