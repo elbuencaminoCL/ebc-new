@@ -24,20 +24,23 @@ export class HeaderComponent implements OnInit {
 	ngAfterViewInit() {
 
 		let $navToggle = $( '#navToggle' )
+		,	$navToggleSticky = $( '#navToggleSticky' )
 		,	$overlay = $( '#overlay' )
 		,	$overlayList = $overlay.find( 'li' )
-		,	$element = $( '#navbar' );
+		,	$element = $( '#navbar' )
+		,	$body = $( 'body' );
 
-		$navToggle.on( 'click', function() {
+		$navToggle.add( $navToggleSticky ).on( 'click', function() {
 			$( this ).toggleClass( 'active' );
 			$overlay.toggleClass( 'open' );
+			$body.toggleClass( 'overlay-open' );
 		});
-
 
 		$overlayList.on( 'click', function () {
 			$( this ).toggleClass( 'active' );
-			$navToggle.toggleClass( 'active' );
-			$overlay.toggleClass( 'open' );			
+			$navToggle.add( $navToggleSticky ).toggleClass( 'active' );
+			$overlay.toggleClass( 'open' );	
+			$body.toggleClass( 'overlay-open' );
 		})
 
 		$( window ).scroll( function () {

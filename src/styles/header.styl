@@ -1,8 +1,23 @@
 	
+	body
+		&.overlay-open
+			overflow hidden
+
 	.overlay__list-item a:hover,
 	.overlay__list-item a:focus,
 	.overlay__list-item a:active
-		background-color #C72527
+		background-color rgba( 199, 37, 39, .5 )
+		.overlay__list-item__content
+			&:before
+				background-color white
+				bottom 0
+				content ""
+				height 3px
+				left 0
+				margin 0 auto
+				position absolute
+				right 0
+				width 60px
 		
 	.overlay__container,
 	.overlay__list
@@ -25,21 +40,27 @@
 		&.open 
 			height 100%
 			opacity 1
+			overflow-y scroll
 			visibility visible
 			z-index 101
 			
 	.overlay__container
 		min-height 500px
-		padding 8rem 0 3rem
+		padding 56px 0 3rem
+		position relative
 
 	.overlay__list-item
-		border 2px solid white
+		border-bottom 1px solid white
+		border-top 1px solid white
 		font-weight 600
-		height 50%
-		line-height 50px
 		margin 0
 		padding 0
 		text-align center
+		&:first-of-type
+			border-top 0
+		&:last-of-type
+			a
+				background-color rgba( 174, 145, 75, 1 )
 		a
 			background-color transparent
 			height 100%
@@ -54,3 +75,22 @@
 			line-height 1.2
 			text-transform uppercase
 			width 100%
+			
+	.overlay__list-item__content
+		padding-bottom 1rem
+		position relative
+		
+	@media screen and ( min-width 48em )
+		.overlay
+			&.open
+				overflow-y hidden
+				
+
+		.overlay__container
+			padding 8rem 0 3rem
+
+		.overlay__list-item
+			border 2px solid white
+			height 50%
+			&:first-of-type
+				border-top 2px solid white
