@@ -28,14 +28,14 @@ export class CaseComponent implements OnInit {
   getCase( slug ) {
   	this.http.get( './app/_data/cases/' + slug + '.json' )
   		.map((res:Response) => res.json())
-			.subscribe(
-				data => {
-					console.log( data );
-					this.case = data;
-				},
-				err => console.error( err ),
-				() => console.log( 'done' )
-			);
+		.subscribe(
+			data => {
+				console.log( data );
+				this.case = data;
+			},
+			err => console.error( err ),
+			() => console.log( 'done' )
+		);
   }
 
 }

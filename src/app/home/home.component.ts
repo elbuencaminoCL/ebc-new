@@ -1,4 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, AfterViewInit } from '@angular/core';
+import { Http, Response } from '@angular/http';
+import { Observable } from 'rxjs/Rx';
+
 declare var $: any;
 
 @Component({
@@ -8,7 +11,9 @@ declare var $: any;
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  public carousel;
+
+  constructor( private http:Http ) { }
 
   ngOnInit() {
 
@@ -30,6 +35,15 @@ export class HomeComponent implements OnInit {
   		topAppend -= 123;
   	}
 
+  }
+
+  ngAfterViewInit() {
+    let $carousel = $( '#carouselHome' );
+
+    $carousel.carousel({
+      interval: false
+    })
+    
   }
 
 }

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 import { Http, Response } from '@angular/http';
-import {Observable} from 'rxjs/Rx';
+import { Observable } from 'rxjs/Rx';
 
 declare var $: any;
 

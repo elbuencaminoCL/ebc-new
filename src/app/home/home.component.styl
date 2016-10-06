@@ -23,7 +23,7 @@
 	.header__content
 		height 100%
 		left 0
-		padding-top 22rem
+		padding 24rem 0 0 0
 		position absolute
 		right 0
 		
@@ -34,16 +34,35 @@
 		position absolute
 		right 0
 		
+	.header__description
+		padding 0 1.6rem
+		
 	.header__title
 		line-height 1
-		margin 0 auto 6rem
+		margin 0 auto 4rem
 		max-width 260px
 		
+	.work
+		background-color #ae914b
+		color white
+		position relative
+		
+	.work__description
+		margin-bottom 3rem
+		
 	@media screen and ( min-width 48em )
-			
+		
+		.header__description
+			padding 0
+				
 		.header__title
-			margin 0
+			margin 0 auto 2rem
 			max-width none
+			
+
+		.work__description
+			margin 0 auto 3rem
+			max-width 690px
 		
 		.wrapper
 			overflow-x hidden
