@@ -1,21 +1,30 @@
 
+	.carousel__dots__row
+		bottom 0
+		left 0
+		margin 0 auto
+		max-width 1140px
+		position absolute
+		right 0
+		top 0
+
+	.carousel-indicators
+		left auto
+		margin 0
+		position relative
+		width auto
+		li
+			display block
+			margin 0 0 0 auto
 
 	.header
-		background-position center bottom
+		background-position center -70px
 		background-repeat no-repeat
 		background-size cover
-		height 620px
+		min-height 580px
 		overflow hidden
 		position relative
-		&:before
-			background-color rgba( 0, 0, 0, .35 )
-			bottom 0
-			content ""
-			left 0
-			position absolute
-			right 0
-			top 0
-			
+
 	.header__container
 		height 100%
 		width 100%
@@ -23,46 +32,88 @@
 	.header__content
 		height 100%
 		left 0
-		padding 24rem 0 0 0
+		padding 16rem 0 0 0
 		position absolute
 		right 0
-		
+
 
 	.header__cropped
 		bottom 0
 		left 0
 		position absolute
 		right 0
-		
+
 	.header__description
 		padding 0 1.6rem
-		
+
 	.header__title
 		line-height 1
 		margin 0 auto 4rem
 		max-width 260px
-		
+
+	.slider
+		img
+			margin 0 auto
+
 	.work
 		background-color #ae914b
 		color white
 		position relative
-		
+
 	.work__description
 		margin-bottom 3rem
-		
+
 	@media screen and ( min-width 48em )
-		
+		.header
+			height 90vh
+			min-height 750px
+
+		.header__content
+			padding 24rem 0 0 0
+
 		.header__description
 			padding 0
-				
+
 		.header__title
-			margin 0 auto 2rem
+			margin 2rem auto 5rem
 			max-width none
-			
+
 
 		.work__description
 			margin 0 auto 3rem
 			max-width 690px
-		
+
 		.wrapper
 			overflow-x hidden
+
+	@media screen and ( min-width 62em )
+		.header
+			&:after
+			&:before
+				border-top 100px solid transparent
+				bottom 0
+				content ""
+				position absolute
+
+			&:after
+				border-right 100px solid #e2e0e1
+				right 0
+
+			&:before
+				border-left 100px solid #e2e0e1
+				left 0
+
+
+
+	@media screen and ( min-width 1441px )
+		.header
+			background-position center -200px
+			&:after
+			&:before
+				border-top 340px solid transparent
+
+			&:after
+				border-right 340px solid #e2e0e1
+
+			&:before
+				border-left 340px solid #e2e0e1

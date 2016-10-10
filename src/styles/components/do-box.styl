@@ -70,14 +70,14 @@
 	.do__box__menu
 		position relative
 		&:before
-			border-right 140px solid transparent
-			border-top 140px solid transparent
+			border-right 0 solid transparent
+			border-top 0 solid transparent
 			bottom 0
 			content ""
 			left 0
 			position absolute
 			top 0
-			transition all .2s cubic-bezier( .4, 0, .2, 1 )
+			transition all .5s cubic-bezier( .4, 0, .2, 1 )
 			width 100%
 		&:hover
 			&:before
@@ -198,8 +198,8 @@
 		.do__box__menu
 			transform rotate( -45deg )
 			&:before
-				border-right 170px solid transparent
-				border-top 170px solid transparent
+				border-right 0 solid transparent
+				border-top 0 solid transparent
 			&:hover
 				&:before
 					border-right 170px solid #b24a4c
