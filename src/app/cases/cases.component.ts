@@ -21,14 +21,14 @@ export class CasesComponent implements OnInit {
   ngOnInit() {
     this.getCases();
   }
-    
+
   getCases(){
-    this.http.get('./app/_data/cases.json') 
+    this.http.get('./app/_data/cases.json')
       .map((res:Response) => res.json())
       .subscribe(
         data => {
           console.log( data );
-          this.cases = data.cases; 
+          this.cases = data.cases;
         },
         err => console.error(err),
         () => console.log('done')

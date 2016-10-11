@@ -3,15 +3,15 @@
 
 		{
 			"bg": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-			"logo": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-			"name": "Metlife",			
+			"logo": "./../../assets/images/cases/logo-caso-terral.png",
+			"name": "Metlife",
 			"slug": "metlife",
 			"work": "Diseño flujo de compra Seguro Online"
 		},
 
 		{
 			"bg": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-			"logo": "./../../assets/images/cases/cabecera-caso-charco.jpg",
+			"logo": "./../../assets/images/cases/logo-caso-terral.png",
 			"name": "Terral",
 			"slug": "terral",
 			"work": "Rediseño de presencia online"
@@ -19,72 +19,72 @@
 
 		{
 			"bg": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-			"logo": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-			"name": "Metlife",			
+			"logo": "./../../assets/images/cases/logo-caso-terral.png",
+			"name": "Metlife",
 			"slug": "metlife-2",
 			"work": "Diseño tótem de autoatención"
 		},
- 
+
 		{
 			"bg": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-			"logo": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-			"name": "Mi Espera",			
+			"logo": "./../../assets/images/cases/logo-caso-terral.png",
+			"name": "Mi Espera",
 			"slug": "mi-espera",
 			"work": "Diseño de interfaz"
 		},
- 
+
 		{
 			"bg": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-			"logo": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-			"name": "Rail Europe",			
+			"logo": "./../../assets/images/cases/logo-caso-terral.png",
+			"name": "Rail Europe",
 			"slug": "rail-europe",
 			"work": "Investigación con usuarios"
 		},
- 
+
 		{
 			"bg": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-			"logo": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-			"name": "Pontifica Universidad de Chile",			
+			"logo": "./../../assets/images/cases/logo-caso-terral.png",
+			"name": "Pontifica Universidad de Chile",
 			"slug": "pontifica-universidad-de-chile",
 			"work": "Test de Usuario Sitio Móvil"
 		},
- 
+
 		{
 			"bg": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-			"logo": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-			"name": "Cine Hoyts",			
+			"logo": "./../../assets/images/cases/logo-caso-terral.png",
+			"name": "Cine Hoyts",
 			"slug": "cine-hoyts",
 			"work": "Flujo de compra Online"
 		},
- 
+
 		{
 			"bg": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-			"logo": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-			"name": "Lexdir",			
+			"logo": "./../../assets/images/cases/logo-caso-terral.png",
+			"name": "Lexdir",
 			"slug": "lexdir",
 			"work": "Test de usuarios y mejoras en pantallas"
 		},
- 
+
 		{
 			"bg": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-			"logo": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-			"name": "Charco",			
+			"logo": "./../../assets/images/cases/logo-caso-terral.png",
+			"name": "Charco",
 			"slug": "charco",
 			"work": "Test de usuarios y mejoras en pantallas"
 		},
- 
+
 		{
 			"bg": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-			"logo": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-			"name": "Santander Río",			
+			"logo": "./../../assets/images/cases/logo-caso-terral.png",
+			"name": "Santander Río",
 			"slug": "santander-rio",
 			"work": "Test de usuarios y mejoras en pantallas"
 		},
- 
+
 		{
 			"bg": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-			"logo": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-			"name": "Colegios Domingo Santa María",			
+			"logo": "./../../assets/images/cases/logo-caso-terral.png",
+			"name": "Colegios Domingo Santa María",
 			"slug": "colegios-domingo-santa-maria",
 			"work": "Rediseño Presencia Online"
 		}

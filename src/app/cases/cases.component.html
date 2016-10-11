@@ -1,16 +1,13 @@
 
-	<header class="cases__header center-xs">
-		<div class="cases__header__container">
-			<figure class="cases__header__bg">
-				<!-- <img src="{{cases.bg}}" /> -->
-			</figure>
-			<h2 class="cases__header__title">Casos</h2>
-			<p class="cases__header__description">Diseñamos experiencias que convierten</p>
+	<header class="sub-header" style="background-image: url('./../../assets/images/cases/header_cases.jpg')">
+		<div class="sub-header__container center-xs">
+			<h3 class="sub-header__title">Casos</h3>
+			<p class="sub-header__description">Diseñamos experiencias que convierten</p>
 		</div>
 	</header>
 
 	<section class="cases__intro">
-		<div class="cases__intro__container u-container">
+		<div class="cases__intro__container u-container center-xs">
 			<h4 class="cases__intro__title">Pensamos y creamos pantallas sencillas de utilizar.</h4>
 			<h4 class="cases__intro__title">Nuestro foco es entender a tu usuario y diseñar para él.</h4>
 		</div>
@@ -21,16 +18,28 @@
 			<section class="cases__list center-xs" *ngFor="let case of cases">
 				<a routerLink="/cases/{{case.slug}}">
 					<figure class="cases__list__image">
-						<img src="./../../assets/images/cases/cabecera-caso-charco.jpg">
-						<div class="cases__list__content">
-							<figure class="cases__list__logo">
-								<h2>{{case.name}}</h2>
-								<!-- <img src="{{case.logo}}"> -->
-							</figure>
-							<p class="cases__list__description">{{case.work}}</p>
+						<img src="{{case.bg}}">
+						<div class="cases__list__content u-row middle-xs center-xs">
+							<div class="cases__list__logo">
+								<img src="{{case.logo}}">
+								<p class="cases__list__description">{{case.work}}</p>
+							</div>
 						</div>
 					</figure>
 				</a>
-			</section>			
+			</section>
 		</div>
 	</section>
+
+	<footer class="footer">
+		<section class="footer__container u-container center-xs">
+			<figure class="footer__log">
+				<img width="174" height="143" alt="Logotipo El buen camino" src="./../../assets/images/global/logo2.png" />
+			</figure>
+			<h3 class="footer__title">Sabemos que cada proyecto es único</h3>
+			<h4 class="footer__sub-title">(Y que conversando la gente se entiende)</h4>
+			<p class="footer__description">Nos encantaría escuchar tu proyecto y que juntos veámos la mejor manera para colaborar</p>
+			<p class="footer__description">Déjanos tus datos y nos contáctaremos contigo lo antes posible.</p>
+			<a class="around__btn btn btn-lg btn-white" routerLink="/contact">Cuéntanos de tu proyecto</a>
+		</section>
+	</footer>
