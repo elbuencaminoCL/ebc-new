@@ -1,5 +1,5 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
-	
+
 import { Location } from '@angular/common';
 
 declare var $: any;
@@ -31,7 +31,7 @@ export class HeaderComponent implements OnInit {
 		,	$body = $( 'body' );
 
 		$navToggle.add( $navToggleSticky ).on( 'click', function() {
-			$( this ).toggleClass( 'active' );
+			$navToggle.add( $navToggleSticky ).toggleClass( 'active' );
 			$overlay.toggleClass( 'open' );
 			$body.toggleClass( 'overlay-open' );
 		});
@@ -39,7 +39,7 @@ export class HeaderComponent implements OnInit {
 		$overlayList.on( 'click', function () {
 			$( this ).toggleClass( 'active' );
 			$navToggle.add( $navToggleSticky ).toggleClass( 'active' );
-			$overlay.toggleClass( 'open' );	
+			$overlay.toggleClass( 'open' );
 			$body.toggleClass( 'overlay-open' );
 		})
 
@@ -47,7 +47,7 @@ export class HeaderComponent implements OnInit {
 			if( $(this).scrollTop() > 60 ) {
 				$element.addClass( 'sticky' );
 			} else {
-				$element.removeClass( 'sticky' );				
+				$element.removeClass( 'sticky' );
 			}
 		});
 

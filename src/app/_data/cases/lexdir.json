@@ -1,8 +1,8 @@
 {
-	"template": "minimal",
+	"template": "complex",
 	"name": "",
-	"logo": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-	"bg": "./../../assets/images/cases/cabecera-caso-charco.jpg",
+	"logo": "./../../assets/images/cases/logo-caso-lexdir.png",
+	"bg": "./../../assets/images/cases/cabecera-caso-lexdir.jpg",
 	"slug": "lexdir",
 	"categories": [
 		"Test de usuarios y mejoras en pantallas"
@@ -44,15 +44,16 @@
 		"steps": [
 			{
 				"description": "Una vez que terminamoms",
-				"preview": "./../../assets/images/cases/cabecera-caso-charco.jpg",
+				"preview": "./../../assets/images/cases/caso-lexdir-4.png",
 				"title": ""
 			},
-			{				
+			{
 				"description": "Luego de eso aplicamos",
-				"preview": "./../../assets/images/cases/cabecera-caso-charco.jpg",
+				"preview": "./../../assets/images/cases/caso-lexdir-5.jpg",
 				"title": ""
 			}
 		]
-	}
+	},
+	"footer_title": "¿También te gustaría saber cómo piensan tus usuarios?"
 
 }

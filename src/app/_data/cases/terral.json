@@ -1,9 +1,9 @@
 {
-	"template": "complex",
+	"template": "minimal",
 	"name": "Terral Hotel & Spa",
 	"logo": "",
 	"bg": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-	"slug": "lexdir",
+	"slug": "terral",
 	"categories": [
 		"Rediseño web",
 		"Estrategia de Contenidos Digitales"
@@ -38,6 +38,10 @@
 		{
 			"image": "./../../assets/images/cases/cabecera-caso-charco.jpg",
 			"title": "Diseño UX/UI"
+		},
+		{
+			"image": "./../../assets/images/cases/cabecera-caso-charco.jpg",
+			"title": "Desarrollo"
 		}
 	],
 	"deliverable": {
@@ -51,7 +55,7 @@
 				"preview": "./../../assets/images/cases/cabecera-caso-charco.jpg",
 				"title": "Prebooking"
 			},
-			{				
+			{
 				"title": "Sesiones fotográficas",
 				"description": "Construimos un theme de wordpress responsive exclusivo para ellos",
 				"preview": "./../../assets/images/cases/cabecera-caso-charco.jpg"
@@ -76,6 +80,7 @@
 				]
 			}
 		]
-	}
+	},
+	"footer_title": "¿Te interesa comenzar a vender online?"
 
 }

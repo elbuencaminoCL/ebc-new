@@ -3,6 +3,8 @@ import { Component, OnInit } from '@angular/core';
 import { Http, Response } from '@angular/http';
 import { Observable } from 'rxjs/Rx';
 
+import { SecureUrlPipe } from './../secure-url.pipe';
+
 declare var $: any;
 
 @Component({
@@ -22,12 +24,11 @@ export class CasesComponent implements OnInit {
     this.getCases();
   }
 
-  getCases(){
+  getCases() {
     this.http.get('./app/_data/cases.json')
       .map((res:Response) => res.json())
       .subscribe(
         data => {
-          console.log( data );
           this.cases = data.cases;
         },
         err => console.error(err),

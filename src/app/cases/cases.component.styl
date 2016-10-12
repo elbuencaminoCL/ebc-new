@@ -4,7 +4,15 @@
         margin-bottom 0
 
     .cases__list
-        margin-bottom 2rem
+        &:last-of-type
+            margin-bottom 2rem
+
+    .cases__list__content
+        height 100%
+        left 0
+        position absolute
+        right 0
+        top 0
 
     .cases__list__description
         color white
@@ -12,6 +20,9 @@
 
     .cases__list__image
         position relative
+        & > img
+            height 100%
+            object-fit cover
 
     .cases__list__logo
         background rgba( 0,0,0,.5 )
@@ -20,12 +31,11 @@
 
     @media screen and ( min-width 48em )
 
-        .cases__list__content
-            height 100%
-            left 0
-            position absolute
-            right 0
-            top 0
+        .cases__list
+            margin-bottom 2rem
+
+        .cases__list__image
+            min-height auto
 
         .cases__list__logo
             padding 2rem 0

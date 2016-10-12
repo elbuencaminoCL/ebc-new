@@ -1,13 +1,15 @@
-	
+
 	h1,
 	h2,
 	h3,
-	h4
+	h4,
+	h5,
+	h6
 		font-family "Maven Pro", sans-serif
 		font-weight bold
 		line-height 1.2
 		margin-bottom .5em
-		
+
 	h1
 		font-size 36px
 
@@ -19,14 +21,30 @@
 
 	h4
 		font-size 18px
-		
-	p 
+
+	p
 		font-family "Lato", sans-serif
 		font-size 16px
+		font-weight 300
 		line-height 1.3
-		
-	a		
+
+	a
 		font-family "Maven Pro", sans-serif
+
+	.border-title
+		margin-bottom 3rem
+		padding-bottom 1rem
+		position relative
+		&:before
+			background-color white
+			bottom 0
+			content ""
+			height 2px
+			left 0
+			margin 0 auto
+			position absolute
+			right 0
+			width 50px
 
 	.text-openSans
 		font-family "Open Sans", sans-serif
@@ -41,7 +59,7 @@
 		font-family "Lato", sans-serif
 
 
-	@media screen and ( min-width 48em ) 		
+	@media screen and ( min-width 48em )
 		h1
 			font-size 56px
 
@@ -53,6 +71,6 @@
 
 		h4
 			font-size 24px
-			
-		p 
+
+		p
 			font-size 18px

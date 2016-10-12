@@ -15,6 +15,8 @@ import { ServicesComponent } from './services/services.component';
 import { CasesComponent } from './cases/cases.component';
 import { CaseComponent } from './case/case.component';
 import { ContactComponent } from './contact/contact.component';
+import { SecureUrlPipe } from './secure-url.pipe';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -26,14 +28,16 @@ import { ContactComponent } from './contact/contact.component';
     ServicesComponent,
     CasesComponent,
     CaseComponent,
-    ContactComponent
+    ContactComponent,
+    SecureUrlPipe
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule, 
+    HttpModule,
     Ng2BootstrapModule,
-    EbcRoutingModule
+    EbcRoutingModule,
+    NgbModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
