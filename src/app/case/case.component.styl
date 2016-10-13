@@ -32,26 +32,41 @@
         .case__situation__content
             color white
 
-        .case__situation__image
-            img
-                height 100%
-                object-fit cover
+    .case-minimal
+        .case__situation__title
+            color #c72527
+            &:before
+                background-color #c72527
 
 
     .case__deliverable
         background-color #f3f3f3
+
+    .case__deliverable__container
+        padding 3rem 0
 
     .case__deliverable__step
         margin-bottom 4rem
         &:last-of-type
             margin-bottom 0
 
-    .case__deliverable__step__row
-        margin-bottom 2rem
+    .case__deliverable__step__btn
+        margin-top 2rem
+
+    .case__deliverable__step__image
+        img
+            height 100%
+            object-fit cover
 
     .case__deliverable__step__number
+        font-size 0
         opacity 0
         visibility hidden
+
+
+    .case__deliverable__step__row
+        padding 0 1.6rem
+        margin-bottom 2rem
 
 
     .case__deliverable__title
@@ -60,9 +75,17 @@
             color #c72527
 
         i
+            font-size 0
             opacity 0
             visibility hidden
 
+
+
+    .case__situation__image
+        margin-bottom 3rem
+        img
+            height 100%
+            object-fit cover
 
 
     .case__works__list
@@ -135,14 +158,12 @@
                 color white
 
 
-        .case-minimal
-            .case__situation__title
-                color #c72527
-                &:before
-                    background-color #c72527
 
+        .case__deliverable__container
+            padding 6rem 0
 
-
+        .case__deliverable__step__btn
+            margin-top 0
 
         .case__deliverable__step__description
             padding-left 6rem
@@ -151,6 +172,7 @@
             margin 6rem 0 9rem
 
         .case__deliverable__step__row
+            padding 0
             position relative
 
         .case__deliverable__step__number
@@ -158,6 +180,7 @@
             border 2px solid #c72527
             border-radius 50%
             color #c72527
+            font-size 18px
             left 0
             line-height 32px
             height 40px
@@ -172,6 +195,7 @@
         .case__deliverable__title
             margin-bottom 3rem
             i
+                font-size 14px/1
                 opacity 1
                 visibility visible
 

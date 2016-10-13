@@ -4,9 +4,7 @@
 			<div class="header__container">
 				<div class="header__content u-container">
 					<h2 class="header__title white text-mavenPro">Somos un estudio especializado en Ux</h2>
-					<p class="header__description white">Eso significa que no sólo diseñamos sitios lindos, sino que además nos preocupamos de</p>
-					<p class="header__description white">entender tu negocio y a tus clientes para crear experiencias simples de usar que te</p>
-					<p class="header__description white">ayuden a cumplir tus objetivos.</p>
+					<p class="header__description white">Eso significa que no sólo diseñamos sitios lindos, sino que además nos preocupamos de entender tu negocio y a tus clientes para crear experiencias simples de usar que te ayuden a cumplir tus objetivos.</p>
 					<figure class="header__cropped">
 						<img src="./../../assets/images/home/cropped.png" alt="Cropped home" />
 					</figure>
@@ -24,64 +22,16 @@
 						<div class="do__box do__heading__box"></div>
 					</div>
 				</div>
-				<div class="do__boxes u-row center-sm">
-					<div class="do__box do__box__menu center-xs">
-						<a routerLink="/services">
+				<div class="do__boxes u-row center-sm" *ngIf="menus">
+					<div *ngFor="let menu of menus" class="do__box do__box__menu center-xs">
+						<a routerLink="{{menu.link}}">
 							<div class="do__box__menu__content">
 								<figure>
-									<img src="./../../assets/images/home/target.png">
-									<img src="./../../assets/images/home/target-white.png">
+									<img src="{{menu.image}}">
+									<img src="{{menu.image_hover}}">
 								</figure>
-								<p>Consultoría</p>
-								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
-							</div>
-						</a>
-					</div>
-					<div class="do__box do__box__menu center-xs">
-						<a routerLink="/services">
-							<div class="do__box__menu__content">
-								<figure>
-									<img src="./../../assets/images/home/design.png">
-									<img src="./../../assets/images/home/design-white.png">
-								</figure>
-								<p>Diseño</p>
-								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
-							</div>
-						</a>
-					</div>
-					<div class="do__box do__box__menu center-xs">
-						<a routerLink="/services">
-							<div class="do__box__menu__content">
-								<figure>
-									<img src="./../../assets/images/home/devices.png">
-									<img src="./../../assets/images/home/devices-white.png">
-								</figure>
-								<p>Usabilidad</p>
-								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
-							</div>
-						</a>
-					</div>
-					<div class="do__box do__box__menu center-xs">
-						<a routerLink="/services">
-							<div class="do__box__menu__content">
-								<figure>
-									<img src="./../../assets/images/home/microphone.png">
-									<img src="./../../assets/images/home/microphone-white.png">
-								</figure>
-								<p>Contenidos</p>
-								<p>Digitales</p>
-								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
-							</div>
-						</a>
-					</div>
-					<div class="do__box do__box__menu center-xs">
-						<a routerLink="/services">
-							<div class="do__box__menu__content">
-								<figure>
-									<img src="./../../assets/images/home/data.png">
-									<img src="./../../assets/images/home/data-white.png">
-								</figure>
-								<p>Métricas</p>
+								<p>{{menu.service}}</p>
+								<p *ngIf="menu.service_br">{{menu.service_br}}</p>
 								<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
 							</div>
 						</a>
@@ -102,65 +52,27 @@
 			</div>
 		</section>
 
-		<section class="slider">
-			<div class="slider__container">
-				<div id="carouselHome" class="carousel slide" data-ride="carousel">
-					<div class="carousel-inner" role="listbox">
-						<div class="item active" style="background-image: url( './../../assets/images/home/terral-bg.jpg' )">
-							<div class="carousel-caption u-container u-row middle-xs">
-								<div class="carousel__content col-sm-6 col-md-4">
-									<figure class="carousel__logo center-xs">
-										<img src="./../../assets/images/cases/logo-caso-terral.png" alt="Logotipo Terral">
-									</figure>
-									<div class="col-xs-6 col-sm-12">
-										<h4 class="slider__title">Re diseño de presencia online</h4>
-										<p class="slider__description">tinada a que las mujeres puedan hacer un seguimiento y consultar información sobre su embar...</p>
-									</div>
-									<div class="slider__btn col-xs-12 center-xs start-sm"><a routerLink="/cases/terral" class="slider__btn__link btn btn-lg btn-white">Ver caso</a></div>
-								</div>
-							</div>
-						</div>
-						<div class="item" style="background-image: url( './../../assets/images/cases/caso-app-embarazo-4.jpg' )">
-							<div class="carousel-caption u-container u-row middle-xs">
-								<div class="carousel__content col-sm-6 col-md-4">
-									<figure class="carousel__logo center-xs">
-										<img src="./../../assets/images/cases/logo-caso-espera.png" alt="Logotipo Espera">
-									</figure>
-									<div class="col-xs-6 col-sm-12">
-										<h4 class="slider__title">App de seguimiento de embarazo</h4>
-										<p class="slider__description">Diseñamos la interfaz de una aplicación móvil destinada a que las mujeres puedan hacer un seguimiento y consultar información sobre su embarazo</p>
-									</div>
-									<div class="slider__btn col-xs-12 center-xs start-sm"><a routerLink="/cases/mi-espera" class="slider__btn__link btn btn-lg btn-white">Ver caso</a></div>
-								</div>
-							</div>
-						</div>
-						<div class="item" style="background-image: url( './../../assets/images/home/terral-bg.jpg' )">
-							<div class="carousel-caption u-container u-row middle-xs">
-								<div class="carousel__content col-sm-6 col-md-4">
-									<figure class="carousel__logo center-xs">
-										<img src="./../../assets/images/cases/logo-caso-terral.png" alt="Logotipo Terral">
-									</figure>
-									<div class="col-xs-6 col-sm-12">
-										<h4 class="slider__title">Re diseño de presencia online</h4>
-										<p class="slider__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea asperiores nam quisquam expedita eos dolorem facilis perspiciatis, aperiam fugit repellat rerum error, enim ratione. Delectus maxime possimus, cumque quaerat rem!</p>
-									</div>
-									<div class="slider__btn col-xs-12 center-xs start-sm"><a routerLink="/cases/terral" class="slider__btn__link btn btn-lg btn-white">Ver caso</a></div>
-								</div>
-							</div>
-						</div>
 
+		<section class="carousel-home">
+			<ngb-carousel *ngIf="slides">
+				<template ngbSlide *ngFor="let slide of slides; let i = item">
+					<img src="{{slide.bg}}">
+					<div class="carousel-caption u-container u-row middle-sm">
+						<div class="carousel-caption__container col-xs-8 col-sm-6 col-md-4">
+							<figure class="carousel__logo">
+								<img src="{{slide.logo}}" alt="Logotipo Terral">
+							</figure>
+							<h4 class="carousel__title">{{slide.title}}</h4>
+							<p class="carousel__description">{{slide.description}}</p>
+							<div class="carousel__btn center-xs start-sm">
+								<a routerLink="{{slide.link}}" class="carousel__btn__link btn btn-lg btn-white">{{slide.button}}</a>
+							</div>
+						</div>
 					</div>
-
-					<div class="carousel__dots__row hide-xs show-md u-row end-xs middle-xs">
-						<ol class="carousel-indicators">
-							<li data-target="#carouselHome" data-slide-to="0" class="active"></li>
-							<li data-target="#carouselHome" data-slide-to="1"></li>
-							<li data-target="#carouselHome" data-slide-to="2"></li>
-						</ol>
-					</div>
-				</div>
-			</div>
+				</template>
+			</ngb-carousel>
 		</section>
+
 
 		<section class="around">
 			<div class="around__container u-container center-xs">

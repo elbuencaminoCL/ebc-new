@@ -1,0 +1,112 @@
+
+	.carousel-case
+		.carousel-caption
+			background-color rgba( 0,0,0,.5 )
+			h3
+				margin-bottom 0
+
+		.carousel-indicators
+			display none
+
+
+	.carousel-home
+		.carousel__btn__link
+			&:hover
+				background-color #c72527
+				border-color #c72527
+
+		.carousel-caption
+			height 100%
+			text-align left
+			top 0
+
+		.carousel__content
+			height 100%
+
+		.carousel-control
+			display none
+
+		.carousel__description
+			font-weight 300
+			line-height 1.2
+			margin-bottom 2rem
+
+
+		.carousel-indicators
+			bottom 0
+			left 0
+			margin 0 auto
+			position absolute
+			right 0
+			width auto
+			li
+				background-color #c5c5c7
+				border 0
+				height 16px
+				margin 1rem .5rem
+				width 16px
+				&.active
+					background-color #fb2120
+
+		.carousel__logo
+			margin-bottom 2rem
+
+	.carousel-inner
+		.carousel-item
+			height 500px
+			&:before
+				background-color rgba( 0,0,0,.3 )
+				bottom 0
+				content ""
+				left 0
+				position absolute
+				right 0
+				top 0
+			& > img
+				height 100%
+				margin 0 auto
+				object-fit cover
+
+	.carousel-caption
+		bottom 0
+		left 0
+		right 0
+
+	.carousel-control
+		opacity 1
+		.icon-next
+		.icon-prev
+			color white
+			font-size 80px
+			height 42px
+			line-height 24px
+			margin-top -40px
+			width 26px
+
+
+
+	@media screen and ( min-width 48em )
+
+		.carousel-home
+			.carousel__dots__row
+				display flex
+
+			.carousel-indicators
+				left 50%
+				padding-right 1rem
+				margin -48px auto 0 0
+				max-width 570px
+				top 50%
+				li
+					display block
+					margin 1rem 0 1rem auto
+
+		.carousel-inner
+			.carousel-item
+				height 687px
+
+	@media screen and ( min-width 62em )
+
+		.carousel-home
+			.carousel-indicators
+				padding-right 0

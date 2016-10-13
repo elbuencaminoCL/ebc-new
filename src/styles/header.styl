@@ -48,7 +48,8 @@
 
 	.overlay__container
 		min-height 500px
-		padding 56px 0 3rem
+		margin-top 3rem
+		padding 56px 0 0
 		position relative
 
 	.overlay__list-item
@@ -108,12 +109,8 @@
 		margin-bottom 1rem
 
 	@media screen and ( min-width 48em )
-		.overlay
-			&.open
-				overflow-y hidden
-
-
 		.overlay__container
+			margin-top 0
 			padding 8rem 0 3rem
 
 		.overlay__list-item

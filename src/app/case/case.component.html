@@ -60,21 +60,23 @@
 			</div>
 		</section>
 
-		<ngb-carousel *ngIf="case.slides">
-			<template ngbSlide *ngFor="let slide of case.slides; let i = item">
-				<img src="{{slide.image}}">
-				<div class="carousel-caption">
-					<h3>{{slide.title}}</h3>
-				</div>
-			</template>
-		</ngb-carousel>
+		<section class="carousel-case">
+			<ngb-carousel *ngIf="case.slides">
+				<template ngbSlide *ngFor="let slide of case.slides; let i = item">
+					<img src="{{slide.image}}">
+					<div class="carousel-caption">
+						<h3 class="border-title">{{slide.title}}</h3>
+					</div>
+				</template>
+			</ngb-carousel>
+		</section>
 
 
 		<section class="case__deliverable" *ngIf="case.deliverable">
 			<div class="case__deliverable__container u-container">
-				<h3 class="case__deliverable__title u-row middle-xs center-xs start-md"><span>{{case.deliverable.title}}</span> <i class="fa fa-arrow-right fa-3" aria-hidden="true"></i></h3>
+				<h3 class="case__deliverable__title u-row middle-xs center-xs start-sm"><span>{{case.deliverable.title}}</span> <i class="fa fa-arrow-right fa-3" aria-hidden="true"></i></h3>
 				<div class="case__deliverable__step" *ngFor="let step of case.deliverable.steps; let i=index">
-					<div class="case__deliverable__step__row u-row middle-xs center-xs start-md">
+					<div class="case__deliverable__step__row u-row middle-xs center-xs start-sm">
 						<h4 class="case__deliverable__step__number">{{i+1}}</h4>
 						<p class="case__deliverable__step__description" *ngIf="step.description"><strong>{{step.title}} </strong>{{step.description}}</p>
 					</div>
