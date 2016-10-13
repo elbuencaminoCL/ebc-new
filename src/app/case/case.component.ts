@@ -19,12 +19,12 @@ export class CaseComponent implements OnInit {
 
   constructor( private http: Http, private route: ActivatedRoute, config: NgbCarouselConfig ) {
 
-			this.slug = route.snapshot.params['id'];
-	  	this.getCase( this.slug );
+	this.slug = route.snapshot.params['id'];
+	this.getCase( this.slug );
 
-	  	 config.interval = 10000;
-    config.wrap = false;
-    config.keyboard = false;
+	config.interval = 10000;
+	config.wrap = false;
+	config.keyboard = false;
 
   }
 
@@ -37,7 +37,6 @@ export class CaseComponent implements OnInit {
   		.map((res:Response) => res.json())
 		.subscribe(
 			data => {
-				console.log( data );
 				this.case = data;
 			},
 			err => console.error( err ),

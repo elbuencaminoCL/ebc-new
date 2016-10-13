@@ -1,0 +1,75 @@
+{
+	"members": [
+		{
+			"pic": "./../../assets/images/about/claudio_merino.jpg",
+			"name": "Claudio Merino",
+			"position": "Diseñador UX",
+			"twitter": "claudio_merino",
+			"linkedin": "claudio_merino",
+			"pic_dir": "left",
+			"bg_color": "#0f0"
+		},
+		{
+			"pic": "./../../assets/images/about/valeria_ceron.jpg",
+			"name": "Valería Cerón",
+			"position": "Diseñadora UX",
+			"twitter": "claudio_merino",
+			"linkedin": "claudio_merino",
+			"pic_dir": "left",
+			"bg_color": "#0f0"
+		},
+		{
+			"pic": "./../../assets/images/about/randy_bazan.jpg",
+			"name": "Jair Garcia",
+			"position": "Desarrollador Web",
+			"twitter": "claudio_merino",
+			"linkedin": "claudio_merino",
+			"pic_dir": "right",
+			"bg_color": "#0f0"
+		},
+		{
+			"pic": "./../../assets/images/about/valeria_ceron.jpg",
+			"name": "Jadra Campaña",
+			"position": "Diseño UI",
+			"twitter": "claudio_merino",
+			"linkedin": "claudio_merino",
+			"pic_dir": "right",
+			"bg_color": "#0f0"
+		},
+		{
+			"pic": "./../../assets/images/about/randy_bazan.jpg",
+			"name": "Juanjo Vargas",
+			"position": "Contenidos Digitales",
+			"twitter": "claudio_merino",
+			"linkedin": "claudio_merino",
+			"pic_dir": "left",
+			"bg_color": "#0f0"
+		},
+		{
+			"pic": "./../../assets/images/about/randy_bazan.jpg",
+			"name": "Martín Merino",
+			"position": "Diseñador Gráfico",
+			"twitter": "claudio_merino",
+			"linkedin": "claudio_merino",
+			"pic_dir": "left",
+			"bg_color": "#0f0"
+		},
+		{
+			"pic": "./../../assets/images/about/valeria_ceron.jpg",
+			"name": "Maria Egea",
+			"position": "Productora Audiovisual",
+			"twitter": "claudio_merino",
+			"linkedin": "claudio_merino",
+			"pic_dir": "right",
+			"bg_color": "#0f0"
+		},
+		{
+			"pic": "./../../assets/images/about/we_want_you.jpg",
+			"name": "We want you!",
+			"position": "Trabaja con nosotros",
+			"pic_dir": "right",
+			"bg_color": "#0f0",
+			"contact": true
+		}
+	]
+}

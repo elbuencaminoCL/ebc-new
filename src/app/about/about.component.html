@@ -1,174 +1,63 @@
-		<section id="descripcion">
-			<article class="container">
-				<div class="row">
-					<div class="text-center">
-						<!-- <img width="100" height="96" alt="..." src="includes/img/noun_353954_cc copy.png" /> -->
-					</div>
-					<h3 class="text-center">
-						Queremos ayudarte a cumplir tus objetivos
-					</h3>
-					<div class="underline"></div>
-				</div>
-				<div class="row">
-					<p class="text-center text-lato">
-						Somos un grupo de profesionales repartidos por Chile y el mundo, con la fuerte convicci&oacute;n de ayudar a nuestros clientes a cumplir los objetivos propuestos para sus canales Online.
-					</p>
-					<p class="text-center text-lato">
-						Nuestro foco es entender a los usuarios y dise&ntilde;ar para ellos.
-					</p>
-				</div>
-			</article>
-		</section>
 
-		<section id="caminantes">
-			<article class="container">
-				<div class="row">
-					<h3 class="text-center text-capitalize">
-						los caminantes
-					</h3>
-					<div class="underline"></div>
-				</div>
-				<div class="row">
-					<div class="col-sm-6 col-xs-12 col-md-6 padding-0">
-						<div class="member">
-							<div class="memberPic"></div>
-							<div class="memberInfo">
-								<div class="memberTitle">
-									<span class="text-capitalize text-mavenPro text-pure">
-										claudio merino
-									</span>
-									<span class="text-capitalize text-lato text-pure">
-										dise&ntilde;ador ux
-									</span>
-								</div>
-								<div class="memberSocial">
-									<a class="smooth" href="#" rel="nofollow" target="_blank" data-original-title="Twitter" data-toggle="tooltip" data-placement="top">
-										<i class="fa fa-twitter-square" aria-hidden="true"></i>
-									</a>
-									<a class="smooth" href="#" rel="nofollow" target="_blank" data-original-title="LinkedIn" data-toggle="tooltip" data-placement="top">
-										<i class="fa fa-linkedin-square" aria-hidden="true"></i>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6 col-xs-12 col-md-6 padding-0">
-						<div class="member">
-							<div class="memberPic"></div>
-							<div class="memberInfo">
-								<div class="memberTitle">
-									<span class="text-capitalize text-mavenPro text-pure">
-										Martín Merino
-									</span>
-									<span class="text-capitalize text-lato text-pure">
-										dise&ntilde;ador Gráfico
-									</span>
-								</div>
-								<div class="memberSocial">
-									<a class="smooth" href="#" rel="nofollow" target="_blank" data-original-title="Twitter" data-toggle="tooltip" data-placement="top">
-										<i class="fa fa-twitter-square" aria-hidden="true"></i>
-									</a>
-									<a class="smooth" href="#" rel="nofollow" target="_blank" data-original-title="LinkedIn" data-toggle="tooltip" data-placement="top">
-										<i class="fa fa-linkedin-square" aria-hidden="true"></i>
-									</a>
-								</div>
+	<header class="sub-header">
+		<figure class="sub-header__bg">
+			<img src="./../../assets/images/about/header_nosotros.png" alt="Fondo">
+		</figure>
+		<div class="sub-header__container center-xs">
+			<h3 class="sub-header__title">Somos El Buen Camino</h3>
+			<p class="sub-header__description">Un estudio de diseño UX con buena gente.</p>
+		</div>
+	</header>
+
+	<section class="intro">
+		<div class="intro__container u-container-2 center-xs">
+			<figure class="intro__image">
+				<img src="./../../assets/images/about/talking.png" alt="Icono conversando" />
+			</figure>
+			<h3 class="intro__title border-title">Queremos ayudarte a cumplir tus objetivos</h3>
+			<p class="intro__description">Somos un grupo de profesionales repartidos por Chile y el mundo, con la fuerte convicción de ayudar a nuestros clientes a cumplir los objetivos propuestos para sus canales Online. Nuestro foco es entender a los usuarios y diseñar para ellos.</p>
+		</div>
+	</section>
+
+	<section class="members" *ngIf="members">
+		<div class="members__container u-container">
+			<h3 class="members__title border-title center-xs">Los caminantes</h3>
+			<div class="members__row u-row center-xs">
+				<div class="members__item u-row col-sm-6" *ngFor="let member of members">
+					<figure class="members__item__pic members__item__pic-{{member.pic_dir}} col-xs-6">
+						<img src="{{member.pic}}" alt="Fotografía caminante" />
+					</figure>
+					<div class="members__item__description members__item__description-{{member.pic_dir}} col-xs-6">
+						<div class="members__item__content">
+							<h4 class="members__name">{{member.name}}</h4>
+							<p class="members__position">{{member.position}}</p>
+							<div class="members__item__social">
+								<a *ngIf="member.twitter" href="https://twitter.com/{{member.twitter}}">
+									<i class="fa fa-twitter-square" aria-hidden="true"></i>
+								</a>
+								<a *ngIf="member.linkedin" href="https://linkedin.com/in/{{member.linkedin}}">
+									<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+								</a>
+								<a *ngIf="member.contact" routerLink="/contact">
+									<i class="fa fa-envelope" aria-hidden="true"></i>
+								</a>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-sm-6 col-xs-12 col-md-6 padding-0">
-						<div class="member">
-							<div class="memberInfo">
-								<div class="memberTitle">
-									<span class="text-capitalize text-mavenPro text-pure">
-										randy baz&aacute;n
-									</span>
-									<span class="text-capitalize text-lato text-pure">
-										dise&ntilde;ador web
-									</span>
-								</div>
-								<div class="memberSocial">
-									<a class="smooth" href="#" rel="nofollow" target="_blank" data-original-title="Twitter" data-toggle="tooltip" data-placement="top">
-										<i class="fa fa-twitter-square" aria-hidden="true"></i>
-									</a>
-									<a class="smooth" href="#" rel="nofollow" target="_blank" data-original-title="LinkedIn" data-toggle="tooltip" data-placement="top">
-										<i class="fa fa-linkedin-square" aria-hidden="true"></i>
-									</a>
-								</div>
-							</div>
-							<div class="memberPic"></div>
-						</div>
-					</div>
-					<div class="col-sm-6 col-xs-12 col-md-6 padding-0">
-						<div class="member">
-							<div class="memberInfo">
-								<div class="memberTitle">
-									<span class="text-capitalize text-mavenPro text-pure">
-										Juan Jo Vargas
-									</span>
-									<span class="text-capitalize text-lato text-pure">
-										contenidos digitales
-									</span>
-								</div>
-								<div class="memberSocial">
-									<a class="smooth" href="#" rel="nofollow" target="_blank" data-original-title="Twitter" data-toggle="tooltip" data-placement="top">
-										<i class="fa fa-twitter-square" aria-hidden="true"></i>
-									</a>
-									<a class="smooth" href="#" rel="nofollow" target="_blank" data-original-title="LinkedIn" data-toggle="tooltip" data-placement="top">
-										<i class="fa fa-linkedin-square" aria-hidden="true"></i>
-									</a>
-								</div>
-							</div>
-							<div class="memberPic"></div>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					
-					<div class="col-sm-6 col-xs-12 col-md-6 padding-0">
-						<div class="member">
-							<div class="memberPic"></div>
-							<div class="memberInfo">
-								<div class="memberTitle">
-									<span class="text-capitalize text-mavenPro text-pure">
-										Maria Egea
-									</span>
-									<span class="text-capitalize text-lato text-pure">
-										Productora Audiovisual
-									</span>
-								</div>
-								<div class="memberSocial">
-									<a class="smooth" href="#" rel="nofollow" target="_blank" data-original-title="Twitter" data-toggle="tooltip" data-placement="top">
-										<i class="fa fa-twitter-square" aria-hidden="true"></i>
-									</a>
-									<a class="smooth" href="#" rel="nofollow" target="_blank" data-original-title="LinkedIn" data-toggle="tooltip" data-placement="top">
-										<i class="fa fa-linkedin-square" aria-hidden="true"></i>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6 col-xs-12 col-md-6 padding-0">
-						<div class="member">
-							<div class="memberInfo">
-								<div class="memberTitle">
-									<span class="text-mavenPro text-pure">
-										We want you!
-									</span>
-									<span class="text-lato text-pure">
-										Trabaja con nosotros
-									</span>
-								</div>
-								<div class="memberSocial">
-									<a class="smooth" href="contactanos.html" rel="nofollow" data-original-title="Contáctanos" data-toggle="tooltip" data-placement="top">
-										<i class="fa fa-envelope" aria-hidden="true"></i>
-									</a>
-								</div>
-							</div>
-							<div class="memberPic"></div>
-						</div>
-					</div>
-				</div>
-			</article>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<section class="footer__container u-container center-xs">
+			<figure class="footer__logo">
+				<img width="174" height="143" alt="Logotipo El buen camino" src="./../../assets/images/global/logo2.png" />
+			</figure>
+			<h3 class="footer__title">Sabemos que cada proyecto es único</h3>
+			<h4 class="footer__sub-title">(Y que conversando la gente se entiende)</h4>
+			<p class="footer__description">Nos encantaría escuchar tu proyecto y que juntos veámos la mejor manera para colaborar</p>
+			<p class="footer__description">Déjanos tus datos y nos contáctaremos contigo lo antes posible.</p>
+			<a class="around__btn btn btn-lg btn-white" routerLink="/contact">Cuéntanos de tu proyecto</a>
 		</section>
+	</footer>
