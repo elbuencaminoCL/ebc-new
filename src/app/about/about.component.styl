@@ -9,8 +9,9 @@
     .members__item__pic
         padding 0
         img
-            height 100%
+            min-height 240px
             object-fit cover
+            width 544px
 
     .intro
         background-color #ececec
@@ -22,6 +23,7 @@
 
     .members__item
         padding 0
+        text-align left
         &:first-of-type
             .members__item__description
                 background-color #C72527
@@ -127,3 +129,96 @@
 
     .members__name
         padding-top 2rem
+
+
+
+
+    .methodology__container
+        padding-top 0
+
+    .methodology__col
+        &:first-of-type
+            padding 0
+        &:last-of-type
+            padding-bottom 2rem
+            padding-left 3rem
+            padding-right 0
+
+    .methodology__col__image
+        height 100%
+        position relative
+        span
+            background-color white
+            border 3px solid #2d4040
+            border-radius 50%
+            height 70px
+            padding 10px
+            position relative
+            text-align center
+            width 70px
+        &:before
+            background-color #2d4040
+            bottom 0
+            content ""
+            height 100%
+            left 35px
+            position absolute
+            top 0
+            width 3px
+
+    .methodology__col__description
+        color #6e6e6e
+
+    .methodology__col__title
+        color #ac5e64
+        padding-top 20px
+
+
+    .methodology__title
+        color #c72527
+
+
+    @media screen and ( min-width 48em )
+
+        .members__item__pic
+            img
+                width auto
+
+
+        .methodology__col
+            &:first-of-type
+                padding 0 15px
+
+        .methodology__col__image
+            &:before
+                left auto
+
+        .methodology__row
+            &:nth-of-type( odd )
+                .methodology__col
+                    &:first-of-type
+                        text-align right
+                        .methodology__col__image
+                            span
+                                margin 0 0 0 auto
+                                right -50px
+                            &:before
+                                right -16.5px
+
+                    &:last-of-type
+                        padding-left 4rem
+
+
+            &:nth-of-type( even )
+                .methodology__col
+                    text-align right
+                    &:first-of-type
+                        order 1
+                        .methodology__col__image
+                            span
+                                left -50px
+                            &:before
+                                left -16.5px
+
+                    &:last-of-type
+                        padding-right 4rem

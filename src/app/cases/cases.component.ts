@@ -27,6 +27,7 @@ export class CasesComponent implements OnInit {
       .subscribe(
         data => {
           this.cases = data.cases;
+          console.log( this.cases );
         },
         err => console.error(err),
         () => console.log('done')

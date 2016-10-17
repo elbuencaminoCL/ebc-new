@@ -49,6 +49,28 @@
 		</div>
 	</section>
 
+	<section class="methodology">
+		<div class="methodology__heading u-container-2">
+			<h3 class="methodology__title center-xs">Nuestra Metodología</h3>
+			<p class="methodology__description center-xs">Esta es la manera como encaramos nuestros proyectos. Existen muchas metodologías, pero esta es la nuestra.</p>
+		</div>
+		<div class="methodology__container u-container-3">
+			<div class="methodology__row u-row" *ngFor="let method of methodologies">
+				<div class="methodology__col col-xs-2 col-sm-6">
+					<figure class="methodology__col__image">
+						<span class="u-row center-xs middle-xs">
+							<img src="{{method.icon}}" alt="Icono metodologías" />
+						</span>
+					</figure>
+				</div>
+				<div class="methodology__col col-xs-10 col-sm-6">
+					<h4 class="methodology__col__title">{{method.title}}</h4>
+					<p class="methodology__col__description">{{method.description}}</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
 	<footer class="footer">
 		<section class="footer__container u-container center-xs">
 			<figure class="footer__logo">

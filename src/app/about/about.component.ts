@@ -12,7 +12,8 @@ declare var $: any;
 
 export class AboutComponent implements OnInit {
 
-	public members;
+  public members;
+	public methodologies;
 
   constructor( private http: Http ) { }
 
@@ -26,6 +27,7 @@ export class AboutComponent implements OnInit {
   		.subscribe(
   			data => {
   				this.members = data.members;
+          this.methodologies = data.methodologies;
   			},
   			err => console.error( err ),
   			() => console.log( 'done' )

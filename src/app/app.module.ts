@@ -17,6 +17,7 @@ import { CaseComponent } from './case/case.component';
 import { ContactComponent } from './contact/contact.component';
 import { SecureUrlPipe } from './secure-url.pipe';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { KeysPipe } from './keys.pipe';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     CasesComponent,
     CaseComponent,
     ContactComponent,
-    SecureUrlPipe
+    SecureUrlPipe,
+    KeysPipe
   ],
   imports: [
     BrowserModule,

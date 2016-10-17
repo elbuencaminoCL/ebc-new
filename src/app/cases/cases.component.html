@@ -17,19 +17,44 @@
 	</section>
 
 	<section class="cases__list" *ngIf="cases">
-		<div class="cases__list__container">
-			<section class="cases__list center-xs" *ngFor="let case of cases">
-				<a routerLink="/cases/{{case.slug}}">
-					<figure class="cases__list__image">
-						<img src="{{case.bg}}">
-						<div class="cases__list__content u-row middle-xs center-xs">
-							<div class="cases__list__logo">
-								<img src="{{case.logo}}">
-								<p class="cases__list__description">{{case.work}}</p>
+		<div class="cases__list__container u-container">
+			<section class="cases__list center-xs" >
+				<div class="cases__list-{{case.template}}" *ngFor="let case of cases">
+					<div class="cases__list__row u-row" *ngIf="case.template == 'first'">
+						<div class="cases__list__col {{row.class}}" *ngFor="let row of case.rows">
+							<div class="cases__list__main" *ngFor="let col of row.cols">
+								<a routerLink="/cases/{{col.slug}}">
+									<figure class="cases__list__image">
+										<img src="{{col.bg}}">
+										<div class="cases__list__content u-row middle-xs center-xs">
+											<div class="cases__list__logo">
+												<img src="{{col.logo}}">
+												<p class="cases__list__description">{{col.work}}</p>
+											</div>
+										</div>
+									</figure>
+								</a>
 							</div>
 						</div>
-					</figure>
-				</a>
+					</div>
+					<div class="cases__list__row u-row" *ngIf="case.template != 'first'">
+						<div class="cases__list__col {{row.class}}" *ngFor="let row of case.rows">
+							<div class="cases__list__main">
+								<a routerLink="/cases/{{row.slug}}">
+									<figure class="cases__list__image">
+										<img src="{{row.bg}}">
+										<div class="cases__list__content u-row middle-xs center-xs">
+											<div class="cases__list__logo">
+												<img src="{{row.logo}}">
+												<p class="cases__list__description">{{row.work}}</p>
+											</div>
+										</div>
+									</figure>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
 			</section>
 		</div>
 	</section>

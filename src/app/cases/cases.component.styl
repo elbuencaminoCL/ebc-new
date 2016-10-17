@@ -1,4 +1,7 @@
 
+    .cases__intro__container
+        padding-bottom 1rem
+
     .cases__intro__title
         color #565656
         margin-bottom 0
@@ -7,12 +10,19 @@
         &:last-of-type
             margin-bottom 2rem
 
+    .cases__list__col
+        margin-bottom 10px
+
+    .cases__list__container
+        padding-top 1rem
+
     .cases__list__content
-        height 100%
+        bottom 0
         left 0
         position absolute
         right 0
         top 0
+        z-index 2
 
     .cases__list__description
         color white
@@ -25,17 +35,71 @@
             object-fit cover
 
     .cases__list__logo
-        background rgba( 0,0,0,.5 )
         padding 2rem 1.6rem
         width 100%
+
+    .cases__list-first
+        .cases__list__col
+            &:last-of-type
+                .cases__list__main
+                    &:first-of-type
+                        margin-bottom 10px
+
+
+    .cases__list__main
+        position relative
+        &:before
+            background rgba( 0,0,0,.6 )
+            bottom 0
+            content ""
+            left 0
+            position absolute
+            right 0
+            top 0
+            z-index 1
 
     @media screen and ( min-width 48em )
 
         .cases__list
             margin-bottom 2rem
 
+        .cases__list__col
+            padding 0 5px
+
+        .cases__list__content
+            opacity 0
+            visibility hidden
+            transition all .2s cubic-bezier( .4,0,.2,1 )
+
         .cases__list__image
             min-height auto
 
         .cases__list__logo
             padding 2rem 0
+
+        .cases__list-first
+            .cases__list__col
+                &:first-of-type
+                    .cases__list__image
+                        height 100%
+
+                    .cases__list__main
+                        height 100%
+
+                &:last-of-type
+                    .cases__list__image
+                        & > img
+                            height 175px
+
+        .cases__list__main
+            &:before
+                opacity 0
+                visibility hidden
+                transition all .2s cubic-bezier( .4,0,.2,1 )
+            &:hover
+                &:before
+                    opacity 1
+                    visibility visible
+                .cases__list__content
+                    opacity 1
+                    visibility visible
