@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Http, Response } from '@angular/http';
+import { Observable } from 'rxjs/Rx';
 
 @Component({
   selector: 'app-services',
@@ -7,9 +9,24 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ServicesComponent implements OnInit {
 
-  constructor() { }
+  public menus;
+
+  constructor( private http:Http ) { }
 
   ngOnInit() {
+    this.getData();
   }
 
+
+  getData() {
+    this.http.get( './app/_data/home.json' )
+      .map((res:Response) => res.json())
+      .subscribe(
+        data => {
+          this.menus = data.menu;
+        },
+        err => console.error( err ),
+        () => console.log( 'done' )
+      );
+  }
 }

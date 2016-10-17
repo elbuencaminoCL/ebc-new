@@ -1,147 +1,54 @@
-header#contactanos {
-    clear: both;
-    display: block;
-    float: left;
-    height: 100%;
-    margin: 0;
-    min-height: 620px;
-    padding: 0;
-    width: 100%;
-    z-index: 4;
-}
-header#contactanos article {
-    top: 50%;
-	-webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-}
-header#contactanos #headerCover {
-    -webkit-filter: blur(1.5px);
-    -moz-filter: blur(1.5px);
-    -o-filter: blur(1.5px);
-    -ms-filter: blur(1.5px);
-    filter: blur(1.5px);
-    background-image: url("../img/contactanosbg.png");
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    clear: both;
-    display: block;
-    float: left;
-    height: inherit;
-    margin: 0;
-    min-height: inherit;
-    padding: 0;
-    position: fixed;
-    width: inherit;
-    z-index: 1;
-}
-header#contactanos #headerColor {
-    background-color: rgba(199,37,39,0.35);
-    clear: both;
-    display: block;
-    float: left;
-    height: inherit;
-    margin: 0;
-    min-height: inherit;
-    padding: 0;
-    position: absolute;
-    width: inherit;
-    z-index: 2;
-}
-header#contactanos article.container {
-    position: relative;
-    z-index: 3;
-}
-header#contactanos .container .row:nth-child(1),
-header#contactanos .container .row:nth-child(2),
-header#contactanos .container .row:nth-child(3) {
-    text-align: center;
-}
-header#contactanos .container .row:nth-child(3) {
-    margin-top: 50px;
-}
-header#contactanos h2 {
-    letter-spacing: -0.9px;
-    margin: 0;
-}
-header#contactanos .underline {
-    background-color: #ffffff;
-    clear: both;
-    display: block;
-    height: 1px;
-    margin: 0 auto;
-    width: 100px;
-}
-.pinpoint {
-    font-size: 40px;
-}
-#contactanos .btn,
-#contactanos .btn:link,
-#contactanos .btn:visited {
-    background-color: #ffffff;
-    border-radius: 0;
-    color: #c72527;
-    cursor: pointer;
-    display: block;
-    font-size: 14px;
-    font-weight: bold;
-    line-height: 1.2em;
-    margin: 5px 0 0;
-    opacity: 1;
-    padding: 20px 35px;
-    text-align: center;
-    white-space: unset;
-    width: 100%;
-    word-wrap: break-word;
-}
-#contactanos .btn:hover,
-#contactanos .btn:focus,
-#contactanos .btn:active {
-    opacity: 0.75;
-}
-#cuentanosContacto {
-    background-color: #269999;
-    background-image: url("../img/Group-4.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    clear: both;
-    display: block;
-    float: left;
-    height: auto;
-    padding: 180px 0;
-    position: relative;
-    width: 100%;
-    z-index: 15;
-}
-#cuentanosContacto .container .row:nth-child(1) p {
-    font-size: 30px;
-    margin-bottom: 30px;
-}
-#cuentanosContacto .btn,
-#cuentanosContacto .btn:link,
-#cuentanosContacto .btn:visited {
-    border: 2px solid #FFFFFF;
-    border-radius: 0;
-    color: #ffffff;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 1.2em;
-    margin-bottom: 10px;
-    opacity: 1;
-    padding: 15px 0;
-    white-space: nowrap;
-    width: 100%;
-    word-wrap: break-word;
-}
-#cuentanosContacto .btn:hover,
-#cuentanosContacto .btn:focus,
-#cuentanosContacto .btn:active {
-    background-color: rgba(255, 255, 255, 0.3);
-    border: 2px solid rgba(255, 255, 255, 0.0);
-}
+
+    .contact__info__col
+        &:first-of-type
+            margin-bottom 2rem
+
+
+    .contact__info__col__btn
+        background-color white
+        color #c72527
+        display block
+        padding 16px
+        &:first-of-type
+            margin-bottom 5px
+
+    .contact__info__icon
+        margin-bottom 1rem
+        i
+            font-size 60px
+
+    .footer__btn
+        display block
+        margin-bottom 1rem
+        padding 14px 16px
+
+    .footer__title
+        margin-bottom 2rem
+
+    .sub-header__container
+        padding 0 1.6rem
+
+    @media screen and ( min-width 48em )
+        .contact__info
+            margin-top 7rem
+
+        .contact__info__col
+            &:first-of-type
+                margin-bottom 0
+
+        .footer__btn
+            margin-bottom 0
+
+        .footer__container
+            padding 9rem 0
+
+        .footer__title
+            margin-bottom 4rem
+
+        .sub-header__container
+            padding 0
+
+        .sub-header__bg
+            img
+                height 500px
+                width 100%
