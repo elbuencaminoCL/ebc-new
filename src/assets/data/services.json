@@ -1,39 +1,195 @@
 {
 	"menu": [
 		{
-			"link": "/services",
+			"link": "consulting",
 			"image": "./../../assets/images/home/target.png",
 			"image_hover": "./../../assets/images/home/target-white.png",
 			"service": "Consultoría",
 			"service_br": ""
 		},
 		{
-			"link": "/services",
+			"link": "design",
 			"image": "./../../assets/images/home/design.png",
 			"image_hover": "./../../assets/images/home/design-white.png",
 			"service": "Diseño",
 			"service_br": ""
 		},
 		{
-			"link": "/services",
+			"link": "usability",
 			"image": "./../../assets/images/home/devices.png",
 			"image_hover": "./../../assets/images/home/devices-white.png",
 			"service": "Usabilidad",
 			"service_br": ""
 		},
 		{
-			"link": "/services",
+			"link": "digital",
 			"image": "./../../assets/images/home/microphone.png",
 			"image_hover": "./../../assets/images/home/microphone-white.png",
 			"service": "Contenidos",
 			"service_br": "Digitales"
 		},
 		{
-			"link": "/services",
+			"link": "metrics",
 			"image": "./../../assets/images/home/data.png",
 			"image_hover": "./../../assets/images/home/data-white.png",
 			"service": "Métricas",
 			"service_br": ""
 		}
 	],
+	"services": [
+		{
+			"id": "consulting",
+			"image": "./../../assets/images/home/target.png",
+			"image_alt": "Imagen",
+			"title": "Consultoría",
+			"intro": "Analizamos tu negocio y las necesidades de tus usuarios, aportando nuevas ideas y soluciones para enfocar tus esfuerzos digitales mejorando así tus resultados de negocio.",
+			"features_title": "¿Qué podríamos hacer juntos?",
+			"features": [
+				{
+					"description": "Consultoría en Experiencia de Usuario (Ux)."
+				},
+				{
+					"description": "Benchmark de competidores."
+				},
+				{
+					"description": "Investigación Etnográfica."
+				}
+			],
+			"works_title": "Esto hemos hecho en consultoría",
+			"works": [
+				{
+					"description": "Investigación con usuarios Rail Europe",
+					"link": "services"
+				},
+				{
+					"description": "Consultoría rediseño Megaclub",
+					"link": "services"
+				}
+			]
+		},
+		{
+
+			"id": "design",
+			"image": "./../../assets/images/home/target.png",
+			"image_alt": "Imagen",
+			"title": "Diseño",
+			"intro": "El diseño es la pieza clave en la presencia digital. Es lo que diferencia. Ponemos un cariño especial para conseguir diseños atractivos, memorables y orientados al negocio. Diseños pensados desde el móvil y la Web, dise&ntlde;os nativos al medio.",
+			"features_title": "¿Qué podríamos hacer juntos?",
+			"features": [
+				{
+					"description": "Diseñar tu sitio Web."
+				},
+				{
+					"description": "Diseño de landings de campañas."
+				},
+				{
+					"description": "Diseño de tu aplicación móvil."
+				}
+			],
+			"works_title": "Esto hemos hecho en consultoría",
+			"works": [
+				{
+					"description": "Diseño flujo contratación Seguros Metlife",
+					"link": "services"
+				},
+				{
+					"description": "Diseño de Hotel Terral",
+					"link": "services"
+				}
+			]
+		},
+		{
+
+			"id": "usability",
+			"image": "./../../assets/images/home/target.png",
+			"image_alt": "Imagen",
+			"title": "Usabilidad",
+			"intro": "Evaluamos interfaces interactivas y estudiamos el comportamiento de las personas para tomar decisiones de diseño. La usabilidad de un sitio web, intranet o sistema, es la medida que evalúa la facilidad de ser usado, aprendido y comprendido por el usuario.",
+			"features": [
+				{
+					"description": "Análisis de usabilidad."
+				},
+				{
+					"description": "Test de usuarios."
+				},
+				{
+					"description": "Focus Groups."
+				}
+			],
+			"works_title": "Esto hemos hecho en consultoría",
+			"works": [
+				{
+					"description": "Inv. con usuarios Rail Europe",
+					"link": "services"
+				},
+				{
+					"description": "Focus Group Santander Río",
+					"link": "services"
+				},
+				{
+					"description": "Test de usuarios UC",
+					"link": "services"
+				},
+				{
+					"description": "Test de usuarios LexDir",
+					"link": "services"
+				}
+			]
+		},
+		{
+
+			"id": "digital",
+			"image": "./../../assets/images/home/target.png",
+			"image_alt": "Imagen",
+			"title": "Contenidos Digitales",
+			"intro": "En internet hay que contar historias relevantes e interesantes. Tenemos especialistas en redacción y creación de estrategias de contenido, guionistas, realizadores de vídeo y dinamizadores en redes sociales, para conseguir que lo que contamos sea visto, oído y leído.",
+			"features_title": "¿Qué podríamos hacer juntos?",
+			"features": [
+				{
+					"description": "Crear landing pages para tus campañas."
+				},
+				{
+					"description": "Llevar las redes sociales de tu empresa."
+				},
+				{
+					"description": "Creación de textos, vídeos y fotografías para tu Web."
+				}
+			],
+			"works_title": "Esto hemos hecho en consultoría",
+			"works": [
+				{
+					"description": "Hotel Terral. Contenidos Web.",
+					"link": "services"
+				},
+				{
+					"description": "Patagonia. Landing pages Ecommerce",
+					"link": "services"
+				}
+			]
+		},
+		{
+
+			"id": "metrics",
+			"image": "./../../assets/images/home/target.png",
+			"image_alt": "Imagen",
+			"title": "Métricas",
+			"intro": "Te asesoramos en medición online y técnicas de Web mining para que extraigas lo máximo de tu Web. En El Buen Camino podemos ayudarte a entender a tus visitas y a mejorar tus contenidos para que mejores tus objetivos de conversión.",
+			"features_title": "¿Qué podríamos hacer juntos?",
+			"features": [
+				{
+					"description": "Analizar las métricas de tu sitio."
+				},
+				{
+					"description": "Optimizar tus pantallas para mejorar los resultados."
+				}
+			],
+			"works_title": "Esto hemos hecho en consultoría",
+			"works": [
+				{
+					"description": " Cine Hoyts. Rediseño Site.",
+					"link": "services"
+				}
+			]
+		}
+	]
 }

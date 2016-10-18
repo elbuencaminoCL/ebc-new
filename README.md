@@ -1,8 +1,8 @@
 # El Buen Camino
 
 ## Requisitos
-`angular-cli`: `1.0.0-beta.16`
-`ng2-bootstrap`: `^1.1.5`
+1. `angular-cli`: `1.0.0-beta.16`
+2. `ng2-bootstrap`: `^1.1.5`
 
 ## Instalación
 1. Clonar el repositorio

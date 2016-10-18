@@ -14,378 +14,52 @@
 			<h4 class="services__intro__title">Pensamos y creamos pantallas sencillas de utilizar.</h4>
 			<h4 class="services__intro__title">Nuestro foco es entender a tu usuario y diseñar para él.</h4>
 		</div>
-		<div class="services__intro__container u-container-3">
-			<div class="services__intro__list u-row center-xs middle-xs between-xs">
-				<div *ngFor="let menu of menus" class="services__intro__list-item center-xs">
-					<figure>
-						<img src="{{menu.image}}">
-					</figure>
-					<p>{{menu.service}}</p>
-					<p *ngIf="menu.service_br">{{menu.service_br}}</p>
-				</div>
-			</div>
+	</section>
+
+	<section id="sidebar" class="sidebar">
+		<div class="sidebar__container u-container-3">
+			<aside class="sidebar__content">
+				<ul class="sidebar__list nav u-row center-xs middle-xs between-xs">
+					<li class="sidebar__list-item" *ngFor="let menu of menus">
+						<a class="sidebar__list__link center-xs" href="#{{menu.link}}">
+							<figure class="sidebar__image">
+								<img src="{{menu.image}}">
+							</figure>
+							<p class="sidebar__description">{{menu.service}}</p>
+							<p class="sidebar__description" *ngIf="menu.service_br">{{menu.service_br}}</p>
+						</a>
+					</li>
+				</ul>
+			</aside>
 		</div>
 	</section>
 
-	<section id="consultoria">
-		<div class="servicioImg"></div>
-		<div class="servicioInfo">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-md-12">
-						<h2 class="text-pure text-mavenPro text-capitalize">
-							consultor&iacute;a
-						</h2>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<p class="text-pure text-lato">
-							Analizamos tu negocio y las necesidades de tus usuarios, aportando nuevas ideas y soluciones para enfocar tus esfuerzos digitales mejorando as&iacute; tus resultados de negocio.
-						</p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<h3 class="text-pure text-mavenPro">
-							¿Qu&eacute; podr&iacute;amos hacer juntos?
-						</h3>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<ul class="text-pure text-lato">
-							<li>
-								<!--<a class="smooth" href="#" rel="nofollow">-->
-									<i class="fa smooth" aria-hidden="true"></i>
-									Consultor&iacute;a en Experiencia de Usuario (Ux).
-								<!--</a>-->
-							</li>
-							<li>
 
-									<i class="fa smooth" aria-hidden="true"></i>
-									Benchmark de competidores.
-
-							</li>
-						</ul>
-					</div>
+	<section class="services" data-spy="scroll" data-target="#sidebar">
+		<div class="services__container">
+			<section id="{{service.id}}" class="services__list u-row" *ngFor="let service of services">
+				<figure class="services__list__image col-xs-4">
+					<img src="{{service.image}}" alt="{{service.image_alt}}" />
+				</figure>
+				<div class="services__list__content col-xs-8">
+					<h3 class="services__list__title">{{service.title}}</h3>
+					<p class="services__list__description">{{service.description}}</p>
+					<h4 class="services__list__sub-title">{{service.features_title}}</h4>
+					<ul class="services__list__features">
+						<li class="services__list__features-item" *ngFor="let feature of features">
+							<span>{{feature.description}}</span>
+						</li>
+					</ul>
+					<h4 class="services__list__sub-title">{{service.works_title}}</h4>
+					<ul class="services__list__features u-row">
+						<li class="services__list__features-item" *ngFor="let work of works">
+							<a routerLink="{{work.link}}">
+								<span>{{work.description}}</span>
+							</a>
+						</li>
+					</ul>
 				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<h3 class="text-pure text-mavenPro">
-							Esto hemos hecho en consultor&iacute;a
-						</h3>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<ul class="text-pure text-lato">
-							<li>
-								<a class="smooth" href="#" rel="nofollow">
-									<i class="fa fa-arrow-right smooth" aria-hidden="true"></i>
-									Dise&ntilde;o flujo contrataci&oacute;n Seguros Metlife
-								</a>
-							</li>
-							<li>
-								<a class="smooth" href="#" rel="nofollow">
-									<i class="fa fa-arrow-right smooth" aria-hidden="true"></i>
-									Investigaci&oacute;n con usuarios Rail Europe
-								</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section id="diseno">
-		<div class="servicioInfo">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-md-12">
-						<h2 class="text-pure text-mavenPro text-capitalize">
-							<!-- dise&ntilde;o -->
-						</h2>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<p class="text-pure text-lato">
-							<!-- El dise&ntilde;o es la pieza clave en la presencia digital. Es lo que diferencia. Ponemos un cari&ntilde;o especial para conseguir dise&ntilde;os atractivos, memorables y orientados al negocio. Dise&ntilde;os pensados desde el m&oacute;vil y la Web, dise&ntlde;os nativos al medio. -->
-						</p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<h3 class="text-pure text-mavenPro">
-							<!-- ¿Qu&eacute; podr&iacute;amos hacer juntos? -->
-						</h3>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<ul class="text-pure text-lato">
-							<li>
-									<i class="fa smooth" aria-hidden="true"></i>
-									Diseñar tu sitio Web.
-							</li>
-							<li>
-									<i class="fa smooth" aria-hidden="true"></i>
-									Diseño de landings de campañas.
-							</li>
-							<li>
-									<i class="fa smooth" aria-hidden="true"></i>
-									Diseño de tu aplicación móvil.
-							</li>
-						</ul>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<h3 class="text-pure text-mavenPro">
-							Esto hemos hecho en Diseño
-						</h3>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<ul class="text-pure text-lato">
-							<li>
-								<a class="smooth" href="#" rel="nofollow">
-									<i class="fa fa-arrow-right smooth" aria-hidden="true"></i>
-									Diseño flujo compra en línea Cine Hoyts
-								</a>
-							</li>
-							<li>
-								<a class="smooth" href="#" rel="nofollow">
-									<i class="fa fa-arrow-right smooth" aria-hidden="true"></i>
-									Diseño de Hotel Terral
-								</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="servicioImg"></div>
-	</section>
-
-	<section id="usabilidad">
-		<div class="servicioImg"></div>
-		<div class="servicioInfo">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-md-12">
-						<h2 class="text-pure text-mavenPro text-capitalize">
-							usabilidad
-						</h2>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<p class="text-pure text-lato">
-							Evaluamos interfaces interactivas y estudiamos el comportamiento de las personas para tomar decisiones de diseño. La usabilidad de un sitio web, intranet o sistema, es la medida que eval&uacute;a la facilidad de ser usado, aprendido y comprendido por el usuario.
-						</p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<h3 class="text-pure text-mavenPro">
-							¿Qu&eacute; podr&iacute;amos hacer juntos?
-						</h3>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<ul class="text-pure text-lato">
-							<li>
-									<i class="fa smooth" aria-hidden="true"></i>
-									An&aacute;lisis de usabilidad.
-							</li>
-							<li>
-									<i class="fa smooth" aria-hidden="true"></i>
-									Test de usuarios.
-							</li>
-							<li>
-									<i class="fa smooth" aria-hidden="true"></i>
-									Focus Groups.
-							</li>
-						</ul>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<h3 class="text-pure text-mavenPro">
-							Esto hemos hecho en Usabilidad
-						</h3>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<ul class="text-pure text-lato">
-							<li>
-								<a class="smooth" href="#" rel="nofollow">
-									<i class="fa fa-arrow-right smooth" aria-hidden="true"></i>
-									Inv. con usuarios Rail Europe
-								</a>
-							</li>
-							<li>
-								<a class="smooth" href="#" rel="nofollow">
-									<i class="fa fa-arrow-right smooth" aria-hidden="true"></i>
-									Test de usuarios Tótem MetLife
-								</a>
-							</li>
-							<li>
-								<a class="smooth" href="#" rel="nofollow">
-									<i class="fa fa-arrow-right smooth" aria-hidden="true"></i>
-									Test de usuarios LexDir
-								</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section id="contenidosDigitales">
-		<div class="servicioInfo">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-md-12">
-						<h2 class="text-grey text-mavenPro text-capitalize">
-							contenidos digitales
-						</h2>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<p class="text-grey text-lato">
-							En internet hay que contar historias relevantes e interesantes. Tenemos especialistas en redacci&oacute;n y creaci&oacute;n de estrategias de contenido, guionistas, realizadores de v&iacute;deo y dinamizadores en redes sociales, para conseguir que lo que contamos sea visto, o&iacute;do y le&iacute;do.
-						</p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<h3 class="text-grey text-mavenPro">
-							¿Qu&eacute; podr&iacute;amos hacer juntos?
-						</h3>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<ul class="text-grey text-lato">
-							<li>
-									<i class="fa fa-arrow-right smooth" aria-hidden="true"></i>
-									Crear landing pages para tus campañas.
-							</li>
-							<li>
-									<i class="fa fa-arrow-right smooth" aria-hidden="true"></i>
-									Llevar las redes sociales de tu empresa.
-							</li>
-							<li>
-									<i class="fa fa-arrow-right smooth" aria-hidden="true"></i>
-									Creaci&oacute;n de textos, v&iacute;deos y fotograf&iacute;as para tu Web.
-							</li>
-						</ul>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<h3 class="text-grey text-mavenPro">
-							Esto hemos hecho en Contenidos Digitales
-						</h3>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<ul class="text-grey text-lato">
-							<li>
-								<a class="smooth" href="#" rel="nofollow">
-									<i class="fa fa-arrow-right smooth" aria-hidden="true"></i>
-									Hotel Terral. Contenidos Web.
-								</a>
-							</li>
-							<li>
-								<a class="smooth" href="#" rel="nofollow">
-									<i class="fa fa-arrow-right smooth" aria-hidden="true"></i>
-									Patagonia. Landing pages Ecommerce
-								</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="servicioImg"></div>
-	</section>
-
-	<section id="metricas">
-		<div class="servicioImg"></div>
-		<div class="servicioInfo">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-md-12">
-						<h2 class="text-pure text-mavenPro text-capitalize">
-							m&eacute;tricas
-						</h2>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<p class="text-pure text-lato">
-							Te asesoramos en medici&oacute;n online y t&eacute;cnicas de Web mining para que extraigas lo m&aacute;ximo de tu Web. En El Buen Camino podemos ayudarte a entender a tus visitas y a mejorar tus contenidos para que mejores tus objetivos de conversi&oacute;n.
-						</p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<h3 class="text-pure text-mavenPro">
-							¿Qu&eacute; podr&iacute;amos hacer juntos?
-						</h3>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<ul class="text-pure text-lato">
-							<li>
-									<i class="fa fa-arrow-right smooth" aria-hidden="true"></i>
-									Analizar las m&eacute;tricas de tu sitio.
-							</li>
-							<li>
-									<i class="fa fa-arrow-right smooth" aria-hidden="true"></i>
-									Optimizar tus pantallas para mejorar los resultados.
-							</li>
-						</ul>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<h3 class="text-pure text-mavenPro">
-							Esto hemos hecho en M&eacute;tricas
-						</h3>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<ul class="text-pure text-lato">
-							<li>
-								<a class="smooth" href="#" rel="nofollow">
-									<i class="fa fa-arrow-right smooth" aria-hidden="true"></i>
-									Cine Hoyts. Redise&ntilde;o Site
-								</a>
-							</li>
-							<li>
-								<a class="smooth" href="#" rel="nofollow">
-									<i class="fa fa-arrow-right smooth" aria-hidden="true"></i>
-									Cine Hoyts. Redise&ntilde;o Site
-								</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
+			</section>
 		</div>
 	</section>
 

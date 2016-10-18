@@ -1,14 +1,16 @@
 
 	<nav id="navbar" class="navbar">
 		<div class="navbar__container u-container">
-			<a class="navbar__link" routerLink="/" rel="nofollow">
-				<figure class="navbar__figure center-xs" *ngIf="!isActive('/')">
+			<figure class="navbar__figure center-xs" *ngIf="!isActive('/')">
+				<a class="navbar__link" routerLink="/" rel="nofollow">
 					<img width="174" height="143" alt="Logotipo El buen camino" src="./../../assets/images/global/logo2.png" />
-				</figure>
-				<figure class="navbar__figure col-xs-6" *ngIf="isActive('/')">
+				</a>
+			</figure>
+			<figure class="navbar__figure col-xs-6" *ngIf="isActive('/')">
+				<a class="navbar__link" routerLink="/" rel="nofollow">
 					<img width="174" height="143" alt="Logotipo El buen camino" src="./../../assets/images/global/logo3.png" />
-				</figure>
-			</a>
+				</a>
+			</figure>
 
 			<div id="navToggle" class="navbar__toggle u-row middle-xs smooth">
 				<p class="navbar__toggle__content">Cerrar</p>
@@ -60,7 +62,7 @@
 							</a>
 						</li>
 						<li class="overlay__list-item col-xs-12 col-sm-4">
-							<a class="smooth u-row center-xs middle-xs" href="#" rel="follow">
+							<a class="smooth u-row center-xs middle-xs" href="https://elbuencamino.typeform.com/to/guUppv" data-mode="1" target="_blank">
 								<div class="overlay__list-item__content">
 									<span>Cuéntanos de</span>
 									<span>tu proyecto</span>
@@ -74,11 +76,11 @@
 
 		<div class="navbar__container-sticky">
 			<div class="navbar__container-sticky__container u-container">
-				<a class="navbar__link" routerLink="/" rel="nofollow">
-					<figure class="navbar__figure-sticky col-xs-6">
+				<figure class="navbar__figure-sticky col-xs-6">
+					<a class="navbar__link" routerLink="/" rel="nofollow">
 						<img width="150" height="35" alt="Logotipo El buen camino" src="./../../assets/images/global/logo3.png" />
-					</figure>
-				</a>
+					</a>
+				</figure>
 
 				<div id="navToggleSticky" class="navbar__toggle u-row middle-xs smooth">
 					<p class="navbar__toggle__content">Cerrar</p>
