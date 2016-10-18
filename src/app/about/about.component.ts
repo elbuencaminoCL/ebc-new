@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Http, Response } from '@angular/http';
-import { Observable } from 'rxjs/Rx';
+import { StaticDataService } from './../static-data.service';
 
 declare var $: any;
 
@@ -15,23 +14,18 @@ export class AboutComponent implements OnInit {
   public members;
 	public methodologies;
 
-  constructor( private http: Http ) { }
+  constructor( private staticDataService: StaticDataService ) { }
 
   ngOnInit() {
-  	this.getMembers();
-  }
-
-  getMembers() {
-  	this.http.get( './app/_data/about.json' )
-  		.map((res:Response) => res.json())
-  		.subscribe(
-  			data => {
-  				this.members = data.members;
+    this.staticDataService.getData( 'about.json' )
+      .subscribe(
+        data => {
+          this.members = data.members;
           this.methodologies = data.methodologies;
-  			},
-  			err => console.error( err ),
-  			() => console.log( 'done' )
-  		);
+        },
+        err => console.error( err ),
+        () => console.log( 'done about us' )
+      );
   }
 
 }

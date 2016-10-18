@@ -1,6 +1,5 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
-import { Http, Response } from '@angular/http';
-import { Observable } from 'rxjs/Rx';
+import { StaticDataService } from './../static-data.service';
 import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
 
 declare var $: any;
@@ -13,17 +12,25 @@ declare var $: any;
 })
 export class HomeComponent implements OnInit {
 
-  public carousel;
   public menus;
   public slides;
 
-  constructor( private http: Http, config: NgbCarouselConfig ) {
+  constructor( private staticDataService: StaticDataService, config: NgbCarouselConfig ) {
     config.interval = 0;
   }
 
   ngOnInit() {
 
-    this.getData();
+    this.staticDataService.getData( 'home.json' )
+      .subscribe(
+        data => {
+          this.menus = data.menu;
+          this.slides = data.slides;
+        },
+        err => console.error( err ),
+        () => console.log( 'done' )
+      );
+
 
   	let left = -52
   	,	top = 36
@@ -45,17 +52,5 @@ export class HomeComponent implements OnInit {
 
   }
 
-  getData() {
-    this.http.get( './app/_data/home.json' )
-      .map((res:Response) => res.json())
-      .subscribe(
-        data => {
-          this.menus = data.menu;
-          this.slides = data.slides;
-        },
-        err => console.error( err ),
-        () => console.log( 'done' )
-      );
-  }
 
 }

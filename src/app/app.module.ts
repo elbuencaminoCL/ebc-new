@@ -19,6 +19,8 @@ import { SecureUrlPipe } from './secure-url.pipe';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { KeysPipe } from './keys.pipe';
 
+import { StaticDataService } from './static-data.service';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -41,7 +43,9 @@ import { KeysPipe } from './keys.pipe';
     EbcRoutingModule,
     NgbModule.forRoot()
   ],
-  providers: [],
+  providers: [
+    StaticDataService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

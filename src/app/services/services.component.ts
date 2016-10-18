@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Http, Response } from '@angular/http';
-import { Observable } from 'rxjs/Rx';
+import { StaticDataService } from './../static-data.service';
 
 @Component({
   selector: 'app-services',
@@ -11,16 +10,10 @@ export class ServicesComponent implements OnInit {
 
   public menus;
 
-  constructor( private http:Http ) { }
+  constructor( private staticDataService:StaticDataService ) { }
 
   ngOnInit() {
-    this.getData();
-  }
-
-
-  getData() {
-    this.http.get( './app/_data/home.json' )
-      .map((res:Response) => res.json())
+    this.staticDataService.getData( 'home.json' )
       .subscribe(
         data => {
           this.menus = data.menu;
@@ -29,4 +22,7 @@ export class ServicesComponent implements OnInit {
         () => console.log( 'done' )
       );
   }
+
+
+
 }

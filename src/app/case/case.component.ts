@@ -1,8 +1,7 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
-import { Http, Response } from '@angular/http';
-import {Observable} from 'rxjs/Rx';
-import {NgbCarouselConfig} from '@ng-bootstrap/ng-bootstrap';
+import { StaticDataService } from './../static-data.service'
+import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
 declare var $: any;
 
 @Component({
@@ -17,7 +16,7 @@ export class CaseComponent implements OnInit {
 	public slug;
 	public carousel;
 
-  constructor( private http: Http, private route: ActivatedRoute, config: NgbCarouselConfig ) {
+  constructor( private staticDataService: StaticDataService, private route: ActivatedRoute, config: NgbCarouselConfig ) {
 
 	this.slug = route.snapshot.params['id'];
 	this.getCase( this.slug );
@@ -33,14 +32,13 @@ export class CaseComponent implements OnInit {
   }
 
   getCase( slug ) {
-  	this.http.get( './app/_data/cases/' + slug + '.json' )
-  		.map((res:Response) => res.json())
+  	this.staticDataService.getData( 'cases/' + slug + '.json' )
 		.subscribe(
 			data => {
 				this.case = data;
 			},
 			err => console.error( err ),
-			() => console.log( 'done' )
+			() => console.log( 'done detail case' )
 		);
   }
 

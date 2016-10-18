@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Http, Response } from '@angular/http';
-import { Observable } from 'rxjs/Rx';
+import { StaticDataService } from './../static-data.service';
 
 declare var $: any;
 
@@ -14,23 +13,17 @@ export class CasesComponent implements OnInit {
 
   public cases;
 
-  constructor( private http: Http ) {
+  constructor( private staticDataService: StaticDataService ) {
   }
 
   ngOnInit() {
-    this.getCases();
-  }
-
-  getCases() {
-    this.http.get('./app/_data/cases.json')
-      .map((res:Response) => res.json())
+    this.staticDataService.getData( 'cases.json' )
       .subscribe(
         data => {
           this.cases = data.cases;
-          console.log( this.cases );
         },
         err => console.error(err),
-        () => console.log('done')
+        () => console.log('done cases')
       );
   }
 
