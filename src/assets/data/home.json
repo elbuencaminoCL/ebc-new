@@ -1,35 +1,35 @@
 {
 	"menu": [
 		{
-			"link": "/services",
+			"link": "consulting",
 			"image": "./../../assets/images/home/target.png",
 			"image_hover": "./../../assets/images/home/target-white.png",
 			"service": "Consultoría",
 			"service_br": ""
 		},
 		{
-			"link": "/services",
+			"link": "design",
 			"image": "./../../assets/images/home/design.png",
 			"image_hover": "./../../assets/images/home/design-white.png",
 			"service": "Diseño",
 			"service_br": ""
 		},
 		{
-			"link": "/services",
+			"link": "usability",
 			"image": "./../../assets/images/home/devices.png",
 			"image_hover": "./../../assets/images/home/devices-white.png",
 			"service": "Usabilidad",
 			"service_br": ""
 		},
 		{
-			"link": "/services",
+			"link": "digital",
 			"image": "./../../assets/images/home/microphone.png",
 			"image_hover": "./../../assets/images/home/microphone-white.png",
 			"service": "Contenidos",
 			"service_br": "Digitales"
 		},
 		{
-			"link": "/services",
+			"link": "metrics",
 			"image": "./../../assets/images/home/data.png",
 			"image_hover": "./../../assets/images/home/data-white.png",
 			"service": "Métricas",

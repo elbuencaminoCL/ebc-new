@@ -24,7 +24,7 @@
 				</div>
 				<div class="do__boxes u-row center-sm" *ngIf="menus">
 					<div *ngFor="let menu of menus" class="do__box do__box__menu center-xs">
-						<a routerLink="{{menu.link}}">
+						<a pageScroll routerLink="/services" fragment="{{menu.link}}">
 							<div class="do__box__menu__content">
 								<figure>
 									<img src="{{menu.image}}">
@@ -39,7 +39,7 @@
 				</div>
 			</div>
 			<div class="do__action center-xs">
-				<a  class="btn btn-lg btn-red">Mira todo lo que hacemos</a>
+				<a routerLink="/services" class="btn btn-lg btn-red">Mira todo lo que hacemos</a>
 			</div>
 		</section>
 

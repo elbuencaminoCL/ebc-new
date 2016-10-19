@@ -1,4 +1,19 @@
 
+    .services__list__features
+    .services__list__works
+        padding 1rem 0 3rem
+
+    .services__list__features-item
+    .services__list__works-item
+        margin-bottom 1rem
+        text-align left
+        i
+            padding-right .5rem
+        a
+            border-bottom 1px solid white
+            color white
+            padding-bottom 4px
+
     .sidebar
         &.sticky
             bottom 0
@@ -72,31 +87,72 @@
         margin-bottom 0
 
     .services__list
-        min-height 500px
-        height 100vh
+        .services__list__content
+            color white
         &:first-of-type
-            .services__list__content
-                background-color #2d4044
+            background-color #2d4044
 
         &:nth-of-type( 2 )
-            .services__list__content
-                background-color #ae914b
+            background-color #ae914b
 
         &:nth-of-type( 3 )
-            .services__list__content
-                background-color #a3413e
+            background-color #a3413e
 
         &:nth-of-type( 4 )
+            background-color #ade1df
             .services__list__content
-                background-color #ade1df
+                color #50585b
+                a
+                    color #50585b
+
+            .services__list__features-item
+            .services__list__works-item
+                a
+                    border-bottom 1px solid #50585b
+
 
         &:nth-of-type( 5 )
-            .services__list__content
-                background-color #244a79
+            background-color #244a79
 
         &:nth-of-type( even )
             .services__list__image
                 order 1
+
+    .services__list__content
+        padding 3rem 1.6rem
+
+    .services__list__icon
+        margin-bottom 1rem
+        img
+            max-width 50px
+
+    .services__list-item
+        padding-right 1rem
+
+    .services__list__link
+        padding-left 2rem
+        position relative
+        transition all .2s cubic-bezier( .4,0,.2,1 )
+        &:before
+            -moz-osx-font-smoothing grayscale
+            -webkit-font-smoothing antialiased
+            bottom 0
+            content "\f061"
+            display inline-block
+            font-size inherit
+            font normal normal normal 14px/1 FontAwesome
+            left 0
+            position absolute
+            text-rendering auto
+            top 10px
+
+        &:hover
+            padding-left 3rem
+        span
+            line-height 1.8
+
+    .services__list__intro
+        padding 1rem 0 3rem
 
     .sidebar__list-item
         padding-bottom 2rem
@@ -104,7 +160,46 @@
     .sidebar__list__link
         color #585858
 
+    .services__list__works-item
+        width 100%
+
 
     @media screen and ( min-width 48em )
         .sidebar__container
-            padding 0 0 6rem
+            padding 0
+
+        .services
+            padding-top 96px
+            &.sticky
+                padding-top 241px
+
+        .services__list
+            &:nth-of-type( even )
+                .services__list__content__main
+                    margin 0 0 0 auto
+                .services__list__image
+                    img
+                        -webkit-clip-path polygon(5% 53%, 1% 50%, 5% 47%, 5% 0, 100% 0, 100% 100%, 5% 100%)
+                        clip-path polygon(5% 53%, 1% 50%, 5% 47%, 5% 0, 100% 0, 100% 100%, 5% 100%)
+
+            &:nth-of-type( odd )
+                .services__list__image
+                    img
+                        -webkit-clip-path polygon(0% 0%, 95% 0, 95% 47%, 99% 50%, 95% 53%, 95% 100%, 0 100%)
+                        clip-path polygon(0% 0%, 95% 0, 95% 47%, 99% 50%, 95% 53%, 95% 100%, 0 100%)
+
+        .services__list__content
+            &:nth-of-type( even )
+                padding-right 4rem
+            &:nth-of-type( odd )
+                padding-left 4rem
+
+
+        .services__list__content__main
+            max-width 700px
+
+        .services__list__image
+            padding 0
+
+        .services__list__works-item
+            width auto

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { StaticDataService } from './../static-data.service';
 
 declare var $: any;
@@ -25,6 +25,10 @@ export class CasesComponent implements OnInit {
         err => console.error(err),
         () => console.log('done cases')
       );
+  }
+
+  ngAfterViewInit() {
+    window.scrollTo(0, 0);
   }
 
 }

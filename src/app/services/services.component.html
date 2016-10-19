@@ -16,15 +16,17 @@
 		</div>
 	</section>
 
-	<section id="sidebar" class="sidebar">
+	<section id="sidebar" #sidebar class="sidebar hide-xs show-sm">
 		<div class="sidebar__container u-container-3">
 			<aside class="sidebar__content">
 				<ul class="sidebar__list nav u-row center-xs middle-xs between-xs">
 					<li class="sidebar__list-item" *ngFor="let menu of menus">
 						<a class="sidebar__list__link center-xs" href="#{{menu.link}}">
-							<figure class="sidebar__image">
-								<img src="{{menu.image}}">
-							</figure>
+							<a pageScroll [pageScrollOffset]="67" [pageScrollDuration]="500" class="sidebar__list__link nav-link center-xs" href="#{{menu.link}}">
+								<figure class="sidebar__image">
+									<img src="{{menu.image}}">
+								</figure>
+							</a>
 							<p class="sidebar__description">{{menu.service}}</p>
 							<p class="sidebar__description" *ngIf="menu.service_br">{{menu.service_br}}</p>
 						</a>
@@ -35,29 +37,40 @@
 	</section>
 
 
-	<section class="services" data-spy="scroll" data-target="#sidebar">
+	<section id="services" class="services" data-spy="scroll" data-target="#sidebar">
 		<div class="services__container">
 			<section id="{{service.id}}" class="services__list u-row" *ngFor="let service of services">
-				<figure class="services__list__image col-xs-4">
+				<figure class="services__list__image col-sm-4 hide-xs show-sm">
 					<img src="{{service.image}}" alt="{{service.image_alt}}" />
 				</figure>
-				<div class="services__list__content col-xs-8">
-					<h3 class="services__list__title">{{service.title}}</h3>
-					<p class="services__list__description">{{service.description}}</p>
-					<h4 class="services__list__sub-title">{{service.features_title}}</h4>
-					<ul class="services__list__features">
-						<li class="services__list__features-item" *ngFor="let feature of features">
-							<span>{{feature.description}}</span>
-						</li>
-					</ul>
-					<h4 class="services__list__sub-title">{{service.works_title}}</h4>
-					<ul class="services__list__features u-row">
-						<li class="services__list__features-item" *ngFor="let work of works">
-							<a routerLink="{{work.link}}">
-								<span>{{work.description}}</span>
-							</a>
-						</li>
-					</ul>
+				<div class="services__list__content col-xs-12 col-sm-8 center-xs start-sm">
+					<div class="services__list__content__main">
+						<figure class="services__list__icon hide-sm">
+							<img src="{{service.icon}}" alt="{{service.icon_alt}}" />
+						</figure>
+						<h3 class="services__list__title">{{service.title}}</h3>
+						<p class="services__list__intro">{{service.intro}}</p>
+						<h4 class="services__list__sub-title">{{service.features_title}}</h4>
+						<ul class="services__list__features">
+							<li class="services__list-item services__list__features-item" *ngFor="let feature of service.features">
+								<div class="services__list__link">
+									<a href="{{feature.link}}">
+										<span>{{feature.description}}</span>
+									</a>
+								</div>
+							</li>
+						</ul>
+						<h4 class="services__list__sub-title">{{service.works_title}}</h4>
+						<ul class="services__list__works u-row">
+							<li class="services__list-item col-xs-12 col-sm-6 services__list__works-item" *ngFor="let work of service.works">
+								<div class="services__list__link">
+									<a href="{{work.link}}">
+										<span>{{work.description}}</span>
+									</a>
+								</div>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</section>
 		</div>

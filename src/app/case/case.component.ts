@@ -42,4 +42,9 @@ export class CaseComponent implements OnInit {
 		);
   }
 
+
+  ngAfterViewInit() {
+    window.scrollTo(0, 0);
+  }
+
 }

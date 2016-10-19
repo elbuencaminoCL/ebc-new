@@ -39,20 +39,25 @@
 	"services": [
 		{
 			"id": "consulting",
-			"image": "./../../assets/images/home/target.png",
+			"icon": "./../../assets/images/home/target.png",
+			"icon_alt": "Imagen",
+			"image": "./../../assets/images/services/image1.png",
 			"image_alt": "Imagen",
 			"title": "Consultoría",
 			"intro": "Analizamos tu negocio y las necesidades de tus usuarios, aportando nuevas ideas y soluciones para enfocar tus esfuerzos digitales mejorando así tus resultados de negocio.",
 			"features_title": "¿Qué podríamos hacer juntos?",
 			"features": [
 				{
-					"description": "Consultoría en Experiencia de Usuario (Ux)."
+					"description": "Consultoría en Experiencia de Usuario (Ux).",
+					"link": "services"
 				},
 				{
-					"description": "Benchmark de competidores."
+					"description": "Benchmark de competidores.",
+					"link": "services"
 				},
 				{
-					"description": "Investigación Etnográfica."
+					"description": "Investigación Etnográfica.",
+					"link": "services"
 				}
 			],
 			"works_title": "Esto hemos hecho en consultoría",
@@ -70,7 +75,9 @@
 		{
 
 			"id": "design",
-			"image": "./../../assets/images/home/target.png",
+			"icon": "./../../assets/images/home/target.png",
+			"icon_alt": "Imagen",
+			"image": "./../../assets/images/services/image1.png",
 			"image_alt": "Imagen",
 			"title": "Diseño",
 			"intro": "El diseño es la pieza clave en la presencia digital. Es lo que diferencia. Ponemos un cariño especial para conseguir diseños atractivos, memorables y orientados al negocio. Diseños pensados desde el móvil y la Web, dise&ntlde;os nativos al medio.",
@@ -101,10 +108,13 @@
 		{
 
 			"id": "usability",
-			"image": "./../../assets/images/home/target.png",
+			"icon": "./../../assets/images/home/target.png",
+			"icon_alt": "Imagen",
+			"image": "./../../assets/images/services/image1.png",
 			"image_alt": "Imagen",
 			"title": "Usabilidad",
 			"intro": "Evaluamos interfaces interactivas y estudiamos el comportamiento de las personas para tomar decisiones de diseño. La usabilidad de un sitio web, intranet o sistema, es la medida que evalúa la facilidad de ser usado, aprendido y comprendido por el usuario.",
+			"features_title": "¿Qué podríamos hacer juntos?",
 			"features": [
 				{
 					"description": "Análisis de usabilidad."
@@ -139,7 +149,9 @@
 		{
 
 			"id": "digital",
-			"image": "./../../assets/images/home/target.png",
+			"icon": "./../../assets/images/home/target.png",
+			"icon_alt": "Imagen",
+			"image": "./../../assets/images/services/image1.png",
 			"image_alt": "Imagen",
 			"title": "Contenidos Digitales",
 			"intro": "En internet hay que contar historias relevantes e interesantes. Tenemos especialistas en redacción y creación de estrategias de contenido, guionistas, realizadores de vídeo y dinamizadores en redes sociales, para conseguir que lo que contamos sea visto, oído y leído.",
@@ -170,7 +182,9 @@
 		{
 
 			"id": "metrics",
-			"image": "./../../assets/images/home/target.png",
+			"icon": "./../../assets/images/home/target.png",
+			"icon_alt": "Imagen",
+			"image": "./../../assets/images/services/image1.png",
 			"image_alt": "Imagen",
 			"title": "Métricas",
 			"intro": "Te asesoramos en medición online y técnicas de Web mining para que extraigas lo máximo de tu Web. En El Buen Camino podemos ayudarte a entender a tus visitas y a mejorar tus contenidos para que mejores tus objetivos de conversión.",
