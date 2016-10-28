@@ -46,12 +46,31 @@
 			</div>
 		</section>
 
+		<section class="case__wireframes" *ngIf="case.wireframes">
+			<div class="case__wireframes__container u-container">
+				<h3 class="case__wireframes__title center-xs" [innerHTML]="case.wireframes.title"></h3>
+				<figure class="case__wireframes__list__image">
+					<img class="img-responsive" alt="..." src="{{case.wireframes.image}}" />
+				</figure>
+			</div>
+		</section>
+
+		<section class="case__interface" *ngIf="case.interface">
+			<div class="case__interface__container u-container">
+				<h3 class="case__interface__title border-title center-xs" [innerHTML]="case.interface.title"></h3>
+				<figure class="case__interface__list__image">
+					<img class="img-responsive" alt="..." src="{{case.interface.image}}" />
+				</figure>
+			</div>
+		</section>
+
 		<section class="case__section" *ngIf="case.section">
 			<div class="case__section__container u-container">
+				<h3 class="case__interface__title border-title center-xs" [innerHTML]="case.section_title.title"></h3>
 				<div class="case__section__row u-row">
 					<div class="case__section__col {{col.col_class}}" *ngFor="let col of case.section">
 						<h3 class="case__section__title" [innerHTML]="col.title" *ngIf="col.title"></h3>
-						<p class="case__section__description" [innerHTML]="col.description" *ngIf="col.description"></p>
+						<div class="case__section__description" [innerHTML]="col.description" *ngIf="col.description"></div>
 						<figure class="case__section__image" *ngIf="col.image">
 							<img src="{{col.image}}">
 						</figure>
@@ -92,7 +111,7 @@
 				<div class="case__deliverable__step" *ngFor="let step of case.deliverable.steps; let i=index">
 					<div class="case__deliverable__step__row u-row center-xs start-sm">
 						<h4 class="case__deliverable__step__number">{{i+1}}</h4>
-						<div class="case__deliverable__step__description" *ngIf="step.title"><h4>{{step.title}} </h4><span [innerHTML]="step.description"></span></div>
+						<div class="case__deliverable__step__description"><h4 *ngIf="step.title" [innerHTML]="step.title"></h4><span [innerHTML]="step.description"></span></div>
 					</div>
 					<div *ngIf="step.lists">
 						<div class="case__deliverable__step__list" *ngFor="let list of step.lists">
