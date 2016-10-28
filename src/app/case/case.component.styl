@@ -15,7 +15,6 @@
 
         .case__items__image
             img
-                height 100%
                 object-fit cover
 
         .case__items__row
@@ -26,29 +25,28 @@
 
 
 
-        .case__situation
-            background-color #9b3835
-
-        .case__situation__content
-            color white
-
-    .case-minimal
-        .case__situation__title
-            color #c72527
-            &:before
-                background-color #c72527
-
-
     .case__deliverable
         background-color #f3f3f3
 
     .case__deliverable__container
         padding 3rem 0
 
+    .case__deliverable__step__list__description
+        i
+            color #c72527
+        span
+            padding-left 2rem
+
     .case__deliverable__step
         margin-bottom 4rem
         &:last-of-type
             margin-bottom 0
+
+    .case__deliverable__step__description
+        h4
+            color #c72527
+            margin-bottom 2rem
+
 
     .case__deliverable__step__btn
         margin-top 2rem
@@ -81,23 +79,38 @@
 
 
 
-    .case__situation__image
+
+    .case__section__title
+        color #c72527
         margin-bottom 3rem
+
+
+    .case__situation
+        background-color #9b3835
+
+    .case__situation__content
+        color white
+
+    .case__situation__image
+        margin 3rem 0
         img
             height 100%
             object-fit cover
 
 
-    .case__works__list
-        margin-top 6rem
+    .case__works__container
+        padding-top 0
 
     .case__works__list-item
         margin-bottom 2rem
 
     .case__works__list__image
         margin-bottom 2rem
+        img
+            margin 0 auto
 
     .case__works__list__title
+        font-weight 300
         margin-bottom 0
 
     .case__works__title
@@ -125,17 +138,11 @@
             .case__items__row
                 margin-bottom 9rem
                 &:nth-of-type( odd )
-                    .case__items__image
-                        img
-                            -webkit-clip-path polygon(0px 350px,540px 350px,540px 0px,98px 0px)
                     .case__items__content__title
                         span
                             padding-right 8rem
 
                 &:nth-of-type( even )
-                    .case__items__image
-                        img
-                            -webkit-clip-path polygon(0px 350px,540px 350px,442px 0px,0px 0px)
                     .case__items__content
                         order 1
                         text-align right

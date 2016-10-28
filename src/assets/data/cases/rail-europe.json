@@ -1,82 +1,75 @@
 {
 	"template": "complex",
-	"name": "Terral Hotel & Spa",
+	"name": "Rail Europe",
 	"logo": "",
-	"bg": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-	"slug": "lexdir",
+	"bg": "./../../assets/images/cases/rail-europe/banner.jpg",
+	"slug": "rail-europe",
 	"categories": [
-		"Rediseño web",
-		"Estrategia de Contenidos Digitales"
+		"Consultoría, ",
+		"Usabilidad"
 	],
 	"situation": {
-		"description": "El Valle de elqui en la ciudad de vicuña, Chile es conocido mundialmente por sus impresionables cielos estrellados. En el centro de este valle se encuentra el hotel y Spa Terral, único hotel de 4 estrellas de la zona. Pese a su inmejorable ubicación y oferta de servicios, la presencia online de este hotel estaba muy dejada. Los dueños del hotel, consciente de ello, nos contactaron para que los ayudaremos a crear un sitio que les permitiera transmitir la vibra y onda de Terral además de reservar y pagar las habitaciones online.",
-		"image": "./../../assets/images/cases/cabecera-caso-charco.jpg",
+		"description": "RailEurope es un e-commerce global, líder en viajes y pases de trenes para turistas que desean <br/> recorrer Europa sobre rieles. El 2014 nos pidieron que investigáramos los problemas de <br/> usabilidad que sus clientes estaban teniendo dentro del sitio, y que los ayudáramos a <br/> solucionarlos.",
+		"image": "./../../assets/images/cases/rail-europe/image-1.png",
 		"title": "La situación"
 	},
 	"works": {
-		"title": "Lo que hicimos",
+		"title": "¿Qué hicimos con ellos?",
 		"list": [
 			{
-				"image": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-				"title": "Diseño"
+				"image": "./../../assets/images/cases/ux-triangle.png",
+				"title": "Consultoría: <br/>Benchmark"
 			},
 			{
-				"image": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-				"title": "Desarrollo wordpress"
-			},
-			{
-				"image": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-				"title": "Landing de campañas"
-			},
-			{
-				"image": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-				"title": "Administración de Redes sociales"
+				"image": "./../../assets/images/cases/test-triangle.png",
+				"title": "Test de Usuarios"
 			}
 		]
 	},
-	"slides": [
+
+	"items": [
 		{
-			"image": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-			"title": "Diseño UX/UI"
+			"col_content": "col-xs-12 col-sm-6",
+			"col_image": "col-xs-12 col-sm-6",
+			"title": "¿Qué estudiamos?",
+			"description": "Percepciones de los usuarios con respecto al sitio, a sus experiencias planificando viajes a Europa y a sus hábitos de navegación al momento de comprar en línea.",
+			"image": "./../../assets/images/cases/rail-europe/image-2.jpg"
+		},
+		{
+			"col_content": "col-xs-12 col-sm-6",
+			"col_image": "col-xs-12 col-sm-6",
+			"v_align": "middle-xs",
+			"title": "¿Cómo lo hicimos?",
+			"description": "Durante cinco semanas entrevistamos y aplicamos tests a más de ochenta personas de tres países, todas con distintas características, para conocer de primera fuente las percepciones que tenían con respecto al sitio, a sus experiencias planificando viajes a Europa, y entender sus hábitos de navegación cuando se trata de comprar en línea. <br/><br/> Complementamos esa investigación con una serie de actividades que incluyeron una auditoría al sitio y su app móvil, y una encuesta, dentro del sitio, para recopilar data más cuantitativa. <br/><br/> Agrupamos toda esa información procesada en once temas principales, basándonos en los testimonios entregados por los participantes. A partir de esta información, también obtuvimos cinco tipos de usuarios con necesidades y expectativas concretas, que nos servirán como guía al momento de pensar nuevas funcionalidades del sitio.<br/><br/> Terminamos el proyecto con una revisión de las quince secciones testeadas, en las que propusimos una serie de mejoras de rápida implementación para maximizar la experiencia de los usuarios en la versión actual del sitio, mientras se trabajaba en un completo rediseño del mismo.",
+			"image": "./../../assets/images/cases/rail-europe/image-3.jpg"
 		}
 	],
+
 	"deliverable": {
 		"title": "¿Cuál fue nuestro entregable?",
 		"steps": [
 			{
-				"btn": "Visitar sitio web",
-				"description": "Construimos un theme de wordpress responsive exclusivo para ellos",
-				"image": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-				"link": "https://facebook.com",
-				"preview": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-				"title": "Prebooking"
+				"description": "Reportes de las actividades por países, más un informe global con los descubrimientos y propuestas para mejorar las pantallas actuales.",
+				"image": "./../../assets/images/cases/rail-europe/image-4.png"
 			},
 			{
-				"title": "Sesiones fotográficas",
-				"description": "Construimos un theme de wordpress responsive exclusivo para ellos",
-				"preview": "./../../assets/images/cases/cabecera-caso-charco.jpg"
+				"description": "Benchmark de competidores del rubro. Analizamos los principales sites y apps del rubro, tanto locales como globales para descubrir buenas prácticas y analizar en detalle cada una de las interfaces.",
+				"image": "./../../assets/images/cases/rail-europe/image-5.png"
 			},
 			{
-				"title": "Facebook Page",
-				"description": "Tomamos el control de la página de Facebook",
-				"preview": "./../../assets/images/cases/cabecera-caso-charco.jpg"
+				"description": "Encuestas <em>onsite</em> para complementar la data obtenida en las encuestas y focus groups.",
+				"image": "./../../assets/images/cases/rail-europe/image-6.png"
 			},
 			{
-				"title": "Tótem de Autoatención",
-				"description": "Una vez que la persona",
-				"preview": "./../../assets/images/cases/cabecera-caso-charco.jpg"
+				"description": "Una propuesta de <em>wireframes</em> para diseñar las principales pantallas del sitio.",
+				"image": "./../../assets/images/cases/rail-europe/image-6.png"
 			},
 			{
-				"title": "Landing Pages",
-				"description": "Segmentamos, planificamos",
-				"images": [
-					"./../../assets/images/cases/cabecera-caso-charco.jpg",
-					"./../../assets/images/cases/cabecera-caso-charco.jpg",
-					"./../../assets/images/cases/cabecera-caso-charco.jpg"
-				]
+				"description": "Una propuesta de diseño a cargo de nuestros amigos de <a href='http://www.deleteagency.com/' target='_blank'>DeleteC</a>",
+				"image": "./../../assets/images/cases/rail-europe/image-6.png"
 			}
 		]
 	},
-	"footer_title": "¿Tu negocio es del rubro de la hotelería?"
+	"footer_title": "¿También te gustaría saber cómo piensan tus usuarios?"
 
 }

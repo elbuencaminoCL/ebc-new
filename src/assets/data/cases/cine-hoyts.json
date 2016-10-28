@@ -1,78 +1,68 @@
 {
 	"template": "complex",
-	"name": "Terral Hotel & Spa",
+	"name": "Cine Hoyts",
 	"logo": "",
-	"bg": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-	"slug": "lexdir",
+	"bg": "./../../assets/images/cases/hoyts/banner.jpg",
+	"slug": "cine-hoyts",
 	"categories": [
-		"Rediseño web",
-		"Estrategia de Contenidos Digitales"
+		"Diseño Sitio Web, ",
+		"Métricas"
 	],
 	"situation": {
-		"description": "El Valle de elqui en la ciudad de vicuña, Chile es conocido mundialmente por sus impresionables cielos estrellados. En el centro de este valle se encuentra el hotel y Spa Terral, único hotel de 4 estrellas de la zona. Pese a su inmejorable ubicación y oferta de servicios, la presencia online de este hotel estaba muy dejada. Los dueños del hotel, consciente de ello, nos contactaron para que los ayudaremos a crear un sitio que les permitiera transmitir la vibra y onda de Terral además de reservar y pagar las habitaciones online.",
-		"image": "./../../assets/images/cases/cabecera-caso-charco.jpg",
+		"description": "Cine Hoyts es la mayor cadena de cines de Chile, con más de 100 salas repartidas por todo el país. <br/> Se contactaron con nosotros ya que buscaban aumentar la venta de entradas desde su sitio.",
+		"image": "./../../assets/images/cases/hoyts/image-1.png",
 		"title": "La situación"
 	},
 	"works": {
-		"title": "Lo que hicimos",
+		"title": "¿Qué hicimos con ellos?",
 		"list": [
 			{
-				"image": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-				"title": "Diseño"
+				"image": "./../../assets/images/cases/ux-triangle.png",
+				"title": "Consultoría"
 			},
 			{
-				"image": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-				"title": "Desarrollo wordpress"
+				"image": "./../../assets/images/cases/design-triangle.png",
+				"title": "Rediseño del sitio web"
 			},
 			{
-				"image": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-				"title": "Landing de campañas"
-			},
-			{
-				"image": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-				"title": "Administración de Redes sociales"
+				"image": "./../../assets/images/cases/social-triangle.png",
+				"title": "Métricas"
 			}
 		]
 	},
-	"slides": [
+	"section": [
 		{
-			"image": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-			"title": "Diseño UX/UI"
+			"col_class": "col-xs-12 col-sm-6",
+			"title": "El punto de partida",
+			"description": "El anterior sitio del cine, que estaba en línea desde mediados del 2007, presentaba muchos problemas de usabilidad, relacionados con la poca jerarquía de contenidos a la hora de buscar productos. Además, la tecnología utilizada estaba obsoleta, generando muchos dolores de cabeza al momento de agregar nuevo contenido o actualizar los ya existentes."
+		},
+		{
+			"col_class": "col-xs-12 col-sm-6",
+			"image": "./../../assets/images/cases/hoyts/image-3.png"
 		}
 	],
 	"deliverable": {
-		"title": "¿Cuál fue nuestro entregable?",
 		"steps": [
 			{
-				"btn": "Visitar sitio web",
-				"description": "Construimos un theme de wordpress responsive exclusivo para ellos",
-				"image": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-				"link": "https://facebook.com",
-				"preview": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-				"title": "Prebooking"
+				"description": "Lo primero fue preguntarnos: ¿Cómo hacemos para facilitar el proceso de búsqueda y selección de películas a nuestros usuarios?. Para ello propusimos una navegación mediante cards, donde al pasar por encima (o pulsar en el caso de los móviles), el usuario pudiese ver la información más relevante de las películas y comenzar el proceso de compra desde ahí mismo.",
+				"image": "./../../assets/images/cases/hoyts/image-2.jpg",
+				"title": "Replantear la búsqueda de películas"
 			},
 			{
-				"title": "Sesiones fotográficas",
-				"description": "Construimos un theme de wordpress responsive exclusivo para ellos",
-				"preview": "./../../assets/images/cases/cabecera-caso-charco.jpg"
+				"title": "Replantear el proceso de compra",
+				"description": "Diseñamos el flujo de compra preocupándonos que fuera lo más rápido posible, eliminando el registro obligatorio de usuarios, simplificando el proceso de selección de descuentos y permitiendo la compra desde todos los dispositivos existentes.",
+				"image": "./../../assets/images/cases/hoyts/image-3.png"
 			},
 			{
-				"title": "Facebook Page",
-				"description": "Tomamos el control de la página de Facebook",
-				"preview": "./../../assets/images/cases/cabecera-caso-charco.jpg"
-			},
-			{
-				"title": "Tótem de Autoatención",
-				"description": "Una vez que la persona",
-				"preview": "./../../assets/images/cases/cabecera-caso-charco.jpg"
-			},
-			{
-				"title": "Landing Pages",
-				"description": "Segmentamos, planificamos",
-				"images": [
-					"./../../assets/images/cases/cabecera-caso-charco.jpg",
-					"./../../assets/images/cases/cabecera-caso-charco.jpg",
-					"./../../assets/images/cases/cabecera-caso-charco.jpg"
+				"title": "Resultados",
+				"image": "./../../assets/images/cases/hoyts/image-5.jpg",
+				"lists": [
+					{
+						"description": "Doblamos la cantidad de entradas vendidas mediante la web, en comparación al mismo período el año anterior"
+					},
+					{
+						"description": "Mejoramos significativamente la experiencia de compra, especialmente en móviles, donde pasamos de un 2% a más de un 25% en compras desde IOS y Android."
+					}
 				]
 			}
 		]

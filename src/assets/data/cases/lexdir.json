@@ -2,25 +2,25 @@
 	"template": "complex",
 	"name": "",
 	"logo": "./../../assets/images/cases/logo-caso-lexdir.png",
-	"bg": "./../../assets/images/cases/cabecera-caso-lexdir.jpg",
+	"bg": "./../../assets/images/cases/lexdir/banner.jpg",
 	"slug": "lexdir",
 	"categories": [
 		"Test de usuarios y mejoras en pantallas"
 	],
 	"situation": {
-		"description": "Lexdir es una comunidad de información jurídica que permite la interacción directa entre abogados especializados y usuarios en busca de soluciones jurídicas.",
-		"image": "./../../assets/images/cases/cabecera-caso-charco.jpg",
+		"description": "Lexdir es una comunidad de información jurídica que permite la interacción directa entre<br/> abogados especializados y usuarios en busca de soluciones jurídicas. El año pasado, luego de un<br/> rediseño importante, vieron cómo el nuevo sitio no convertía lo que esperaban, y nos<br/> contactaron para que los ayudáramos a descubrir que estaba pasando.",
+		"image": "./../../assets/images/cases/lexdir/image-1.png",
 		"title": "La situación"
 	},
 	"works": {
 		"title": "¿Qué hicimos con ellos?",
 		"list": [
 			{
-				"image": "./../../assets/images/cases/cabecera-caso-charco.jpg",
+				"image": "./../../assets/images/cases/test-triangle.png",
 				"title": "Test de usuarios"
 			},
 			{
-				"image": "./../../assets/images/cases/cabecera-caso-charco.jpg",
+				"image": "./../../assets/images/cases/ux-triangle.png",
 				"title": "Mejoras de UX"
 			}
 		]
@@ -28,14 +28,18 @@
 
 	"items": [
 		{
-			"title": "Qué estudiamos",
-			"description": "Lexdir tiene dos tipos de usuario: Las personas comunes",
-			"image": "./../../assets/images/cases/cabecera-caso-charco.jpg"
+			"col_content": "col-xs-12 col-sm-6",
+			"col_image": "col-xs-12 col-sm-6",
+			"title": "¿Qué estudiamos?",
+			"description": "Lexdir tiene dos tipos de usuario: las personas comunes y corrientes que tienen un problema legal y los abogados que se inscriben en la plataforma para responder esas dudas (y ganarse a ese cliente). Para ambos grupos de usuarios generamos una batería de tareas que nos permitiera testear con ellos la facilidad de uso de la interfaz. Además, agregamos una serie de preguntas para poder entender cómo es su relación con Internet.",
+			"image": "./../../assets/images/cases/lexdir/image-2.jpg"
 		},
 		{
-			"title": "Cómo lo hicimos",
-			"description": "Comenzamos el proyecto...",
-			"image": "./../../assets/images/cases/cabecera-caso-charco.jpg"
+			"col_content": "col-xs-12 col-sm-6",
+			"col_image": "col-xs-12 col-sm-6",
+			"title": "¿Cómo lo hicimos?",
+			"description": "Comenzamos el proyecto haciendo una ronda de 30 tests de usuarios a clientes finales y abogados que no conocían el sitio, para observar si lograban entender de que se trataba el sitio y cómo utilizarlo. <br/><br/> De estas pruebas, rescatamos mucha información relevante que nos permitió develar aquellos puntos en los que los usuarios estaban teniendo problemas. Clasificamos dicha información en tres grupos, dependiendo del grado de esfuerzo que requeriría corregir el problema, ademñas de asignarles un grado de relevancia, según lo que pudimos observar en las pruebas de usuarios.<br/><br/> Para abordar las mejoras en el sitio, optamos por una metodología basada en interacciones cortas (sprints), donde dividimos los entregables por secciones. Trabajamos solo en una sección, hasta poder realizar las mejoras y subirla a producción.",
+			"image": "./../../assets/images/cases/lexdir/image-3.jpg"
 		}
 	],
 
@@ -43,13 +47,13 @@
 		"title": "¿Cuál fue nuestro entregable?",
 		"steps": [
 			{
-				"description": "Una vez que terminamoms",
-				"preview": "./../../assets/images/cases/caso-lexdir-4.png",
+				"description": "Una vez que terminamos el proceso de entrevistas con los usuarios, tabulamos los resultados y entregamos un informe de descubrimientos, que nos sirvió como base para poder priorizar, junto al equipo del cliente, las mejoras a realizar dentro del sitio.",
+				"preview": "./../../assets/images/cases/lexdir/image-4.png",
 				"title": ""
 			},
 			{
-				"description": "Luego de eso aplicamos",
-				"preview": "./../../assets/images/cases/caso-lexdir-5.jpg",
+				"description": "Luego de eso, aplicamos los cambios propuestos a wireframes de alta definición que guiaran el trabajo del equipo de diseño y desarrollo. Una vez entregados los wireframes, seguimos en contacto con el equipo de desarrollo para ir acompañando el proceso hasta que las mejoras llegan a los usuarios finales.",
+				"preview": "./../../assets/images/cases/lexdir/image-5.png",
 				"title": ""
 			}
 		]
