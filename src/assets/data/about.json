@@ -64,37 +64,37 @@
 	],
 	"methodologies": [
 		{
-			"icon": "./../../assets/images/about/ear.png",
+			"icon": "icon-ear",
 			"title": "I. Escuchamos",
 			"description": "Sabemos que eres el que más conoce de tu negocio, y creemos que un buen diseño depende de entender dónde tu proyecto está parado en este momento, hacia donde quieres llegar y cómo podemos ayudarte a llegar ahí. Tu hablas, nosotros escuchamos y compartimos lo que sabemos. En esta etapa nos dedicamos a recopilar información sobre tu negocio, tus clientes y tus competidores."
 		},
 		{
-			"icon": "./../../assets/images/about/calendar.png",
+			"icon": "icon-planificar",
 			"title": "II. Planificamos",
 			"description": "Aquí comienzan a tomar forma las ideas. Lo que parten como dibujos en un cuaderno terminan siendo mapas y wireframes que detallan la estructura y contenidos de tu proyecto. Esto nos ayudará a visualizar el enlace y servirán como guía para el resto del proceso. Con esto claro planificamos los entregables y los tiempos de desarrollo."
 		},
 		{
-			"icon": "./../../assets/images/about/pencil_ruler.png",
+			"icon": "icon-pencil",
 			"title": "III. Diseñamos",
 			"description": "Donde la magia comienza. Diseñamos con cariño y oficio las pantallas que forman parte del proyecto y creamos los mockups interactivos que nos servirán para testear nuestra interfaz con tus usuarios y ver si cumplen con los objetivos que nos propusimos."
 		},
 		{
-			"icon": "./../../assets/images/about/clock.png",
+			"icon": "icon-clock",
 			"title": "IV. Testeamos",
 			"description": "Parte fundamental de nuestro proceso de diseño. Aquí le mostramos las pantallas a tus usuarios y les pedimos que hagan ciertas tareas dentro de la interfaz para probar si vamos por Buen Camino. Una vez que tenemos los resultados de los tests, corregimos lo que haya que corregir y seguimos adelante."
 		},
 		{
-			"icon": "./../../assets/images/about/dev.png",
+			"icon": "icon-build",
 			"title": "V. Construimos",
 			"description": "HTML, CSS, JS... Nos especializamos en la parte front-end del desarrollo. Aquí los diseños toman vida. Aparecen las vistas responsivas, las animaciones y todas las secciones se llenan del contenido que tendrá tu proyecto una vez que lo lancemos"
 		},
 		{
-			"icon": "./../../assets/images/about/launch.png",
+			"icon": "icon-launch",
 			"title": "VI. Lanzamos",
 			"description": "Antes que llegue el día de mostrar nuestra creación al mundo, hay mucho trabajo que hacer para asegurarse de que todo ande tiquitaca. Desde la configuración de Analytics hasta la capacitación de tu equipo para que puedan administrar el sitio de manera autónoma."
 		},
 		{
-			"icon": "./../../assets/images/about/metrics.png",
+			"icon": "icon-metrics",
 			"title": "VII. Medimos y Refinamos",
 			"description": "El lanzamiento de un proyecto es solo el inicio de la aventura. Constantemente hay que ir monitoreando las estadísticas de uso del sitio para detectar fugas de usuarios o posibilidades de mejora. Durante esta etapa estaremos a tu lado proponiendo mejoras y ayudándote con las dudas que tengas."
 		}
