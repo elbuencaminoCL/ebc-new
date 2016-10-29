@@ -2,37 +2,32 @@
 	"menu": [
 		{
 			"link": "consulting",
-			"image": "./../../assets/images/home/target.png",
-			"image_hover": "./../../assets/images/home/target-white.png",
-			"service": "Consultoría",
+			"icon_class": "icon-consulting",
+			"service": "Estrategía digital",
 			"service_br": ""
 		},
 		{
 			"link": "design",
-			"image": "./../../assets/images/home/design.png",
-			"image_hover": "./../../assets/images/home/design-white.png",
-			"service": "Diseño",
+			"icon_class": "icon-design",
+			"service": "Diseño UX/UI",
 			"service_br": ""
 		},
 		{
 			"link": "usability",
-			"image": "./../../assets/images/home/devices.png",
-			"image_hover": "./../../assets/images/home/devices-white.png",
-			"service": "Usabilidad",
+			"icon_class": "icon-devices",
+			"service": "Investigación con usuarios",
 			"service_br": ""
 		},
 		{
 			"link": "digital",
-			"image": "./../../assets/images/home/microphone.png",
-			"image_hover": "./../../assets/images/home/microphone-white.png",
-			"service": "Contenidos",
-			"service_br": "Digitales"
+			"icon_class": "icon-metrics",
+			"service": "Desarrollo Front-end",
+			"service_br": ""
 		},
 		{
 			"link": "metrics",
-			"image": "./../../assets/images/home/data.png",
-			"image_hover": "./../../assets/images/home/data-white.png",
-			"service": "Métricas",
+			"icon_class": "icon-micro",
+			"service": "Comunicación y RR.SS.",
 			"service_br": ""
 		}
 	],

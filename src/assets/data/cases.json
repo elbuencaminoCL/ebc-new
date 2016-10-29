@@ -62,13 +62,15 @@
 				},
 
 				{
-					"bg": "./../../assets/images/cases/cabecera-caso-uc-mobile.jpg",
-					"logo": "./../../assets/images/cases/logo-caso-uc.png",
-					"name": "Pontifica Universidad de Chile",
-					"slug": "pontifica-universidad-de-chile",
-					"work": "Test de Usuario Sitio Móvil",
+					"bg": "./../../assets/images/cases/cabecera-caso-lexdir.jpg",
+					"logo": "./../../assets/images/cases/logo-caso-lexdir.png",
+					"name": "Lexdir",
+					"slug": "lexdir",
+					"work": "Test de usuarios y mejoras en pantallas",
 					"class": "col-xs-12 col-sm-4"
 				}
+
+
 			]
 		},
 		{
@@ -87,23 +89,6 @@
 		{
 			"template": "second",
 			"rows": [
-				{
-					"bg": "./../../assets/images/cases/cabecera-caso-lexdir.jpg",
-					"logo": "./../../assets/images/cases/logo-caso-lexdir.png",
-					"name": "Lexdir",
-					"slug": "lexdir",
-					"work": "Test de usuarios y mejoras en pantallas",
-					"class": "col-xs-12 col-sm-4"
-				},
-
-				{
-					"bg": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-					"logo": "./../../assets/images/cases/logo-caso-charco.png",
-					"name": "Charco",
-					"slug": "charco",
-					"work": "Test de usuarios y mejoras en pantallas",
-					"class": "col-xs-12 col-sm-4"
-				},
 
 				{
 					"bg": "./../../assets/images/cases/cabecera-caso-santander-rio.jpg",
@@ -112,19 +97,6 @@
 					"slug": "santander-rio",
 					"work": "Test de usuarios y mejoras en pantallas",
 					"class": "col-xs-12 col-sm-4"
-				}
-			]
-		},
-		{
-			"template": "fourth",
-			"rows": [
-				{
-					"bg": "./../../assets/images/cases/cabecera-caso-colegios.jpg",
-					"logo": "./../../assets/images/cases/logo-caso-colegios.png",
-					"name": "Colegios Domingo Santa María",
-					"slug": "colegios-domingo-santa-maria",
-					"work": "Rediseño Presencia Online",
-					"class": "col-xs-12 col-sm-6"
 				}
 			]
 		}
