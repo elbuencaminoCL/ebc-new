@@ -46,9 +46,9 @@
 				{
 					"bg": "./../../assets/images/cases/cabecera-caso-mi-embarazo.jpg",
 					"logo": "./../../assets/images/cases/logo-caso-espera.png",
-					"name": "Mi Espera",
-					"slug": "mi-espera",
-					"work": "Diseño de interfaz",
+					"name": "App de embarazo",
+					"slug": "app-embarazo",
+					"work": "Diseño de app",
 					"class": "col-xs-12 col-sm-4"
 				},
 

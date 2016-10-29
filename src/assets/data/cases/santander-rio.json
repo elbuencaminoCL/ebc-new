@@ -1,82 +1,77 @@
 {
 	"template": "complex",
-	"name": "Terral Hotel & Spa",
+	"name": "Santander Río",
 	"logo": "",
-	"bg": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-	"slug": "lexdir",
+	"bg": "./../../assets/images/cases/santander/banner.jpg",
+	"slug": "santander-rio",
 	"categories": [
-		"Rediseño web",
-		"Estrategia de Contenidos Digitales"
+		"Arquitectura de información y Testeo de pantallas"
 	],
 	"situation": {
-		"description": "El Valle de elqui en la ciudad de vicuña, Chile es conocido mundialmente por sus impresionables cielos estrellados. En el centro de este valle se encuentra el hotel y Spa Terral, único hotel de 4 estrellas de la zona. Pese a su inmejorable ubicación y oferta de servicios, la presencia online de este hotel estaba muy dejada. Los dueños del hotel, consciente de ello, nos contactaron para que los ayudaremos a crear un sitio que les permitiera transmitir la vibra y onda de Terral además de reservar y pagar las habitaciones online.",
-		"image": "./../../assets/images/cases/cabecera-caso-charco.jpg",
+		"description": "Santander Río es uno de los bancos más grandes e importantes de Argentina. Tienen más de<br/> 2.500.000 de clientes activos y más de 300 sucursales repartidas por todo el territorio. A fines<br/> del 2011, la agencia de publicidad Mundo Buenos Aires nos contactó para que los ayudáramos a<br/> pensar y desarrollar el proyecto de rediseño del banco.",
+		"image": "./../../assets/images/cases/santander/image-1.png",
 		"title": "La situación"
 	},
 	"works": {
-		"title": "Lo que hicimos",
+		"title": "¿Qué hicimos con ellos?",
 		"list": [
 			{
-				"image": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-				"title": "Diseño"
+				"image": "./../../assets/images/cases/test-triangle.png",
+				"title": "Test de usuarios"
 			},
 			{
-				"image": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-				"title": "Desarrollo wordpress"
-			},
-			{
-				"image": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-				"title": "Landing de campañas"
-			},
-			{
-				"image": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-				"title": "Administración de Redes sociales"
+				"image": "./../../assets/images/cases/ux-triangle.png",
+				"title": "Mejoras de UX"
 			}
 		]
 	},
-	"slides": [
+	"items": [
 		{
-			"image": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-			"title": "Diseño UX/UI"
+			"col_content": "col-xs-12 col-sm-6",
+			"col_image": "col-xs-12 col-sm-6",
+			"title": "El punto de partida",
+			"description": "El anterior sitio del banco, que estaba en línea desde mediados del 2007, presentaba muchos problemas de usabilidad, relacionados con la poca jerarquía de contenidos a la hora de buscar productos. Además, la tecnología utilizada estaba obsoleta, generando muchos dolores de cabeza al momento de agregar nuevo contenido o actualizar los ya existentes.",
+			"image": "./../../assets/images/cases/santander/image-2.jpg"
 		}
 	],
 	"deliverable": {
 		"title": "¿Cuál fue nuestro entregable?",
 		"steps": [
 			{
-				"btn": "Visitar sitio web",
-				"description": "Construimos un theme de wordpress responsive exclusivo para ellos",
-				"image": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-				"link": "https://facebook.com",
-				"preview": "./../../assets/images/cases/cabecera-caso-charco.jpg",
-				"title": "Prebooking"
+				"description": "<strong>Estructura.</strong> Definimos un nuevo árbol de navegación, ayudándonos con la técnica de card sorting, para definir, en conjunto con el cliente y los usuarios, la mejor manera de ordenar el contenido del sitio.",
+				"image": "./../../assets/images/cases/santander/image-3.png"
 			},
 			{
-				"title": "Sesiones fotográficas",
-				"description": "Construimos un theme de wordpress responsive exclusivo para ellos",
-				"preview": "./../../assets/images/cases/cabecera-caso-charco.jpg"
-			},
-			{
-				"title": "Facebook Page",
-				"description": "Tomamos el control de la página de Facebook",
-				"preview": "./../../assets/images/cases/cabecera-caso-charco.jpg"
-			},
-			{
-				"title": "Tótem de Autoatención",
-				"description": "Una vez que la persona",
-				"preview": "./../../assets/images/cases/cabecera-caso-charco.jpg"
-			},
-			{
-				"title": "Landing Pages",
-				"description": "Segmentamos, planificamos",
-				"images": [
-					"./../../assets/images/cases/cabecera-caso-charco.jpg",
-					"./../../assets/images/cases/cabecera-caso-charco.jpg",
-					"./../../assets/images/cases/cabecera-caso-charco.jpg"
+				"description": "<strong>Wireframes.</strong> Prototipamos los templates necesarios para todas las páginas del sitio. Dividimos el trabajo en dos partes.",
+				"section": [
+					{
+						"col_class": "col-xs-12 col-sm-6",
+						"description": "<strong>Prototipado:</strong> Creamos veintitrés plantillas con distintas características, para utilizarse en las diversas páginas del sitio. Dibujamos y detallamos todos los estados de los distintos módulos que componen el sitio, y con ello construimos un prototipo navegable para testear con usuarios, y luego validar con las distintas instancias del banco.",
+						"image": "./../../assets/images/cases/santander/image-4.png"
+					},
+					{
+
+						"col_class": "col-xs-12 col-sm-6",
+						"description": "<strong>Boceteado:</strong> A mano alzada con el cliente. Nos sirve para aunar criterios y nos permite visualizar los distintos elementos de la interfaz. Son bosquejos sin detalle, que buscan explicar rápidamente una idea, para explorarla o desecharla, sin invertir tiempo en pequeños pormenores.",
+						"image": "./../../assets/images/cases/santander/image-4.png"
+					}
 				]
+			},
+			{
+				"description": "<strong>Testeo.</strong> Testeamos los nuevos mockups con usuarios, para corregirlos antes de pasar a su desarrollo. Para ello, entrevistamos a clientes y no clientes del banco con distintos niveles de destreza tecnológica. Les mostramos los bocetos y maquetas, y les pedimos que completaran una serie de tareas definidas con antelación.",
+				"preview": "./../../assets/images/cases/santander/image-5.png"
+			},
+			{
+				"description": "<strong>Diseño.</strong> Supervisamos el proceso de diseño de interfaz a cargo de la Agencia Ego para asegurarnos que se respetaran las directrices y jerarquías definidas en la Arquitectura de Información del sitio."
+			},
+			{
+				"description": "<strong>Desarrollo de plantillas e integración con CMS.</strong> Con ayuda de nuestros amigos de Deletec Construimos el HTML, CSS y JavaScript de todas las plantillas del sitio y las integramos con el CMS IBM <em>WebSphere</em>."
+			},
+			{
+				"description": "<strong>Poblamiento de contenidos.</strong> Supervisamos la redacción y corrección de los contenidos de todo el sitio a cargo de la Agencia Soup y luego poblamos el nuevo sitio con los contenidos generados."
 			}
 		]
 	},
-	"footer_title": "¿Te interesa comenzar a vender online?"
+	"footer_title": "¿También te gustaría rediseñar tu sitio corporativo?"
 
 }
