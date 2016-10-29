@@ -16,12 +16,16 @@
 		"title": "¿Qué hicimos con ellos?",
 		"list": [
 			{
-				"image": "./../../assets/images/cases/test-triangle.png",
-				"title": "Test de Usuarios"
+				"image": "./../../assets/images/cases/consultoria-triangle.png",
+				"title": "Conceptualización de la App"
 			},
 			{
-				"image": "./../../assets/images/cases/ux-triangle.png",
-				"title": "Mejoras de UX"
+				"image": "./../../assets/images/cases/design-triangle.png",
+				"title": "Arquitectura y diseño de interfaz"
+			},
+			{
+				"image": "./../../assets/images/cases/desarrollo-triangle.png",
+				"title": "Levantamiento de requerimientos técnicos"
 			}
 		]
 	},
