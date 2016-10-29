@@ -5,35 +5,35 @@
 			"template": "first",
 			"rows": [
 				{
-					"class": "col-sm-6",
+					"class": "col-sm-7",
 					"cols": [
 						{
-							"bg": "./../../assets/images/cases/cabecera-caso-metlife-uc.jpg",
+							"bg": "./../../assets/images/cases/casos-index-metlife-uc.jpg",
 							"logo": "./../../assets/images/cases/logo-caso-metlife.png",
 							"name": "Metlife",
-							"slug": "metlife",
+							"slug": "metlife-compra-seguro-online",
 							"work": "Diseño flujo de compra Seguro Online"
 						}
 
 					]
 				},
 				{
-					"class": "col-sm-6",
+					"class": "col-sm-5",
 					"cols": [
 						{
-							"bg": "./../../assets/images/cases/cabecera-caso-terral.jpg",
-							"logo": "./../../assets/images/cases/logo-caso-terral.png",
-							"name": "Terral",
-							"slug": "terral",
-							"work": "Rediseño de presencia online"
+							"bg": "./../../assets/images/cases/casos-index-embarazo.jpg",
+							"logo": "./../../assets/images/cases/logo-caso-espera.png",
+							"name": "App de embarazo",
+							"slug": "diseno-app-embarazo",
+							"work": "Diseño de app"
 						},
 
 						{
-							"bg": "./../../assets/images/cases/cabecera-caso-metlife-totem.jpg",
-							"logo": "./../../assets/images/cases/logo-caso-metlife.png",
-							"name": "Metlife",
-							"slug": "metlife-2",
-							"work": "Diseño tótem de autoatención"
+							"bg": "./../../assets/images/cases/casos-index-santander.jpg",
+							"logo": "./../../assets/images/cases/logo-caso-santander.png",
+							"name": "Santander Río",
+							"slug": "santander-rio-rediseno-sitio-corporativo",
+							"work": "Test de usuarios y mejoras en pantallas"
 						}
 					]
 
@@ -44,59 +44,53 @@
 			"template": "second",
 			"rows": [
 				{
-					"bg": "./../../assets/images/cases/cabecera-caso-mi-embarazo.jpg",
-					"logo": "./../../assets/images/cases/logo-caso-espera.png",
-					"name": "App de embarazo",
-					"slug": "app-embarazo",
-					"work": "Diseño de app",
+					"bg": "./../../assets/images/cases/casos-index-terral.jpg",
+					"logo": "./../../assets/images/cases/logo-caso-terral.png",
+					"name": "Terral",
+					"slug": "diseno-hotel-terral",
+					"work": "Rediseño de presencia online",
 					"class": "col-xs-12 col-sm-4"
 				},
 
 				{
-					"bg": "./../../assets/images/cases/cabecera-caso-rail-europe.jpg",
-					"logo": "./../../assets/images/cases/logo-caso-raileurope.png",
-					"name": "Rail Europe",
-					"slug": "rail-europe",
-					"work": "Investigación con usuarios",
+					"bg": "./../../assets/images/cases/casos-index-hoyts.jpg",
+					"logo": "./../../assets/images/cases/logo-caso-hoyts.png",
+					"name": "Cine Hoyts",
+					"slug": "cine-hoyts-diseno-flujo-compra",
+					"work": "Flujo de compra Online",
 					"class": "col-xs-12 col-sm-4"
 				},
 
 				{
-					"bg": "./../../assets/images/cases/cabecera-caso-lexdir.jpg",
+					"bg": "./../../assets/images/cases/casos-index-lexdir.jpg",
 					"logo": "./../../assets/images/cases/logo-caso-lexdir.png",
 					"name": "Lexdir",
-					"slug": "lexdir",
+					"slug": "lexdir-investigacion-con-usuarios",
 					"work": "Test de usuarios y mejoras en pantallas",
 					"class": "col-xs-12 col-sm-4"
 				}
 
 
-			]
-		},
-		{
-			"template": "third",
-			"rows": [
-				{
-					"bg": "./../../assets/images/cases/cabecera-caso-hoyts.jpg",
-					"logo": "./../../assets/images/cases/logo-caso-hoyts.png",
-					"name": "Cine Hoyts",
-					"slug": "cine-hoyts",
-					"work": "Flujo de compra Online",
-					"class": "col-xs-12"
-				}
 			]
 		},
 		{
 			"template": "second",
 			"rows": [
-
 				{
-					"bg": "./../../assets/images/cases/cabecera-caso-santander-rio.jpg",
-					"logo": "./../../assets/images/cases/logo-caso-santander.png",
-					"name": "Santander Río",
-					"slug": "santander-rio",
-					"work": "Test de usuarios y mejoras en pantallas",
-					"class": "col-xs-12 col-sm-4"
+					"class": "col-sm-6",
+					"bg": "./../../assets/images/cases/casos-index-raileurope.jpg",
+					"logo": "./../../assets/images/cases/logo-caso-raileurope.png",
+					"name": "Rail Europe",
+					"slug": "rail-europe-investigacion-con-usuarios",
+					"work": "Investigación con usuarios y propuesta de diseño"
+				},
+				{	"bg": "./../../assets/images/cases/casos-index-totem-metlife.jpg",
+					"logo": "./../../assets/images/cases/logo-caso-metlife.png",
+					"name": "Metlife-totem",
+					"slug": "metlife-totem-autoatencion",
+					"work": "Diseño tótem de autoatención",
+					"class": "col-sm-6"
+					
 				}
 			]
 		}

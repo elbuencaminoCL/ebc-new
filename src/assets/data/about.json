@@ -3,35 +3,35 @@
 		{
 			"pic": "./../../assets/images/about/claudio_merino.jpg",
 			"name": "Claudio Merino",
-			"position": "Diseñador UX",
+			"position": "Director de Ux",
 			"twitter": "claudio_merino",
 			"linkedin": "claudio_merino",
 			"pic_dir": "left"
 		},
 		{
-			"pic": "./../../assets/images/about/valeria_ceron.jpg",
-			"name": "Valería Cerón",
-			"position": "Diseñadora UX",
+			"pic": "./../../assets/images/about/martin_merino.jpg",
+			"name": "Martín Merino",
+			"position": "Director de Diseño",
 			"twitter": "claudio_merino",
 			"pic_dir": "left"
 		},
 		{
-			"pic": "./../../assets/images/about/randy_bazan.jpg",
+			"pic": "./../../assets/images/about/zara_campagnon.jpg",
+			"name": "Zara Campagnon",
+			"position": "Diseñadora de interfaces",
+			"twitter": "claudio_merino",
+			"linkedin": "claudio_merino",
+			"pic_dir": "right"
+		},
+		{
+			"pic": "./../../assets/images/about/jair_garcia.jpg",
 			"name": "Jair Garcia",
-			"position": "Desarrollador Web",
+			"position": "Desarrollador Front-end",
 			"linkedin": "claudio_merino",
 			"pic_dir": "right"
 		},
 		{
-			"pic": "./../../assets/images/about/valeria_ceron.jpg",
-			"name": "Jadra Campaña",
-			"position": "Diseño UI",
-			"twitter": "claudio_merino",
-			"linkedin": "claudio_merino",
-			"pic_dir": "right"
-		},
-		{
-			"pic": "./../../assets/images/about/randy_bazan.jpg",
+			"pic": "./../../assets/images/about/juanjo_vargas.jpg",
 			"name": "Juanjo Vargas",
 			"position": "Contenidos Digitales",
 			"twitter": "claudio_merino",
@@ -39,20 +39,12 @@
 			"pic_dir": "left"
 		},
 		{
-			"pic": "./../../assets/images/about/randy_bazan.jpg",
-			"name": "Martín Merino",
-			"position": "Diseñador Gráfico",
-			"twitter": "claudio_merino",
-			"linkedin": "claudio_merino",
-			"pic_dir": "left"
-		},
-		{
-			"pic": "./../../assets/images/about/valeria_ceron.jpg",
+			"pic": "./../../assets/images/about/maria_egea.jpg",
 			"name": "Maria Egea",
 			"position": "Productora Audiovisual",
 			"twitter": "claudio_merino",
 			"linkedin": "claudio_merino",
-			"pic_dir": "right"
+			"pic_dir": "left"
 		},
 		{
 			"pic": "./../../assets/images/about/we_want_you.jpg",
