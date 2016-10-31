@@ -17,12 +17,16 @@
 		"title": "¿Qué hicimos con ellos?",
 		"list": [
 			{
-				"image": "./../../assets/images/cases/ux-triangle.png",
-				"title": "Consultoría: <br/>Benchmark"
+				"image": "./../../assets/images/cases/consultoria-triangle.png",
+				"title": "Consultoría: <br/>Benchmark de competidores"
 			},
 			{
 				"image": "./../../assets/images/cases/test-triangle.png",
-				"title": "Test de Usuarios"
+				"title": "Test de usuarios, Focus Group"
+			},
+			{
+				"image": "./../../assets/images/cases/design-triangle.png",
+				"title": "Arquitectura de Información, Propuesta de diseño"
 			}
 		]
 	},
@@ -62,11 +66,11 @@
 			},
 			{
 				"description": "Una propuesta de <em>wireframes</em> para diseñar las principales pantallas del sitio.",
-				"image": "./../../assets/images/cases/rail-europe/image-6.png"
+				"image": "./../../assets/images/cases/rail-europe/image-7.png"
 			},
 			{
-				"description": "Una propuesta de diseño a cargo de nuestros amigos de <a href='http://www.deleteagency.com/' target='_blank'>DeleteC</a>",
-				"image": "./../../assets/images/cases/rail-europe/image-6.png"
+				"description": "Una propuesta de diseño a cargo de nuestros amigos de <a href='http://www.deletec.info/' target='_blank'>DeleteC</a>",
+				"image": "./../../assets/images/cases/rail-europe/image-8.png"
 			}
 		]
 	},
