@@ -20,7 +20,7 @@
 		},
 		{
 			"link": "digital",
-			"icon_class": "icon-metrics",
+			"icon_class": "icon-front",
 			"service": "Desarrollo Front-end",
 			"service_br": ""
 		},
@@ -36,9 +36,9 @@
 			"id": "consulting",
 			"icon": "./../../assets/images/home/target.png",
 			"icon_alt": "Imagen",
-			"image": "./../../assets/images/services/image1.png",
+			"image": "./../../assets/images/services/image1.jpg",
 			"image_alt": "Imagen",
-			"title": "Consultoría",
+			"title": "Estrategia Digital",
 			"intro": "Analizamos tu negocio y las necesidades de tus usuarios, aportando nuevas ideas y soluciones para enfocar tus esfuerzos digitales mejorando así tus resultados de negocio.",
 			"features_title": "¿Qué podríamos hacer juntos?",
 			"features": [
@@ -55,14 +55,14 @@
 					"link": "services"
 				}
 			],
-			"works_title": "Esto hemos hecho en consultoría",
+			"works_title": "Esto hemos hecho en Estrategia Digital",
 			"works": [
 				{
-					"description": "Investigación con usuarios Rail Europe",
+					"description": "Santander Río, Rediseño de sitio corporativo",
 					"link": "services"
 				},
 				{
-					"description": "Consultoría rediseño Megaclub",
+					"description": "Metlife, diseño de flujo de contratación",
 					"link": "services"
 				}
 			]
@@ -72,26 +72,29 @@
 			"id": "design",
 			"icon": "./../../assets/images/home/target.png",
 			"icon_alt": "Imagen",
-			"image": "./../../assets/images/services/image1.png",
+			"image": "./../../assets/images/services/image2.png",
 			"image_alt": "Imagen",
-			"title": "Diseño",
+			"title": "Diseño UI/Ux",
 			"intro": "El diseño es la pieza clave en la presencia digital. Es lo que diferencia. Ponemos un cariño especial para conseguir diseños atractivos, memorables y orientados al negocio. Diseños pensados desde el móvil y la Web, dise&ntlde;os nativos al medio.",
 			"features_title": "¿Qué podríamos hacer juntos?",
 			"features": [
 				{
-					"description": "Diseñar tu sitio Web."
+					"description": "Arquitectura de Información."
 				},
 				{
-					"description": "Diseño de landings de campañas."
+					"description": "Documentación y guías de estilo."
 				},
 				{
-					"description": "Diseño de tu aplicación móvil."
+					"description": "Partituras de interacción."
+				},
+				{
+					"description": "Mapeo y flujos de usuario."
 				}
 			],
-			"works_title": "Esto hemos hecho en consultoría",
+			"works_title": "Esto hemos hecho en Diseño",
 			"works": [
 				{
-					"description": "Diseño flujo contratación Seguros Metlife",
+					"description": "Diseño Hoyts.cl",
 					"link": "services"
 				},
 				{
@@ -105,9 +108,9 @@
 			"id": "usability",
 			"icon": "./../../assets/images/home/target.png",
 			"icon_alt": "Imagen",
-			"image": "./../../assets/images/services/image1.png",
+			"image": "./../../assets/images/services/image3.png",
 			"image_alt": "Imagen",
-			"title": "Usabilidad",
+			"title": "Investigación con usuarios",
 			"intro": "Evaluamos interfaces interactivas y estudiamos el comportamiento de las personas para tomar decisiones de diseño. La usabilidad de un sitio web, intranet o sistema, es la medida que evalúa la facilidad de ser usado, aprendido y comprendido por el usuario.",
 			"features_title": "¿Qué podríamos hacer juntos?",
 			"features": [
@@ -119,12 +122,15 @@
 				},
 				{
 					"description": "Focus Groups."
+				},
+				{
+					"description": "Encuestas."
 				}
 			],
-			"works_title": "Esto hemos hecho en consultoría",
+			"works_title": "Esto hemos hecho en Investigación con usuarios",
 			"works": [
 				{
-					"description": "Inv. con usuarios Rail Europe",
+					"description": "Investigación con usuarios Rail Europe",
 					"link": "services"
 				},
 				{
@@ -132,7 +138,7 @@
 					"link": "services"
 				},
 				{
-					"description": "Test de usuarios UC",
+					"description": "Test de usuarios Metlife Tótem Autoatención",
 					"link": "services"
 				},
 				{
@@ -146,30 +152,36 @@
 			"id": "digital",
 			"icon": "./../../assets/images/home/target.png",
 			"icon_alt": "Imagen",
-			"image": "./../../assets/images/services/image1.png",
+			"image": "./../../assets/images/services/image4.png",
 			"image_alt": "Imagen",
-			"title": "Contenidos Digitales",
-			"intro": "En internet hay que contar historias relevantes e interesantes. Tenemos especialistas en redacción y creación de estrategias de contenido, guionistas, realizadores de vídeo y dinamizadores en redes sociales, para conseguir que lo que contamos sea visto, oído y leído.",
+			"title": "Desarrollo Front-end",
+			"intro": "Nos gusta construir lo que diseñamos. Es por eso que tenemos un equipo de desarrolladores que nos permite darle vida a tus proyectos y poder entregarte los sitios listos para utilizar. HTML, CSS, JS, NODE... Nos especializamos en la parte front-end del desarrollo.",
 			"features_title": "¿Qué podríamos hacer juntos?",
 			"features": [
 				{
-					"description": "Crear landing pages para tus campañas."
+					"description": "Diseño y desarrollo de sitios Autoadministrables."
 				},
 				{
-					"description": "Llevar las redes sociales de tu empresa."
+					"description": "Diseño y desarrollo de Apps móviles."
 				},
 				{
-					"description": "Creación de textos, vídeos y fotografías para tu Web."
+					"description": "Diseño y desarrollo de módulos de autoatención"
+				},
+				{
+					"description": "Diseño y desarrollo de sitios E-commerce"
+				},
+				{
+					"description": "Desarrollo Front-end"
 				}
 			],
-			"works_title": "Esto hemos hecho en consultoría",
+			"works_title": "Esto hemos hecho en Diseño y desarrollo web",
 			"works": [
 				{
-					"description": "Hotel Terral. Contenidos Web.",
+					"description": "Hotel Terral. Diseño de tienda en línea.",
 					"link": "services"
 				},
 				{
-					"description": "Patagonia. Landing pages Ecommerce",
+					"description": "Cine Hoyts, Desarrollo e integración con .Net",
 					"link": "services"
 				}
 			]
@@ -179,23 +191,30 @@
 			"id": "metrics",
 			"icon": "./../../assets/images/home/target.png",
 			"icon_alt": "Imagen",
-			"image": "./../../assets/images/services/image1.png",
+			"image": "./../../assets/images/services/image5.png",
 			"image_alt": "Imagen",
-			"title": "Métricas",
-			"intro": "Te asesoramos en medición online y técnicas de Web mining para que extraigas lo máximo de tu Web. En El Buen Camino podemos ayudarte a entender a tus visitas y a mejorar tus contenidos para que mejores tus objetivos de conversión.",
+			"title": "Contenidos Digitales",
+			"intro": "En internet hay que contar historias relevantes e interesantes. Tenemos especialistas en redacción y creación de estrategias de contenido, guionistas, realizadores de vídeo y dinamizadores en redes sociales, para conseguir que lo que contamos sea visto, oído y leído.",
 			"features_title": "¿Qué podríamos hacer juntos?",
 			"features": [
 				{
-					"description": "Analizar las métricas de tu sitio."
+					"description": "Diseño y envío de mailings."
 				},
 				{
-					"description": "Optimizar tus pantallas para mejorar los resultados."
+					"description": "Diseño de landing pages para tus campañas."
+				},
+				{
+					"description": "Llevar las redes sociales de tu empresa."
+				},
+				{
+					"description": "Creación de textos, videos y fotografías para tu web."
 				}
+
 			],
-			"works_title": "Esto hemos hecho en consultoría",
+			"works_title": "Esto hemos hecho en Contenidos digitales",
 			"works": [
 				{
-					"description": " Cine Hoyts. Rediseño Site.",
+					"description": "Hotel Terral. Contenidos Web",
 					"link": "services"
 				}
 			]
