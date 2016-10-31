@@ -17,37 +17,24 @@
 		"title": "Lo que hicimos",
 		"list": [
 			{
-				"image": "./../../assets/images/cases/ux-triangle.png",
-				"title": "Diseño"
+				"image": "./../../assets/images/cases/consultoria-triangle.png",
+				"title": "Digitalización de procesos"
 			},
 			{
 				"image": "./../../assets/images/cases/design-triangle.png",
-				"title": "Desarrollo wordpress"
+				"title": "Diseño sitio responsivo"
 			},
 			{
-				"image": "./../../assets/images/cases/landing-triangle.png",
-				"title": "Landing de campañas"
+				"image": "./../../assets/images/cases/design-triangle.png",
+				"title": "Diseño de Tótem de autoatención"
 			},
 			{
-				"image": "./../../assets/images/cases/social-triangle.png",
-				"title": "Administración de Redes sociales"
+				"image": "./../../assets/images/cases/contenidos-triangle.png",
+				"title": "Landing de campañas y Redes Sociales"
 			}
 		]
 	},
-	"slides": [
-		{
-			"image": "./../../assets/images/cases/terral/image-2.jpg",
-			"title": "Diseño UX/UI"
-		},
-		{
-			"image": "./../../assets/images/cases/terral/image-3.jpg",
-			"title": "Desarrollo"
-		},
-		{
-			"image": "./../../assets/images/cases/terral/image-5.jpg",
-			"title": "Diseño UX/UI"
-		}
-	],
+	
 	"deliverable": {
 		"title": "¿Cuál fue nuestro entregable?",
 		"steps": [
