@@ -16,7 +16,7 @@
 		</div>
 	</section>
 
-	<section id="sidebar" #sidebar class="sidebar hide-xs show-sm">
+	<section class="sidebar hide-xs show-sm">
 		<div class="sidebar__container u-container-3">
 			<aside class="sidebar__content">
 				<ul class="sidebar__list nav u-row center-xs middle-xs between-xs">
@@ -37,7 +37,7 @@
 	</section>
 
 
-	<section id="services" class="services" data-spy="scroll" data-target="#sidebar">
+	<section class="services">
 		<div class="services__container">
 			<section id="{{service.id}}" class="services__list u-row" *ngFor="let service of services">
 				<figure class="services__list__image col-sm-4 hide-xs show-sm">
@@ -54,9 +54,7 @@
 						<ul class="services__list__features">
 							<li class="services__list-item services__list__features-item" *ngFor="let feature of service.features">
 								<div class="services__list__link">
-									<a href="{{feature.link}}">
-										<span>{{feature.description}}</span>
-									</a>
+									<span>{{feature.description}}</span>
 								</div>
 							</li>
 						</ul>
@@ -64,7 +62,7 @@
 						<ul class="services__list__works u-row">
 							<li class="services__list-item col-xs-12 col-sm-6 services__list__works-item" *ngFor="let work of service.works">
 								<div class="services__list__link">
-									<a href="{{work.link}}">
+									<a routerLink="./../{{work.link}}">
 										<span>{{work.description}}</span>
 									</a>
 								</div>

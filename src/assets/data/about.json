@@ -4,6 +4,7 @@
 			"pic": "./../../assets/images/about/claudio_merino.jpg",
 			"name": "Claudio Merino",
 			"position": "Director de Ux",
+			"phrase": "Esta es mi frase",
 			"twitter": "claudio_merino",
 			"linkedin": "claudio_merino",
 			"pic_dir": "left"
@@ -12,6 +13,7 @@
 			"pic": "./../../assets/images/about/martin_merino.jpg",
 			"name": "Martín Merino",
 			"position": "Director de Diseño",
+			"phrase": "Esta es mi frase",
 			"twitter": "claudio_merino",
 			"pic_dir": "left"
 		},
@@ -19,6 +21,7 @@
 			"pic": "./../../assets/images/about/zara_campagnon.jpg",
 			"name": "Zara Campagnon",
 			"position": "Diseñadora de interfaces",
+			"phrase": "Esta es mi frase",
 			"twitter": "claudio_merino",
 			"linkedin": "claudio_merino",
 			"pic_dir": "right"
@@ -27,6 +30,7 @@
 			"pic": "./../../assets/images/about/jair_garcia.jpg",
 			"name": "Jair Garcia",
 			"position": "Desarrollador Front-end",
+			"phrase": "Esta es mi frase",
 			"linkedin": "claudio_merino",
 			"pic_dir": "right"
 		},
@@ -34,6 +38,7 @@
 			"pic": "./../../assets/images/about/juanjo_vargas.jpg",
 			"name": "Juanjo Vargas",
 			"position": "Contenidos Digitales",
+			"phrase": "Esta es mi frase",
 			"twitter": "claudio_merino",
 			"linkedin": "claudio_merino",
 			"pic_dir": "left"
@@ -42,6 +47,7 @@
 			"pic": "./../../assets/images/about/maria_egea.jpg",
 			"name": "Maria Egea",
 			"position": "Productora Audiovisual",
+			"phrase": "Esta es mi frase",
 			"twitter": "claudio_merino",
 			"linkedin": "claudio_merino",
 			"pic_dir": "left"

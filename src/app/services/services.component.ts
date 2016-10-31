@@ -17,9 +17,6 @@ export class ServicesComponent implements OnInit {
 
   ngOnInit() {
 
-    console.log( this.router );
-
-
     this.staticDataService.getData( 'services.json' )
       .subscribe(
         data => {
@@ -30,33 +27,10 @@ export class ServicesComponent implements OnInit {
         () => console.log( 'done' )
       );
 
-     let $sidebar = $( '#sidebar' );
-     let $services = $( '#services' );
-     const SCROLL_TOP = 500
-
-     $( window ).scroll( function () {
-       if( $(this).scrollTop() > SCROLL_TOP ) {
-         $sidebar.addClass( 'sticky' );
-         $services.addClass( 'sticky' );
-       } else {
-         $sidebar.removeClass( 'sticky' );
-         $services.removeClass( 'sticky' );
-       }
-     });
-
   }
 
   ngAfterViewInit() {
       window.scrollTo(0, 0);
-      $('[data-spy="scroll"]').each(function () {
-       let $spy = $(this).scrollspy('refresh')
-      })
-
-      $('body').scrollspy({
-       target: '#sidebar',
-       offset: 120
-      })
-
   }
 
 

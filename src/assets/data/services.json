@@ -20,7 +20,7 @@
 		},
 		{
 			"link": "digital",
-			"icon_class": "icon-front",
+			"icon_class": "icon-build",
 			"service": "Desarrollo Front-end",
 			"service_br": ""
 		},
@@ -44,26 +44,26 @@
 			"features": [
 				{
 					"description": "Consultoría en Experiencia de Usuario (Ux).",
-					"link": "services"
+					"link": ""
 				},
 				{
 					"description": "Benchmark de competidores.",
-					"link": "services"
+					"link": ""
 				},
 				{
 					"description": "Investigación Etnográfica.",
-					"link": "services"
+					"link": ""
 				}
 			],
 			"works_title": "Esto hemos hecho en Estrategia Digital",
 			"works": [
 				{
 					"description": "Santander Río, Rediseño de sitio corporativo",
-					"link": "services"
+					"link": "cases/santander-rio-rediseno-sitio-corporativo"
 				},
 				{
 					"description": "Metlife, diseño de flujo de contratación",
-					"link": "services"
+					"link": "cases/metlife-compra-seguro-online"
 				}
 			]
 		},
@@ -95,11 +95,11 @@
 			"works": [
 				{
 					"description": "Diseño Hoyts.cl",
-					"link": "services"
+					"link": "cases/cine-hoyts-diseno-flujo-compra"
 				},
 				{
 					"description": "Diseño de Hotel Terral",
-					"link": "services"
+					"link": "cases/diseno-hotel-terral"
 				}
 			]
 		},
@@ -131,19 +131,19 @@
 			"works": [
 				{
 					"description": "Investigación con usuarios Rail Europe",
-					"link": "services"
+					"link": "cases/rail-europe-investigacion-con-usuarios"
 				},
 				{
 					"description": "Focus Group Santander Río",
-					"link": "services"
+					"link": "cases/santander-rio-rediseno-sitio-corporativo"
 				},
 				{
 					"description": "Test de usuarios Metlife Tótem Autoatención",
-					"link": "services"
+					"link": "cases/metlife-totem-autoatencion"
 				},
 				{
 					"description": "Test de usuarios LexDir",
-					"link": "services"
+					"link": "cases/lexdir-investigacion-con-usuarios"
 				}
 			]
 		},
@@ -178,11 +178,11 @@
 			"works": [
 				{
 					"description": "Hotel Terral. Diseño de tienda en línea.",
-					"link": "services"
+					"link": "cases/diseno-hotel-terral"
 				},
 				{
 					"description": "Cine Hoyts, Desarrollo e integración con .Net",
-					"link": "services"
+					"link": "cases/cine-hoyts-diseno-flujo-compra"
 				}
 			]
 		},
@@ -215,7 +215,7 @@
 			"works": [
 				{
 					"description": "Hotel Terral. Contenidos Web",
-					"link": "services"
+					"link": "cases/diseno-hotel-terral"
 				}
 			]
 		}

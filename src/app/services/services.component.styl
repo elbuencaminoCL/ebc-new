@@ -1,8 +1,4 @@
 
-    .services__list__features
-    .services__list__works
-        padding 1rem 0 3rem
-
     .services__list__features-item
     .services__list__works-item
         margin-bottom 1rem
@@ -13,67 +9,6 @@
             border-bottom 1px solid white
             color white
             padding-bottom 4px
-
-    .sidebar
-        &.sticky
-            bottom 0
-            position fixed
-            right 0
-            top 0
-            z-index 1
-            .sidebar__container
-                height 100%
-                padding 0
-
-            .sidebar__content
-                height 100%
-
-            .sidebar__description
-                display none
-
-            .sidebar__image
-                align-items center
-                border 2px solid white
-                border-radius 50%
-                display flex
-                height 50px
-                justify-content center
-                vertical-align middle
-                width 50px
-                span
-                    color white
-                    font-size 25px
-
-            .sidebar__list
-                flex-direction column
-                height 100%
-                justify-content center
-                padding 67px 1.6rem 0 0
-
-            .sidebar__list-item
-                position relative
-                max-height 80px
-                max-width 50px
-                &.active
-                    &:before
-                        background-color #a3946d
-                    .sidebar__image
-                        border 2px solid #a3946d
-                        span
-                            color #a3946d
-
-                &:before
-                    background-color white
-                    bottom 0
-                    content ""
-                    position absolute
-                    right 25px
-                    top 50px
-                    width 2px
-                &:last-of-type
-                    &:before
-                        background-color transparent
-
 
     .sidebar__container
         padding 0 1.6rem
@@ -128,6 +63,10 @@
         img
             max-width 50px
 
+
+    .services__list__features
+        padding 1rem 0
+
     .services__list-item
         padding-right 1rem
 
@@ -154,13 +93,16 @@
             line-height 1.8
 
     .services__list__intro
-        padding 1rem 0 3rem
+        padding 1rem 0
 
     .sidebar__list-item
         padding-bottom 2rem
 
     .sidebar__list__link
         color #585858
+
+    .services__list__works
+        padding 1rem 0 0
 
     .services__list__works-item
         width 100%
@@ -172,8 +114,6 @@
 
         .services
             padding-top 96px
-            &.sticky
-                padding-top 241px
 
         .services__list
             &:nth-of-type( even )

@@ -31,12 +31,12 @@
 		</figure>
 
 
-		<section class="case__works" *ngIf="case.works">
+		<section class="case__works wow bounceInUp" *ngIf="case.works">
 			<div class="case__works__container u-container">
 				<h3 class="case__works__title border-title center-xs" *ngIf="case.works.title" [innerHTML]="case.works.title"></h3>
 				<ul class="case__works__list u-row center-xs">
 					<li class="case__works__list-item col-xs-6 col-sm-3" *ngFor="let worksList of case.works.list">
-						<figure class="case__works__list__image">
+						<figure class="case__works__list__image wow bounceInUp">
 							<img class="img-responsive" alt="..." src="{{worksList.image}}" />
 						</figure>
 						<h4 class="case__works__list__title center-xs text-lato" *ngIf="worksList.title" [innerHTML]="worksList.title"></h4>
@@ -45,7 +45,7 @@
 			</div>
 		</section>
 
-		<section class="case__wireframes" *ngIf="case.wireframes">
+		<section class="case__wireframes wow bounceInUp" *ngIf="case.wireframes">
 			<div class="case__wireframes__container u-container">
 				<h3 class="case__wireframes__title center-xs" *ngIf="case.wireframes.title" [innerHTML]="case.wireframes.title"></h3>
 				<figure class="case__wireframes__list__image">
@@ -54,7 +54,7 @@
 			</div>
 		</section>
 
-		<section class="case__interface" *ngIf="case.interface">
+		<section class="case__interface wow bounceInUp" *ngIf="case.interface">
 			<div class="case__interface__container u-container">
 				<h3 class="case__interface__title border-title center-xs" *ngIf="case.interface.title" [innerHTML]="case.interface.title"></h3>
 				<figure class="case__interface__list__image">
@@ -63,7 +63,7 @@
 			</div>
 		</section>
 
-		<section class="case__section" *ngIf="case.section">
+		<section class="case__section wow bounceInUp" *ngIf="case.section">
 			<div class="case__section__container u-container">
 				<div *ngIf="case.section_title">
 					<h3 class="case__interface__title border-title center-xs" [innerHTML]="case.section_title.title" *ngIf="case.section_title.title"></h3>
@@ -88,7 +88,7 @@
 
 		<section class="case__items" *ngIf="case.items">
 			<div class="case__items__container u-container">
-				<div class="case__items__row u-row center-xs start-sm {{item.v_align}}" *ngFor="let item of case.items">
+				<div class="case__items__row u-row center-xs start-sm {{item.v_align}} wow bounceInUp" *ngFor="let item of case.items">
 					<div class="case__items__content {{item.col_content}}">
 						<h3 class="case__items__content__title u-row middle-xs center-xs start-sm"><span [innerHTML]="item.title" *ngIf="item.title"></span> </h3>
 						<p class="case__items__content__description" *ngIf="item.description" [innerHTML]="item.description"></p>
@@ -100,7 +100,7 @@
 			</div>
 		</section>
 
-		<section class="carousel-case">
+		<section class="carousel-case slider wow bounceInUp">
 			<ngb-carousel *ngIf="case.slides">
 				<template ngbSlide *ngFor="let slide of case.slides; let i = item">
 					<img src="{{slide.image}}">
@@ -115,13 +115,13 @@
 		<section class="case__deliverable" *ngIf="case.deliverable">
 			<div class="case__deliverable__container u-container">
 				<h3 class="case__deliverable__title u-row middle-xs center-xs start-sm"><span *ngIf="case.deliverable.title" [innerHTML]="case.deliverable.title"></span> </h3>
-				<div class="case__deliverable__step" *ngFor="let step of case.deliverable.steps; let i=index">
+				<div class="case__deliverable__step wow bounceInUp" *ngFor="let step of case.deliverable.steps; let i=index">
 					<div class="case__deliverable__step__row u-row center-xs start-sm">
 						<h4 class="case__deliverable__step__number">{{i+1}}</h4>
 						<div class="case__deliverable__step__description"><h4 *ngIf="step.title" [innerHTML]="step.title"></h4><span *ngIf="step.description" [innerHTML]="step.description"></span></div>
 					</div>
 					<div *ngIf="step.section" class="u-row">
-						<div class="case__deliverable__step__section {{col.col_class}}" *ngFor="let col of step.section">
+						<div class="case__deliverable__step__section  wow bounceInUp {{col.col_class}}" *ngFor="let col of step.section">
 							<div class="case__deliverable__step__section__description"><span *ngIf="col.description" [innerHTML]="col.description"></span></div>
 							<figure class="case__deliverable__step__section__image center-xs" *ngIf="col.image">
 								<img src="{{col.image}}">
@@ -133,14 +133,14 @@
 							<p class="case__deliverable__step__list__description case__deliverable__step__description"><i class="fa fa-6 fa-long-arrow-right" aria-hidden="true"></i> <span *ngIf="list.description" [innerHTML]="list.description"></span></p>
 						</div>
 					</div>
-					<figure class="case__deliverable__step__image center-xs" *ngIf="step.preview">
+					<figure class="case__deliverable__step__image wow bounceInUp center-xs" *ngIf="step.preview">
 						<img src="{{step.preview}}">
 					</figure>
-					<figure class="case__deliverable__step__image center-xs" *ngIf="step.image">
+					<figure class="case__deliverable__step__image wow bounceInUp center-xs" *ngIf="step.image">
 						<img src="{{step.image}}">
 					</figure>
 					<div class="case__deliverable__step__image center-xs" *ngIf="step.images">
-						<figure *ngFor="let image of step.images">
+						<figure class=" wow bounceInUp" *ngFor="let image of step.images">
 							<img src="{{image}}">
 						</figure>
 					</div>
