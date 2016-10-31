@@ -76,19 +76,61 @@
 
 		<div class="navbar__container-sticky">
 			<div class="navbar__container-sticky__container u-container">
-				<figure class="navbar__figure-sticky col-xs-6">
-					<a class="navbar__link" routerLink="/" rel="nofollow">
-						<img width="150" height="35" alt="Logotipo El buen camino" src="./../../assets/images/global/logo3.png" />
-					</a>
-				</figure>
+				<div class="navbar__container-sticky__row u-row middle-xs">
+					<figure class="navbar__figure-sticky col-xs-6 col-sm-3">
+						<a class="navbar__link" routerLink="/" rel="nofollow">
+							<img alt="Logotipo El buen camino" src="./../../assets/images/global/logo3.png" />
+						</a>
+					</figure>
 
-				<div id="navToggleSticky" class="navbar__toggle u-row middle-xs smooth">
-					<p class="navbar__toggle__content">Cerrar</p>
-					<div class="navbar__toggle__menu">
-						<span class="top smooth"></span>
-						<span class="middle smooth"></span>
-						<span class="bottom smooth"></span>
+					<div id="navToggleSticky" class="navbar__toggle u-row middle-xs smooth hide-sm">
+						<p class="navbar__toggle__content">Cerrar</p>
+						<div class="navbar__toggle__menu">
+							<span class="top smooth"></span>
+							<span class="middle smooth"></span>
+							<span class="bottom smooth"></span>
+						</div>
 					</div>
+
+					<nav class="navbar__container-sticky__nav col-sm-9 hide-xs show-sm">
+						<ul class="navbar__container-sticky__nav__list u-row end-sm">
+							<li class="navbar__container-sticky__nav__list-item">
+								<a class="smooth u-row center-xs middle-xs" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" rel="follow">
+									<div class="navbar__container-sticky__nav__list-item__content">
+										<span>Inicio</span>
+									</div>
+								</a>
+							</li>
+							<li class="navbar__container-sticky__nav__list-item">
+								<a class="smooth u-row center-xs middle-xs" routerLink="/about/" routerLinkActive="active" rel="follow">
+									<div class="navbar__container-sticky__nav__list-item__content">
+										<span>Nosotros</span>
+									</div>
+								</a>
+							</li>
+							<li class="navbar__container-sticky__nav__list-item">
+								<a class="smooth u-row center-xs middle-xs" routerLink="/services/" routerLinkActive="active" rel="follow">
+									<div class="navbar__container-sticky__nav__list-item__content">
+										<span>Nuestros Servicios</span>
+									</div>
+								</a>
+							</li>
+							<li class="navbar__container-sticky__nav__list-item">
+								<a class="smooth u-row center-xs middle-xs" routerLink="/cases/" routerLinkActive="active" rel="follow">
+									<div class="navbar__container-sticky__nav__list-item__content">
+										<span>Casos</span>
+									</div>
+								</a>
+							</li>
+							<li class="navbar__container-sticky__nav__list-item">
+								<a class="smooth u-row center-xs middle-xs" routerLink="/contact/" routerLinkActive="active" rel="follow">
+									<div class="navbar__container-sticky__nav__list-item__content">
+										<span>Contáctanos</span>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</nav>
 				</div>
 			</div>
 		</div>
