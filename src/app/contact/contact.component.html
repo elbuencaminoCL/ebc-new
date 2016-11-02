@@ -23,118 +23,154 @@
 
 
 	<footer class="footer">
-		<section class="footer__container u-container center-xs">
-			<h3 class="footer__title">O quizás quieras...</h3>
-			<ngb-tabset>
-				<ngb-tab title="Contarnos tu proyecto">
-					<template ngbTabContent>
-						<h3 class="tab__content__title">Cuéntanos de tu proyecto</h3>
-						<p class="tab__content__sub-title">Sabemos que cada proyecto es único y por eso nos gustaría que nos cuentes algunas cosas para entender cómo ayudarte de mejor manera.</p>
-						<form action="https://formspree.io/your@email.com" method="POST">
-							<div class="tab__content__field">
-								<label>1. ¿Cómo podemos ayudarte?</label>
-								<select name="proyectHowCanHelp">
-									<option value="">Selecciona una opción</option>
-									<option value="2">Opción 2</option>
-									<option value="3">Opción 3</option>
-								</select>
-							</div>
-							<div class="tab__content__field">
-								<label>2. ¿Tienes algún presupuesto definido?</label>
-								<select name="proyectBudget">
-									<option value="">Selecciona una opción</option>
-									<option value="2">Opción 2</option>
-									<option value="3">Opción 3</option>
-								</select>
-							</div>
-							<div class="tab__content__field">
-								<label for="proyectTellMe">3. ¿Puedes contarnos algo más sobre lo que necesitas?</label>
-								<p>Cuéntanos un poco sobre tu proyecto, fechas, ideas, referencias, etc.</p>
-								<textarea id="proyectTellMe" name="proyectTellMe" cols="30" rows="10"></textarea>
-							</div>
-							<div class="tab__content__field">
-								<label for="proyectName">4. ¿Cuál es tu nombre?</label>
-								<input id="proyectName" name="proyectName" type="text" placeholder="Ingresa tu nombre" />
-							</div>
-							<div class="tab__content__field">
-								<label for="proyectEmail">5. ¿Cuál es tu email?</label>
-								<input type="email" id="proyectEmail" name="_replyto" placeholder="Ingresa tu email">
-							</div>
-							<div class="tab__content__field">
-								<label for="proyectWeb">6. ¿Tienes alguna web?</label>
-								<input id="proyectWeb" type="email" name="proyectWeb" placeholder="Ingresa tu web">
-							</div>
-							<input type="submit" class="btn" value="Enviar">
-						</form>
-					</template>
-				</ngb-tab>
-				<ngb-tab title="Dejar tu contacto">
-					<template ngbTabContent>
-						<h3 class="tab__content__title">Déjanos tu contacto</h3>
-						<p class="tab__content__sub-title">Sabemos que cada proyecto es único y por eso nos gustaría que nos cuentes algunas cosas para entender cómo ayudarte de mejor manera.</p>
-						<form action="https://formspree.io/your@email.com" method="POST">
-							<div class="tab__content__field">
-								<label>1. ¿Con quién quieres comunicarte?</label>
-								<select name="contactWho">
-									<option value="">Selecciona una opción</option>
-									<option value="2">Opción 2</option>
-									<option value="3">Opción 3</option>
-								</select>
-							</div>
-							<div class="tab__content__field">
-								<label for="contactSayUs">2. Cuéntanos ¿Que quieres decirnos?</label>
-								<textarea id="contactSayUs" name="contactSayUs" cols="30" rows="10"></textarea>
-							</div>
-							<div class="tab__content__field">
-								<label for="proyectName">3. ¿Cuál es tu nombre?</label>
-								<input id="proyectName" name="proyectName" type="text" placeholder="Ingresa tu nombre" />
-							</div>
-							<div class="tab__content__field">
-								<label for="proyectEmail">4. ¿Cuál es tu email?</label>
-								<input type="email" id="proyectEmail" name="_replyto" placeholder="Ingresa tu email">
-							</div>
-							<input type="submit" class="btn" value="Enviar">
-						</form>
-					</template>
-				</ngb-tab>
-				<ngb-tab title="Ser un caminante">
-					<template ngbTabContent>
-						<h3 class="tab__content__title">Trabaja con nosotros</h3>
-						<p class="tab__content__sub-title">Sabemos que cada proyecto es único y por eso nos gustaría que nos cuentes algunas cosas para entender cómo ayudarte de mejor manera.</p>
-						<form action="https://formspree.io/your@email.com" method="POST">
-							<div class="tab__content__field">
-								<label>1. ¿En que área quieres trabajar?</label>
-								<select name="workArea">
-									<option value="">Selecciona una opción</option>
-									<option value="2">Opción 2</option>
-									<option value="3">Opción 3</option>
-								</select>
-							</div>
-							<div class="tab__content__field">
-								<label for="workWhy">2. ¿Por qué quieres trabajar con nosotros?</label>
-								<textarea id="workWhy" name="workWhy" cols="30" rows="10"></textarea>
-							</div>
-							<div class="tab__content__field">
-								<label for="workName">3. ¿Cuál es tu nombre?</label>
-								<input id="workName" name="workName" type="text" placeholder="Ingresa tu nombre" />
-							</div>
-							<div class="tab__content__field">
-								<label for="workEmail">4. ¿Cuál es tu email?</label>
-								<input type="email" id="workEmail" name="_replyto" placeholder="Ingresa tu email">
-							</div>
-							<div class="tab__content__field">
-								<label for="workPhone">5. ¿Cuál es tu teléfono?</label>
-								<input type="number" id="workPhone" placeholder="Ingresa tu teléfono">
-							</div>
-							<div class="tab__content__field">
-								<label for="workWeb">6. ¿Tienes alguna web donde podamos saber más de ti?</label>
-								<p>Tu Linkedin, Tu perfil de Behance, Github, Dribble, etc... todo sirve</p>
-								<input type="text" id="workWeb" placeholder="Ingresa tu web">
-							</div>
-							<input type="submit" class="btn" value="Enviar">
-						</form>
-					</template>
-				</ngb-tab>
-			</ngb-tabset>
+		<section class="footer__container u-container-3">
+			<h3 class="footer__title center-xs">O quizás quieras...</h3>
+			<section class="contact__tab">
+				<ngb-tabset>
+					<ngb-tab title="Contarnos tu proyecto">
+						<template ngbTabContent>
+							<h3 class="tab__content__title center-xs">Cuéntanos de tu proyecto</h3>
+							<p class="tab__content__sub-title center-xs">Sabemos que cada proyecto es único y por eso nos gustaría que nos cuentes algunas cosas para entender cómo ayudarte de mejor manera.</p>
+							<form action="https://formspree.io/hola@elbuencamino.com" method="POST">
+								<div class="tab__content__field">
+									<label><span>1.</span> ¿Cómo podemos ayudarte?</label>
+									<div class="select">
+										<select name="proyectHowCanHelp">
+											<option value="">Selecciona una opción</option>
+											<option value="2">Opción 2</option>
+											<option value="3">Opción 3</option>
+										</select>
+									</div>
+								</div>
+								<div class="tab__content__field">
+									<label><span>2.</span> ¿Tienes algún presupuesto definido?</label>
+									<div class="select">
+										<select name="proyectBudget">
+											<option value="">Selecciona una opción</option>
+											<option value="2">Opción 2</option>
+											<option value="3">Opción 3</option>
+										</select>
+									</div>
+								</div>
+								<div class="tab__content__field">
+									<label for="proyectTellMe"><span>3.</span> ¿Puedes contarnos algo más sobre lo que necesitas?</label>
+									<p>Cuéntanos un poco sobre tu proyecto, fechas, ideas, referencias, etc.</p>
+									<div class="textarea">
+										<textarea id="proyectTellMe" name="proyectTellMe" cols="30" rows="10"></textarea>
+									</div>
+								</div>
+								<div class="tab__content__field">
+									<label for="proyectName"><span>4.</span> ¿Cuál es tu nombre?</label>
+									<div class="input">
+										<input id="proyectName" name="proyectName" type="text" placeholder="Ingresa tu nombre" />
+									</div>
+								</div>
+								<div class="tab__content__field">
+									<label for="proyectEmail"><span>5.</span> ¿Cuál es tu email?</label>
+									<div class="input">
+										<input type="email" id="proyectEmail" name="_replyto" placeholder="Ingresa tu email">
+									</div>
+								</div>
+								<div class="tab__content__field">
+									<label for="proyectWeb"><span>6.</span> ¿Tienes alguna web?</label>
+									<div class="input">
+										<input id="proyectWeb" type="email" name="proyectWeb" placeholder="Ingresa tu web">
+									</div>
+								</div>
+								<div class="tab__content__submit center-xs"><input type="submit" class="btn btn-lg btn-white" value="Enviar"></div>
+							</form>
+						</template>
+					</ngb-tab>
+					<ngb-tab title="Dejar tu contacto">
+						<template ngbTabContent>
+							<h3 class="tab__content__title center-xs">Déjanos tu contacto</h3>
+							<p class="tab__content__sub-title center-xs">Sabemos que cada proyecto es único y por eso nos gustaría que nos cuentes algunas cosas para entender cómo ayudarte de mejor manera.</p>
+							<form action="https://formspree.io/hola@elbuencamino.com" method="POST">
+								<div class="tab__content__field">
+									<label><span>1.</span> ¿Con quién quieres comunicarte?</label>
+									<div class="select">
+										<select name="contactWho">
+											<option value="">Selecciona una opción</option>
+											<option value="2">Opción 2</option>
+											<option value="3">Opción 3</option>
+										</select>
+									</div>
+								</div>
+								<div class="tab__content__field">
+									<label for="contactSayUs"><span>2.</span> Cuéntanos ¿Que quieres decirnos?</label>
+									<div class="textarea">
+										<textarea id="contactSayUs" name="contactSayUs" cols="30" rows="10"></textarea>
+									</div>
+								</div>
+								<div class="tab__content__field">
+									<label for="proyectName"><span>3.</span> ¿Cuál es tu nombre?</label>
+									<div class="input">
+										<input id="proyectName" name="proyectName" type="text" placeholder="Ingresa tu nombre" />
+									</div>
+								</div>
+								<div class="tab__content__field">
+									<label for="proyectEmail"><span>4.</span> ¿Cuál es tu email?</label>
+									<div class="input">
+										<input type="email" id="proyectEmail" name="_replyto" placeholder="Ingresa tu email">
+									</div>
+								</div>
+								<div class="tab__content__submit center-xs"><input type="submit" class="btn btn-lg btn-white" value="Enviar"></div>
+							</form>
+						</template>
+					</ngb-tab>
+					<ngb-tab title="Ser un caminante">
+						<template ngbTabContent>
+							<h3 class="tab__content__title center-xs">Trabaja con nosotros</h3>
+							<p class="tab__content__sub-title center-xs">Sabemos que cada proyecto es único y por eso nos gustaría que nos cuentes algunas cosas para entender cómo ayudarte de mejor manera.</p>
+							<form action="https://formspree.io/hola@elbuencamino.com" method="POST">
+								<div class="tab__content__field">
+									<label><span>1.</span> ¿En que área quieres trabajar?</label>
+									<div class="select">
+										<select name="workArea">
+											<option value="">Selecciona una opción</option>
+											<option value="2">Opción 2</option>
+											<option value="3">Opción 3</option>
+										</select>
+									</div>
+								</div>
+								<div class="tab__content__field">
+									<label for="workWhy"><span>2.</span> ¿Por qué quieres trabajar con nosotros?</label>
+									<div class="textarea">
+										<textarea id="workWhy" name="workWhy" cols="30" rows="10"></textarea>
+									</div>
+								</div>
+								<div class="tab__content__field">
+									<label for="workName"><span>3.</span> ¿Cuál es tu nombre?</label>
+									<div class="input">
+										<input id="workName" name="workName" type="text" placeholder="Ingresa tu nombre" />
+									</div>
+								</div>
+								<div class="tab__content__field">
+									<label for="workEmail"><span>4.</span> ¿Cuál es tu email?</label>
+									<div class="input">
+										<input type="email" id="workEmail" name="_replyto" placeholder="Ingresa tu email">
+									</div>
+								</div>
+								<div class="tab__content__field">
+									<label for="workPhone"><span>5.</span> ¿Cuál es tu teléfono?</label>
+
+									<div class="input">
+										<input type="number" id="workPhone" placeholder="Ingresa tu teléfono">
+									</div>
+								</div>
+								<div class="tab__content__field">
+									<label for="workWeb"><span>6.</span> ¿Tienes alguna web donde podamos saber más de ti?</label>
+									<p>Tu Linkedin, Tu perfil de Behance, Github, Dribble, etc... todo sirve</p>
+
+									<div class="input">
+										<input type="text" id="workWeb" placeholder="Ingresa tu web">
+									</div>
+								</div>
+								<div class="tab__content__submit center-xs"><input type="submit" class="btn btn-lg btn-white" value="Enviar"></div>
+							</form>
+						</template>
+					</ngb-tab>
+				</ngb-tabset>
+			</section>
 		</section>
 	</footer>
