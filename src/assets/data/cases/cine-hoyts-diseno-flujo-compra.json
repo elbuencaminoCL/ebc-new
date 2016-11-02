@@ -2,7 +2,7 @@
 	"template": "complex",
 	"name": "Cine Hoyts",
 	"logo": "",
-	"bg": "./../../assets/images/cases/hoyts/banner.jpg",
+	"bg": "./assets/images/cases/hoyts/banner.jpg",
 	"slug": "cine-hoyts",
 	"categories": [
 		"Diseño Sitio Web, ",
@@ -10,22 +10,22 @@
 	],
 	"situation": {
 		"description": "Cine Hoyts es la mayor cadena de cines de Chile, con más de 100 salas repartidas por todo el país. <br/> Se contactaron con nosotros ya que buscaban aumentar la venta de entradas desde su sitio.",
-		"image": "./../../assets/images/cases/hoyts/image-1.png",
+		"image": "./assets/images/cases/hoyts/image-1.png",
 		"title": "La situación"
 	},
 	"works": {
 		"title": "¿Qué hicimos con ellos?",
 		"list": [
 			{
-				"image": "./../../assets/images/cases/ux-triangle.png",
+				"image": "./assets/images/cases/ux-triangle.png",
 				"title": "Consultoría"
 			},
 			{
-				"image": "./../../assets/images/cases/design-triangle.png",
+				"image": "./assets/images/cases/design-triangle.png",
 				"title": "Rediseño del sitio web"
 			},
 			{
-				"image": "./../../assets/images/cases/social-triangle.png",
+				"image": "./assets/images/cases/social-triangle.png",
 				"title": "Métricas"
 			}
 		]
@@ -38,24 +38,24 @@
 		},
 		{
 			"col_class": "col-xs-12 col-sm-6",
-			"image": "./../../assets/images/cases/hoyts/image-3.png"
+			"image": "./assets/images/cases/hoyts/image-3.png"
 		}
 	],
 	"deliverable": {
 		"steps": [
 			{
 				"description": "Lo primero fue preguntarnos: ¿Cómo hacemos para facilitar el proceso de búsqueda y selección de películas a nuestros usuarios?. Para ello propusimos una navegación mediante cards, donde al pasar por encima (o pulsar en el caso de los móviles), el usuario pudiese ver la información más relevante de las películas y comenzar el proceso de compra desde ahí mismo.",
-				"image": "./../../assets/images/cases/hoyts/image-2.jpg",
+				"image": "./assets/images/cases/hoyts/image-2.jpg",
 				"title": "Replantear la búsqueda de películas"
 			},
 			{
 				"title": "Replantear el proceso de compra",
 				"description": "Diseñamos el flujo de compra preocupándonos que fuera lo más rápido posible, eliminando el registro obligatorio de usuarios, simplificando el proceso de selección de descuentos y permitiendo la compra desde todos los dispositivos existentes.",
-				"image": "./../../assets/images/cases/hoyts/image-3.png"
+				"image": "./assets/images/cases/hoyts/image-3.png"
 			},
 			{
 				"title": "Resultados",
-				"image": "./../../assets/images/cases/hoyts/image-5.jpg",
+				"image": "./assets/images/cases/hoyts/image-5.jpg",
 				"lists": [
 					{
 						"description": "Doblamos la cantidad de entradas vendidas mediante la web, en comparación al mismo período el año anterior"

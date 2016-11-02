@@ -1,7 +1,7 @@
 {
 	"members": [
 		{
-			"pic": "./../../assets/images/about/claudio_merino.jpg",
+			"pic": "./assets/images/about/claudio_merino.jpg",
 			"name": "Claudio Merino",
 			"position": "Director de Ux",
 			"phrase": "Esta es mi frase",
@@ -10,7 +10,7 @@
 			"pic_dir": "left"
 		},
 		{
-			"pic": "./../../assets/images/about/martin_merino.jpg",
+			"pic": "./assets/images/about/martin_merino.jpg",
 			"name": "Martín Merino",
 			"position": "Director de Diseño",
 			"phrase": "Esta es mi frase",
@@ -18,7 +18,7 @@
 			"pic_dir": "left"
 		},
 		{
-			"pic": "./../../assets/images/about/zara_campagnon.jpg",
+			"pic": "./assets/images/about/zara_campagnon.jpg",
 			"name": "Zara Campagnon",
 			"position": "Diseñadora de interfaces",
 			"phrase": "Esta es mi frase",
@@ -27,7 +27,7 @@
 			"pic_dir": "right"
 		},
 		{
-			"pic": "./../../assets/images/about/jair_garcia.jpg",
+			"pic": "./assets/images/about/jair_garcia.jpg",
 			"name": "Jair Garcia",
 			"position": "Desarrollador Front-end",
 			"phrase": "Esta es mi frase",
@@ -35,7 +35,7 @@
 			"pic_dir": "right"
 		},
 		{
-			"pic": "./../../assets/images/about/juanjo_vargas.jpg",
+			"pic": "./assets/images/about/juanjo_vargas.jpg",
 			"name": "Juanjo Vargas",
 			"position": "Contenidos Digitales",
 			"phrase": "Esta es mi frase",
@@ -44,7 +44,7 @@
 			"pic_dir": "left"
 		},
 		{
-			"pic": "./../../assets/images/about/maria_egea.jpg",
+			"pic": "./assets/images/about/maria_egea.jpg",
 			"name": "Maria Egea",
 			"position": "Productora Audiovisual",
 			"phrase": "Esta es mi frase",
@@ -53,7 +53,7 @@
 			"pic_dir": "left"
 		},
 		{
-			"pic": "./../../assets/images/about/we_want_you.jpg",
+			"pic": "./assets/images/about/we_want_you.jpg",
 			"name": "We want you!",
 			"position": "Trabaja con nosotros",
 			"pic_dir": "right",

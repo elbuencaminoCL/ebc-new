@@ -34,9 +34,9 @@
 	"services": [
 		{
 			"id": "consulting",
-			"icon": "./../../assets/images/home/target.png",
+			"icon": "./assets/images/home/target.png",
 			"icon_alt": "Imagen",
-			"image": "./../../assets/images/services/image1.jpg",
+			"image": "./assets/images/services/image1.jpg",
 			"image_alt": "Imagen",
 			"title": "Estrategia Digital",
 			"intro": "Analizamos tu negocio y las necesidades de tus usuarios, aportando nuevas ideas y soluciones para enfocar tus esfuerzos digitales mejorando así tus resultados de negocio.",
@@ -70,9 +70,9 @@
 		{
 
 			"id": "design",
-			"icon": "./../../assets/images/home/target.png",
+			"icon": "./assets/images/home/target.png",
 			"icon_alt": "Imagen",
-			"image": "./../../assets/images/services/image2.png",
+			"image": "./assets/images/services/image2.png",
 			"image_alt": "Imagen",
 			"title": "Diseño UI/Ux",
 			"intro": "El diseño es la pieza clave en la presencia digital. Es lo que diferencia. Ponemos un cariño especial para conseguir diseños atractivos, memorables y orientados al negocio. Diseños pensados desde el móvil y la Web, dise&ntlde;os nativos al medio.",
@@ -106,9 +106,9 @@
 		{
 
 			"id": "usability",
-			"icon": "./../../assets/images/home/target.png",
+			"icon": "./assets/images/home/target.png",
 			"icon_alt": "Imagen",
-			"image": "./../../assets/images/services/image3.png",
+			"image": "./assets/images/services/image3.png",
 			"image_alt": "Imagen",
 			"title": "Investigación con usuarios",
 			"intro": "Evaluamos interfaces interactivas y estudiamos el comportamiento de las personas para tomar decisiones de diseño. La usabilidad de un sitio web, intranet o sistema, es la medida que evalúa la facilidad de ser usado, aprendido y comprendido por el usuario.",
@@ -150,9 +150,9 @@
 		{
 
 			"id": "digital",
-			"icon": "./../../assets/images/home/target.png",
+			"icon": "./assets/images/home/target.png",
 			"icon_alt": "Imagen",
-			"image": "./../../assets/images/services/image4.png",
+			"image": "./assets/images/services/image4.png",
 			"image_alt": "Imagen",
 			"title": "Desarrollo Front-end",
 			"intro": "Nos gusta construir lo que diseñamos. Es por eso que tenemos un equipo de desarrolladores que nos permite darle vida a tus proyectos y poder entregarte los sitios listos para utilizar. HTML, CSS, JS, NODE... Nos especializamos en la parte front-end del desarrollo.",
@@ -189,9 +189,9 @@
 		{
 
 			"id": "metrics",
-			"icon": "./../../assets/images/home/target.png",
+			"icon": "./assets/images/home/target.png",
 			"icon_alt": "Imagen",
-			"image": "./../../assets/images/services/image5.png",
+			"image": "./assets/images/services/image5.png",
 			"image_alt": "Imagen",
 			"title": "Contenidos Digitales",
 			"intro": "En internet hay que contar historias relevantes e interesantes. Tenemos especialistas en redacción y creación de estrategias de contenido, guionistas, realizadores de vídeo y dinamizadores en redes sociales, para conseguir que lo que contamos sea visto, oído y leído.",

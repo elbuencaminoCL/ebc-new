@@ -2,7 +2,7 @@
 	"template": "minimal",
 	"name": "Terral Hotel & Spa",
 	"logo": "",
-	"bg": "./../../assets/images/cases/terral/banner.jpg",
+	"bg": "./assets/images/cases/terral/banner.jpg",
 	"slug": "terral",
 	"categories": [
 		"Rediseño web, ",
@@ -10,61 +10,61 @@
 	],
 	"situation": {
 		"description": "El Valle de Elqui, en Chile, es conocido mundialmente por sus impresionables cielos estrellados. Ahí está ubicado Terral, <br/> único hotel 4 estrellas de la zona. Los dueños del hotel nos contactaron para que les ayudáramos a crear un sitio que <br/> les permitiera reservar habitaciones en línea y aumentar la presencia del hotel en buscadores y redes sociales.",
-		"image": "./../../assets/images/cases/terral/image-1.png",
+		"image": "./assets/images/cases/terral/image-1.png",
 		"title": "La situación"
 	},
 	"works": {
 		"title": "Lo que hicimos",
 		"list": [
 			{
-				"image": "./../../assets/images/cases/consultoria-triangle.png",
+				"image": "./assets/images/cases/consultoria-triangle.png",
 				"title": "Digitalización de procesos"
 			},
 			{
-				"image": "./../../assets/images/cases/design-triangle.png",
+				"image": "./assets/images/cases/design-triangle.png",
 				"title": "Diseño sitio responsivo"
 			},
 			{
-				"image": "./../../assets/images/cases/design-triangle.png",
+				"image": "./assets/images/cases/design-triangle.png",
 				"title": "Diseño de Tótem de autoatención"
 			},
 			{
-				"image": "./../../assets/images/cases/contenidos-triangle.png",
+				"image": "./assets/images/cases/contenidos-triangle.png",
 				"title": "Landing de campañas y Redes Sociales"
 			}
 		]
 	},
-	
+
 	"deliverable": {
 		"title": "¿Cuál fue nuestro entregable?",
 		"steps": [
 			{
 				"btn": "",
 				"description": "<strong>Prebooking.</strong> Construimos un theme de wordpress responsivo, exclusivo para ellos, que nos permitiera mostrar todos los encantos del Valle de Elqui y del hotel, para incentivar la reserva de habitaciones y tours.<br/> Una vez que la persona mostraba interés por el hotel, el paso siguiente era permitirle reservar una habitación desde cualquier dispositivo. Para ello, montamos una tienda con Woocommerce, con un complemento para hoteles, que nos sirvió para simplificar el desarrollo en el proceso de booking, personalizando la tienda según las particularidades de Terral.",
-				"image": "./../../assets/images/cases/terral/image-4.jpg",
+				"image": "./assets/images/cases/terral/image-4.jpg",
 				"link": "",
-				"preview": "./../../assets/images/cases/terral/image-3.jpg",
+				"preview": "./assets/images/cases/terral/image-3.jpg",
 				"title": ""
 			},
 			{
 				"title": "",
 				"description": "<strong>Sesiones fotográficas.</strong> Sacamos fotos y clips de videos del hotel, así como de las principales actividades que se pueden realizar en el Valle de Elqui, para alimentar los distintos contenidos que necesitábamos en el sitio.",
-				"preview": "./../../assets/images/cases/terral/image-5.jpg"
+				"preview": "./assets/images/cases/terral/image-5.jpg"
 			},
 			{
 				"title": "",
 				"description": "<strong>Facebook Page.</strong> Tomamos el control de la página de Facebook del hotel, haciéndonos cargo de generar contenido atractivo, hacer la curaduría de contenido relevante para ella, y promocionar el hotel mediante campañas de Ads.",
-				"preview": "./../../assets/images/cases/terral/image-6.png"
+				"preview": "./assets/images/cases/terral/image-6.png"
 			},
 			{
 				"title": "",
 				"description": "<strong>Tótem de Autoatención.</strong> Diseñamos la interfaz de un tótem de autoatención que le permitiera a los pasajeros de Terral informarse de todos los tours y actividades que pueden hacer durante su estadía y reservarlos directamente desde ahí.",
-				"preview": "./../../assets/images/cases/terral/image-7.png"
+				"preview": "./assets/images/cases/terral/image-7.png"
 			},
 			{
 				"title": "",
 				"description": "<strong>Landing Pages.</strong> Segmentamos, planificamos y produjimos una serie de avisos en Facebook para atraer a distintos tipos de públicos a que conocieran el hotel.<br/> Para cada una de las campañas creamos landing pages enfocadas en la reserva y solicitud de información, pero adaptadas a cada uno de los tipos de mensajes.",
-				"preview": "./../../assets/images/cases/terral/image-8.png"
+				"preview": "./assets/images/cases/terral/image-8.png"
 			}
 		]
 	},

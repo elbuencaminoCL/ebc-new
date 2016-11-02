@@ -2,7 +2,7 @@
 	"template": "complex",
 	"name": "Tótem de Autoatención MetLife",
 	"logo": "",
-	"bg": "./../../assets/images/cases/metlife-2/banner.jpg",
+	"bg": "./assets/images/cases/metlife-2/banner.jpg",
 	"slug": "metlife-2",
 	"categories": [
 		"Arquitectura de Información, ",
@@ -10,32 +10,32 @@
 	],
 	"situation": {
 		"description": "MetLife Chile, una de las compañías aseguradoras más grandes del país, quería mejorar la<br/> atención de sus clientes dentro de sus sucursales, promoviendo la autoatención mediante<br/> tótems ubicados en las entradas de sus oficinas. Nuestra misión fue crear una interfaz simple de<br/> utilizar que permitiera a los usuarios acceder a información sobre pólizas y realizar trámites<br/> comunes, como pagar o imprimir formularios.",
-		"image": "./../../assets/images/cases/metlife-2/image-1.png",
+		"image": "./assets/images/cases/metlife-2/image-1.png",
 		"title": "La situación"
 	},
 	"works": {
 		"title": "¿Qué hicimos con ellos?",
 		"list": [
 			{
-				"image": "./../../assets/images/cases/ux-triangle.png",
+				"image": "./assets/images/cases/ux-triangle.png",
 				"title": "Consultoría"
 			},
 			{
-				"image": "./../../assets/images/cases/design-triangle.png",
+				"image": "./assets/images/cases/design-triangle.png",
 				"title": "Diseño del Tótem <br/>de Autoatención"
 			},
 			{
-				"image": "./../../assets/images/cases/test-triangle.png",
+				"image": "./assets/images/cases/test-triangle.png",
 				"title": "Pruebas de usabilidad<br/> con clientes finales"
 			}
 		]
 	},
 	"wireframes": {
-		"image": "./../../assets/images/cases/metlife-2/image-2.png",
+		"image": "./assets/images/cases/metlife-2/image-2.png",
 		"title": "Wireframes"
 	},
 	"interface": {
-		"image": "./../../assets/images/cases/metlife-2/image-3.jpg",
+		"image": "./assets/images/cases/metlife-2/image-3.jpg",
 		"title": "Diseño de interfaz"
 	},
 	"section_title": {
@@ -61,7 +61,7 @@
 		},
 		{
 			"col_class": "col-xs-12 col-sm-6",
-			"image": "./../../assets/images/cases/metlife-2/image-4.jpg"
+			"image": "./assets/images/cases/metlife-2/image-4.jpg"
 		}
 	],
 	"footer_title": "¿También tienes ganas de tener un tótem de autoatención?"

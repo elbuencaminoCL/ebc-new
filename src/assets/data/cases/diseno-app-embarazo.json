@@ -2,29 +2,29 @@
 	"template": "complex",
 	"name": "App embarazo para Clínica en Chile",
 	"logo": "",
-	"bg": "./../../assets/images/cases/app-embarazo/banner.jpg",
+	"bg": "./assets/images/cases/app-embarazo/banner.jpg",
 	"slug": "app-embarazo",
 	"categories": [
 		"Diseño de App."
 	],
 	"situation": {
 		"description": "Fuimos contactados por una empresa de desarrollo para ayudarles a pensar y diseñar una app para una clínica<br/> chilena, para que sus pacientes pudieran hacer el seguimiento de su embarazo, contando con información desde la <br/> más general, hasta el poder agendar las horas para los controles médicos.",
-		"image": "./../../assets/images/cases/app-embarazo/image-1.png",
+		"image": "./assets/images/cases/app-embarazo/image-1.png",
 		"title": "La situación"
 	},
 	"works": {
 		"title": "¿Qué hicimos con ellos?",
 		"list": [
 			{
-				"image": "./../../assets/images/cases/consultoria-triangle.png",
+				"image": "./assets/images/cases/consultoria-triangle.png",
 				"title": "Conceptualización de la App"
 			},
 			{
-				"image": "./../../assets/images/cases/design-triangle.png",
+				"image": "./assets/images/cases/design-triangle.png",
 				"title": "Arquitectura y diseño de interfaz"
 			},
 			{
-				"image": "./../../assets/images/cases/desarrollo-triangle.png",
+				"image": "./assets/images/cases/desarrollo-triangle.png",
 				"title": "Levantamiento de requerimientos técnicos"
 			}
 		]
@@ -34,18 +34,18 @@
 		"steps": [
 			{
 				"description": "Partimos el proyecto con una serie de sesiones de prototipado, en conjunto con el cliente y desarrolladores, para definir funcionalidades y ajustar el alcance del proyecto. Durante el transcurso de estas sesiones dibujamos a mano todas las pantallas que formarían parte del primer release.",
-				"image": "./../../assets/images/cases/app-embarazo/image-2.jpg"
+				"image": "./assets/images/cases/app-embarazo/image-2.jpg"
 			},
 			{
 				"description": "Esos bocetos las ordenamos en un mapa que nos definió perfectamente el alcance del proyecto y las pantallas que tendríamos que diseñar.",
-				"image": "./../../assets/images/cases/app-embarazo/image-3.jpg"
+				"image": "./assets/images/cases/app-embarazo/image-3.jpg"
 			},
 			{
 				"description": "Una vez definimos todas las funcionalidades y contenidos de las pantallas, comenzamos a diseñar la interfaz, tomando como punto de partida el Framework Material Design de Google.",
 				"images": [
-					"./../../assets/images/cases/app-embarazo/image-4.png",
-					"./../../assets/images/cases/app-embarazo/image-5.jpg",
-					"./../../assets/images/cases/app-embarazo/image-6.jpg"
+					"./assets/images/cases/app-embarazo/image-4.png",
+					"./assets/images/cases/app-embarazo/image-5.jpg",
+					"./assets/images/cases/app-embarazo/image-6.jpg"
 				]
 			}
 		]
