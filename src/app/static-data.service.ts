@@ -9,7 +9,7 @@ export class StaticDataService {
   constructor( private http: Http ) { }
 
   getData( router ) {
-  	return this.http.get( './../assets/data/' + router )
+  	return this.http.get( './assets/data/' + router )
   				.map((res:Response) => res.json())
   }
 

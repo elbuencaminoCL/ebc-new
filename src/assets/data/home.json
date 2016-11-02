@@ -1,61 +1,62 @@
 {
+	"bg_banner": "./assets/images/home/home-cover.jpg",
 	"menu": [
 		{
 			"link": "consulting",
-			"image": "./../../assets/images/home/target.png",
-			"image_hover": "./../../assets/images/home/target-white.png",
+			"image": "./assets/images/home/target.png",
+			"image_hover": "./assets/images/home/target-white.png",
 			"service": "Consultoría",
 			"service_br": ""
 		},
 		{
 			"link": "design",
-			"image": "./../../assets/images/home/design.png",
-			"image_hover": "./../../assets/images/home/design-white.png",
+			"image": "./assets/images/home/design.png",
+			"image_hover": "./assets/images/home/design-white.png",
 			"service": "Diseño",
 			"service_br": ""
 		},
 		{
 			"link": "usability",
-			"image": "./../../assets/images/home/devices.png",
-			"image_hover": "./../../assets/images/home/devices-white.png",
+			"image": "./assets/images/home/devices.png",
+			"image_hover": "./assets/images/home/devices-white.png",
 			"service": "Usabilidad",
 			"service_br": ""
 		},
 		{
 			"link": "digital",
-			"image": "./../../assets/images/home/microphone.png",
-			"image_hover": "./../../assets/images/home/microphone-white.png",
+			"image": "./assets/images/home/microphone.png",
+			"image_hover": "./assets/images/home/microphone-white.png",
 			"service": "Contenidos",
 			"service_br": "Digitales"
 		},
 		{
 			"link": "metrics",
-			"image": "./../../assets/images/home/data.png",
-			"image_hover": "./../../assets/images/home/data-white.png",
+			"image": "./assets/images/home/data.png",
+			"image_hover": "./assets/images/home/data-white.png",
 			"service": "Métricas",
 			"service_br": ""
 		}
 	],
 	"slides": [
 		{
-			"bg": "./../../assets/images/home/terral-bg.jpg",
-			"logo": "./../../assets/images/cases/logo-caso-terral.png",
+			"bg": "./assets/images/home/terral-bg.jpg",
+			"logo": "./assets/images/cases/logo-caso-terral.png",
 			"title": "Re diseño de presencia online",
 			"description": "tinada a que las mujeres puedan hacer un seguimiento y consultar información sobre su embar...",
 			"link": "/cases/terral",
 			"button": "Ver caso"
 		},
 		{
-			"bg": "./../../assets/images/cases/caso-app-embarazo-4.jpg",
-			"logo": "./../../assets/images/cases/logo-caso-espera.png",
+			"bg": "./assets/images/cases/caso-app-embarazo-4.jpg",
+			"logo": "./assets/images/cases/logo-caso-espera.png",
 			"title": "App de seguimiento de embarazo",
 			"description": "Diseñamos la interfaz de una aplicación móvil destinada a que las mujeres puedan hacer un seguimiento y consultar información sobre su embarazo",
 			"link": "/cases/mi-espera",
 			"button": "Ver caso"
 		},
 		{
-			"bg": "./../../assets/images/home/terral-bg.jpg",
-			"logo": "./../../assets/images/cases/logo-caso-terral.png",
+			"bg": "./assets/images/home/terral-bg.jpg",
+			"logo": "./assets/images/cases/logo-caso-terral.png",
 			"title": "Re diseño de presencia online",
 			"description": "tinada a que las mujeres puedan hacer un seguimiento y consultar información sobre su embar...",
 			"link": "/cases/terral",
