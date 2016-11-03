@@ -1,31 +1,31 @@
 {
 	"menu": [
 		{
-			"link": "consulting",
+			"link": "estrategia-digital",
 			"icon_class": "icon-consulting",
 			"service": "Estrategía digital",
 			"service_br": ""
 		},
 		{
-			"link": "design",
+			"link": "diseno-ux-ui",
 			"icon_class": "icon-design",
 			"service": "Diseño UX/UI",
 			"service_br": ""
 		},
 		{
-			"link": "usability",
+			"link": "investigacion-con-usuarios",
 			"icon_class": "icon-devices",
 			"service": "Investigación con usuarios",
 			"service_br": ""
 		},
 		{
-			"link": "digital",
+			"link": "desarrollo-front-end",
 			"icon_class": "icon-build",
 			"service": "Desarrollo Front-end",
 			"service_br": ""
 		},
 		{
-			"link": "metrics",
+			"link": "comunicacion-rrss",
 			"icon_class": "icon-micro",
 			"service": "Comunicación y RR.SS.",
 			"service_br": ""
@@ -33,7 +33,7 @@
 	],
 	"services": [
 		{
-			"id": "consulting",
+			"id": "estrategia-digital",
 			"icon": "./assets/images/home/target.png",
 			"icon_alt": "Imagen",
 			"image": "./assets/images/services/image1.jpg",
@@ -69,12 +69,12 @@
 		},
 		{
 
-			"id": "design",
+			"id": "diseno-ux-ui",
 			"icon": "./assets/images/home/target.png",
 			"icon_alt": "Imagen",
 			"image": "./assets/images/services/image2.png",
 			"image_alt": "Imagen",
-			"title": "Diseño UI/Ux",
+			"title": "Diseño Ux/UI",
 			"intro": "El diseño es la pieza clave en la presencia digital. Es lo que diferencia. Ponemos un cariño especial para conseguir diseños atractivos, memorables y orientados al negocio. Diseños pensados desde el móvil y la Web, dise&ntlde;os nativos al medio.",
 			"features_title": "¿Qué podríamos hacer juntos?",
 			"features": [
@@ -105,7 +105,7 @@
 		},
 		{
 
-			"id": "usability",
+			"id": "investigacion-con-usuarios",
 			"icon": "./assets/images/home/target.png",
 			"icon_alt": "Imagen",
 			"image": "./assets/images/services/image3.png",
@@ -149,7 +149,7 @@
 		},
 		{
 
-			"id": "digital",
+			"id": "desarrollo-front-end",
 			"icon": "./assets/images/home/target.png",
 			"icon_alt": "Imagen",
 			"image": "./assets/images/services/image4.png",
@@ -188,12 +188,12 @@
 		},
 		{
 
-			"id": "metrics",
+			"id": "comunicacion-rrss",
 			"icon": "./assets/images/home/target.png",
 			"icon_alt": "Imagen",
 			"image": "./assets/images/services/image5.png",
 			"image_alt": "Imagen",
-			"title": "Contenidos Digitales",
+			"title": "Comunicación y RR.SS.",
 			"intro": "En internet hay que contar historias relevantes e interesantes. Tenemos especialistas en redacción y creación de estrategias de contenido, guionistas, realizadores de vídeo y dinamizadores en redes sociales, para conseguir que lo que contamos sea visto, oído y leído.",
 			"features_title": "¿Qué podríamos hacer juntos?",
 			"features": [
