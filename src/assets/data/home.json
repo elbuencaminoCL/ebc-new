@@ -2,35 +2,35 @@
 	"bg_banner": "./assets/images/home/home-cover.jpg",
 	"menu": [
 		{
-			"link": "consulting",
+			"link": "estrategia-digital",
 			"image": "./assets/images/home/target.png",
 			"image_hover": "./assets/images/home/target-white.png",
 			"service": "Estrategia",
 			"service_br": "Digital"
 		},
 		{
-			"link": "design",
+			"link": "diseno-ux-ui",
 			"image": "./assets/images/home/design.png",
 			"image_hover": "./assets/images/home/design-white.png",
 			"service": "Diseño",
 			"service_br": "Ux / UI"
 		},
 		{
-			"link": "usability",
+			"link": "investigacion-con-usuarios",
 			"image": "./assets/images/home/devices.png",
 			"image_hover": "./assets/images/home/devices-white.png",
 			"service": "Investigación",
 			"service_br": "con usuarios"
 		},
 		{
-			"link": "digital",
-			"image": "./assets/images/home/microphone.png",
-			"image_hover": "./assets/images/home/microphone-white.png",
+			"link": "desarrollo-front-end",
+			"image": "./assets/images/home/build.png",
+			"image_hover": "./assets/images/home/build-white.png",
 			"service": "Desarrollo",
 			"service_br": "Front-end"
 		},
 		{
-			"link": "metrics",
+			"link": "comunicacion-rrss",
 			"image": "./assets/images/home/microphone.png",
 			"image_hover": "./assets/images/home/data-white.png",
 			"service": "Comunicación",
