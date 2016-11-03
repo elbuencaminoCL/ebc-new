@@ -5,61 +5,69 @@
 			"link": "consulting",
 			"image": "./assets/images/home/target.png",
 			"image_hover": "./assets/images/home/target-white.png",
-			"service": "Consultoría",
-			"service_br": ""
+			"service": "Estrategia",
+			"service_br": "Digital"
 		},
 		{
 			"link": "design",
 			"image": "./assets/images/home/design.png",
 			"image_hover": "./assets/images/home/design-white.png",
 			"service": "Diseño",
-			"service_br": ""
+			"service_br": "Ux / UI"
 		},
 		{
 			"link": "usability",
 			"image": "./assets/images/home/devices.png",
 			"image_hover": "./assets/images/home/devices-white.png",
-			"service": "Usabilidad",
-			"service_br": ""
+			"service": "Investigación",
+			"service_br": "con usuarios"
 		},
 		{
 			"link": "digital",
 			"image": "./assets/images/home/microphone.png",
 			"image_hover": "./assets/images/home/microphone-white.png",
-			"service": "Contenidos",
-			"service_br": "Digitales"
+			"service": "Desarrollo",
+			"service_br": "Front-end"
 		},
 		{
 			"link": "metrics",
-			"image": "./assets/images/home/data.png",
+			"image": "./assets/images/home/microphone.png",
 			"image_hover": "./assets/images/home/data-white.png",
-			"service": "Métricas",
-			"service_br": ""
+			"service": "Comunicación",
+			"service_br": "y RR.SS"
 		}
 	],
 	"slides": [
 		{
-			"bg": "./assets/images/home/terral-bg.jpg",
-			"logo": "./assets/images/cases/logo-caso-terral.png",
-			"title": "Re diseño de presencia online",
-			"description": "tinada a que las mujeres puedan hacer un seguimiento y consultar información sobre su embar...",
-			"link": "/cases/terral",
+			"bg": "./assets/images/cases/caso-raileurope-home.jpg",
+			"logo": "./assets/images/cases/logo-caso-raileurope.png",
+			"title": "Investigación con usuarios y propuesta de diseño",
+			"description": "RailEurope es un e-commerce global, líder en viajes y pases de trenes para turistas que desean recorrer Europa sobre rieles. El 2014 nos pidieron que investigáramos los problemas de usabilidad que sus clientes estaban teniendo dentro del sitio, y que los ayudáramos a solucionarlos.",
+			"link": "/cases/rail-europe-investigacion-con-usuarios",
 			"button": "Ver caso"
 		},
 		{
-			"bg": "./assets/images/cases/caso-app-embarazo-4.jpg",
+			"bg": "./assets/images/cases/caso-santander-home.jpg",
+			"logo": "./assets/images/cases/logo-caso-santander.png",
+			"title": "Arquitectura de información y Testeo de pantallas",
+			"description": "Santander Río es uno de los bancos más grandes e importantes de Argentina. Tienen más de 2.500.000 de clientes activos y más de 300 sucursales repartidas por todo el territorio. A fines del 2011, la agencia de publicidad Mundo Buenos Aires nos contactó para que los ayudáramos a pensar y desarrollar el proyecto de rediseño del banco.",
+			"link": "/cases/santander-rio-rediseno-sitio-corporativo",
+			"button": "Ver caso"
+		},
+		{
+			"bg": "./assets/images/cases/caso-metlife-uc-home.jpg",
+			"logo": "./assets/images/cases/metlife/logo.png",
+			"title": "Diseño de flujo de contratación",
+			"description": "A principios de este año, la compañía de seguros MetLife nos contactó para que los ayudáramos a mejorar la experiencia de compra de seguros de salud mediante su canal Online. El objetivo del proyecto era digitalizar un proceso que hasta entonces se hacía a mano, mediante captores en las clínicas, y simplificar el proceso de llenado de formulario de contratación de la póliza.",
+			"link": "/cases/metlife-compra-seguro-online",
+			"button": "Ver caso"
+		},
+		{
+			"bg": "./assets/images/cases/caso-embarazo-home.jpg",
 			"logo": "./assets/images/cases/logo-caso-espera.png",
 			"title": "App de seguimiento de embarazo",
-			"description": "Diseñamos la interfaz de una aplicación móvil destinada a que las mujeres puedan hacer un seguimiento y consultar información sobre su embarazo",
+			"description": "Fuimos contactados por una empresa de desarrollo para ayudarles a pensar y diseñar una app para una clínica chilena, para que sus pacientes pudieran hacer el seguimiento de su embarazo, contando con información desde la más general, hasta el poder agendar las horas para los controles médicos.",
 			"link": "/cases/mi-espera",
-			"button": "Ver caso"
-		},
-		{
-			"bg": "./assets/images/home/terral-bg.jpg",
-			"logo": "./assets/images/cases/logo-caso-terral.png",
-			"title": "Re diseño de presencia online",
-			"description": "tinada a que las mujeres puedan hacer un seguimiento y consultar información sobre su embar...",
-			"link": "/cases/terral",
 			"button": "Ver caso"
 		}
 	]
