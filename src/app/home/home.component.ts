@@ -1,6 +1,7 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { StaticDataService } from './../static-data.service';
 import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
+import { Title }     from '@angular/platform-browser';
 
 declare var $: any;
 
@@ -15,11 +16,12 @@ export class HomeComponent implements OnInit {
   public menus;
   public slides;
 
-  constructor( private staticDataService: StaticDataService, config: NgbCarouselConfig ) {
+  constructor( private staticDataService: StaticDataService, config: NgbCarouselConfig, private titleService: Title ) {
     config.interval = 0;
   }
 
   ngOnInit() {
+    this.titleService.setTitle( 'Estudio especializado en UX' );
 
     this.staticDataService.getData( 'home.json' )
       .subscribe(

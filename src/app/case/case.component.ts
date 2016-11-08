@@ -2,6 +2,7 @@ import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { StaticDataService } from './../static-data.service'
 import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
+import { Title }     from '@angular/platform-browser';
 declare var $: any;
 
 @Component({
@@ -16,7 +17,7 @@ export class CaseComponent implements OnInit {
 	public slug;
 	public carousel;
 
-  constructor( private staticDataService: StaticDataService, private route: ActivatedRoute, config: NgbCarouselConfig ) {
+  constructor( private staticDataService: StaticDataService, private route: ActivatedRoute, config: NgbCarouselConfig, private titleService: Title ) {
 
 	this.slug = route.snapshot.params['id'];
 	this.getCase( this.slug );
@@ -28,7 +29,7 @@ export class CaseComponent implements OnInit {
   }
 
   ngOnInit() {
-
+    this.titleService.setTitle( 'Caso' );
   }
 
   getCase( slug ) {

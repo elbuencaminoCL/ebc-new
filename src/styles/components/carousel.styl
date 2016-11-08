@@ -23,7 +23,7 @@
 		.carousel__content
 			height 100%
 
-		.carousel-control
+		.carousel-indicators
 			display none
 
 		.carousel__description
@@ -103,28 +103,11 @@
 	@media screen and ( min-width 48em )
 
 		.carousel-home
-			.carousel__dots__row
-				display flex
-
-			.carousel-indicators
-				left 50%
-				padding-right 1rem
-				margin -48px auto 0 0
-				max-width 570px
-				top 50%
-				li
-					display block
-					margin 1rem 0 1rem auto
+			.carousel-caption
+				padding-left 8rem
 
 		.carousel-vertical
 			.carousel-item
 				height 0
 				&.active
 					height 500px
-
-
-	@media screen and ( min-width 62em )
-
-		.carousel-home
-			.carousel-indicators
-				padding-right 0

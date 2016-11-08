@@ -1,6 +1,6 @@
 // Core
 
-import { BrowserModule } from '@angular/platform-browser';
+import { BrowserModule, Title } from '@angular/platform-browser';
 import { Ng2BootstrapModule } from 'ng2-bootstrap/ng2-bootstrap';
 import { Ng2PageScrollModule } from 'ng2-page-scroll';
 import { NgModule } from '@angular/core';
@@ -59,7 +59,8 @@ import { StaticDataService } from './static-data.service';
     Ng2PageScrollModule
   ],
   providers: [
-    StaticDataService
+    StaticDataService,
+    Title
   ],
   bootstrap: [AppComponent]
 })

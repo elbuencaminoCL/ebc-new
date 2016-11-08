@@ -1,6 +1,7 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { StaticDataService } from './../static-data.service';
 import { Router } from '@angular/router';
+import { Title }     from '@angular/platform-browser';
 declare var $:any;
 
 @Component({
@@ -13,9 +14,10 @@ export class ServicesComponent implements OnInit {
   public menus;
   public services;
 
-  constructor( private staticDataService:StaticDataService, public router: Router ) { }
+  constructor( private staticDataService:StaticDataService, public router: Router, private titleService: Title ) { }
 
   ngOnInit() {
+    this.titleService.setTitle( 'Servicios' );
 
     this.staticDataService.getData( 'services.json' )
       .subscribe(
