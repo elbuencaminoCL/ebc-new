@@ -1,0 +1,74 @@
+{
+	"template": "complex",
+	"name": "MetLife",
+	"logo": "./assets/images/cases/metlife/logo.png",
+	"bg": "./assets/images/cases/metlife/banner.jpg",
+	"slug": "metlife-compra-seguro-online",
+	"categories": [
+		"Diseño de flujo de contratación"
+	],
+	"situation": {
+		"description": "A principios de este año, la compañía de seguros MetLife nos contactó para que los ayudáramos a<br/> mejorar la experiencia de compra de seguros de salud mediante su canal Online.<br/> El objetivo del proyecto era digitalizar un proceso que hasta entonces se hacía a mano, mediante <br/>captores en las clínicas, y simplificar el proceso de llenado de formulario de contratación de la póliza.",
+		"image": "./assets/images/cases/metlife/image-1.png",
+		"title": "La situación"
+	},
+	"works": {
+		"title": "¿Qué hicimos aquí?",
+		"list": [
+			{
+				"image": "./assets/images/cases/consultoria-triangle.png",
+				"title": "Digitalizacion de servicios"
+			},
+			{
+				"image": "./assets/images/cases/design-triangle.png",
+				"title": "Diseño flujo de contratación"
+			},
+			{
+				"image": "./assets/images/cases/contenidos-triangle.png",
+				"title": "Creación de mailing y landing de campaña"
+			}
+		]
+	},
+
+	"items": [
+		{
+			"col_content": "col-xs-12 col-sm-6",
+			"col_image": "col-xs-12 col-sm-6",
+			"title": "Entender el desafío",
+			"description": "Pasar de un flujo presencial, con un asesor respondiendo las preguntas en directo, a un proceso virtual gestionado por el usuario, no fue fácil y requirió de un trabajo en conjunto con el cliente, para crear un flujo de contratación simplificado y adaptado al soporte digital que cumpliera con todos los requerimientos de negocio.",
+			"image": "./assets/images/cases/metlife/image-2.jpg"
+		},
+		{
+			"col_content": "col-xs-12 col-sm-4",
+			"col_image": "col-xs-12 col-sm-8",
+			"title": "Simplificar el proceso",
+			"description": "<p>Lo primero fue dividir el proceso de compra en pasos y jerarquizar el contenido desplegado para facilitar la lectura y escaneo de la información vertida.</p> <p>Luego nos preocupamos de ir mostrando la información a medida que se fuera necesitando, para no abarrotar la pantalla con campos que no se estaban utilizando. Solo aparecía la información que el usuario realmente necesitaba en el momento y contexto adecuado.</p>",
+			"image": "./assets/images/cases/metlife/image-3.png"
+		},
+		{
+			"col_content": "col-xs-12 col-sm-6",
+			"col_image": "col-xs-12 col-sm-6",
+			"title": "La información de contacto, siempre presente",
+			"description": "Otro desafío al que nos enfrentamos fue el de ayudar a los clientes a llenar su declaración de salud, sin la necesidad de contar con un ejecutivo que se lo hiciera por ellos.<br/>Para eso, comenzamos simplificando el lenguaje utilizando en la descripción de las enfermedades, y además, cada una de ellas fue acompañada de un ícono que representa su naturaleza o la parte del cuerpo que ataca.<br /> Durante todo el proceso, siempre aparece disponible en la pantalla un teléfono de contacto y la posibilidad de comunicarse con algún ejecutivo mediante un chat.",
+			"image": "./assets/images/cases/metlife/image-4.jpg"
+		}
+	],
+
+	"slides": [
+		{
+			"image": "./assets/images/cases/metlife/slider-1.jpg",
+			"title": "Detalle de pantalla de contratación"
+		},
+		{
+			"image": "./assets/images/cases/metlife/slider-2.jpg",
+			"title": "Vistas móviles del proyecto"
+		},
+		{
+			"image": "./assets/images/cases/metlife/slider-3.jpg",
+			"title": "Detalle de la Declaración Personal de Salud (DPS)"
+		}
+	],
+
+	"footer_title": "¿Te interesa comenzar a vender online?"
+
+}

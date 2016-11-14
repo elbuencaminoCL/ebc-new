@@ -1,0 +1,69 @@
+{
+	"template": "complex",
+	"name": "Tótem de Autoatención MetLife",
+	"logo": "",
+	"bg": "./assets/images/cases/metlife-2/banner.jpg",
+	"slug": "metlife-2",
+	"categories": [
+		"Arquitectura de Información, ",
+		"Diseño de interfaz y Validación con usuarios"
+	],
+	"situation": {
+		"description": "MetLife Chile, una de las compañías aseguradoras más grandes del país, quería mejorar la<br/> atención de sus clientes dentro de sus sucursales, promoviendo la autoatención mediante<br/> tótems ubicados en las entradas de sus oficinas. Nuestra misión fue crear una interfaz simple de<br/> utilizar que permitiera a los usuarios acceder a información sobre pólizas y realizar trámites<br/> comunes, como pagar o imprimir formularios.",
+		"image": "./assets/images/cases/metlife-2/image-1.png",
+		"title": "La situación"
+	},
+	"works": {
+		"title": "¿Qué hicimos con ellos?",
+		"list": [
+			{
+				"image": "./assets/images/cases/ux-triangle.png",
+				"title": "Consultoría"
+			},
+			{
+				"image": "./assets/images/cases/design-triangle.png",
+				"title": "Diseño del Tótem <br/>de Autoatención"
+			},
+			{
+				"image": "./assets/images/cases/test-triangle.png",
+				"title": "Pruebas de usabilidad<br/> con clientes finales"
+			}
+		]
+	},
+	"wireframes": {
+		"image": "./assets/images/cases/metlife-2/image-2.png",
+		"title": "Wireframes"
+	},
+	"interface": {
+		"image": "./assets/images/cases/metlife-2/image-3.jpg",
+		"title": "Diseño de interfaz"
+	},
+	"section_title": {
+		"title": "Test de Usabilidad"
+	},
+	"section": [
+		{
+			"col_class": "col-xs-12 col-sm-6",
+			"list": [
+				{
+					"title": "¿Qué estudiamos?",
+					"description": "Estudiamos un prototipo dummy del Tótem de Autoatención en la sucursal de MetLife en Santiago, con el próposito de revisar el comportamiento de los usuarios finales a momento de enfrentarse al tótem, y así poder descubrir falencias en su interfaz que pudieran ser mejoradas antes de inaugurarlo.<br/><br/> Realizamos una serie de tests individuales, dividos en cuatro grupos de clientes, para indagar sus necesidades, los inconvenientes que pudieran surgir y las expectativas de los usuarios finales de la plataforma."
+				},
+				{
+					"title": "¿Cómo lo hicimos?",
+					"description": "La actividad consistió en solicitar a un grupo de usuarios que utilizarán el prototipo del Tótem de Autoatención y realizaran cinco tareas que fueron previamente definidas con el cliente.<br/> Para ello, utilizamos consignas de interpretación abierta (por ejemplo, 'Imagina que necesitas pedir un certificado de afiliación') y las complementamos con consignas cerradas en los casos en que fuera necesario (por ejemplo, 'Localiza e imprime el comprobante de pago').<br/><br/> Los usuarios verbalizaron sus razonamientos y sus decisiones, siguiendo el protocolo Think Aloud, que fue complementado con observaciones y notas realizadas por un segundo consultor de soporte."
+				},
+				{
+					"title": "¿Qué aprendimos?",
+					"description": "El tótem no es solo una pantalla.</strong><br/>Durante todo el proceso de diseño nos habíamos preocupado de hacer la interfaz que estaba dentro de la pantalla fuera lo más usable e intuitiva posible, pero de nada servía si los usuarios confundían la ranura para insertar el DNI con la bandeja para la tarjeta de crédito.<br/><br/><strong>El rol del host que guía al usuario sigue siendo imprescindible.</strong><br/> El cliente que llega a la sucursal preferirá conversar con una persona en la mayoría de los casos, quien luego de escuchar las necesidades de la persona, lo deriva al tótem o a un ejecutivo, si fuera necesario.<br/><br/><strong>Testea rápido y testea temprano.</strong><br/>Parte de los descubrimientos que hicimos durante el testeo en la etapa de diseño nos permitió ver las falencias de nuestra interfaz antes de comenzar a construir."
+				}
+			]
+		},
+		{
+			"col_class": "col-xs-12 col-sm-6",
+			"image": "./assets/images/cases/metlife-2/image-4.jpg"
+		}
+	],
+	"footer_title": "¿También tienes ganas de tener un tótem de autoatención?"
+
+}

@@ -34,7 +34,7 @@
 		box-shadow 0 2px 8px rgba(0,0,0,0.5)
 		left 0
 		opacity 0
-		padding 1rem 3rem
+		padding 1rem
 		position fixed
 		right 0
 		top 0
@@ -120,8 +120,40 @@
 			img
 				max-width none
 
+		.navbar__container-sticky__nav
+			padding 10px 0 0 0
+
+		.navbar__container-sticky__nav__list-item
+			margin-right 8px
+			&:last-of-type
+				margin-right 0
+			a
+				border-bottom 2px solid transparent
+				color white
+				padding-bottom 10px
+				text-transform uppercase
+				transition all .2s cubic-bezier( .4,0,.2,1 )
+				&:hover
+				&.active
+					border-color white
+
+		.navbar__container-sticky__nav__list-item__content
+			padding 0 4px
+
 		.navbar__toggle
 			right 0
 			top 3rem
 			&.active
 				right 6px
+
+	@media screen and ( min-width 62em )
+		.navbar__container-sticky
+			padding 1rem 3rem
+
+		.navbar__container-sticky__nav
+			padding 10px 15px 0
+
+		.navbar__container-sticky__nav__list-item
+			margin-right 30px
+			&:last-of-type
+				margin-right 0

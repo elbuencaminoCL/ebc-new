@@ -1,0 +1,79 @@
+{
+	"template": "complex",
+	"name": "Rail Europe",
+	"logo": "",
+	"bg": "./assets/images/cases/rail-europe/banner.jpg",
+	"slug": "rail-europe",
+	"categories": [
+		"Consultoría, ",
+		"Usabilidad"
+	],
+	"situation": {
+		"description": "RailEurope es un e-commerce global, líder en viajes y pases de trenes para turistas que desean <br/> recorrer Europa sobre rieles. El 2014 nos pidieron que investigáramos los problemas de <br/> usabilidad que sus clientes estaban teniendo dentro del sitio, y que los ayudáramos a <br/> solucionarlos.",
+		"image": "./assets/images/cases/rail-europe/image-1.png",
+		"title": "La situación"
+	},
+	"works": {
+		"title": "¿Qué hicimos con ellos?",
+		"list": [
+			{
+				"image": "./assets/images/cases/consultoria-triangle.png",
+				"title": "Consultoría: <br/>Benchmark de competidores"
+			},
+			{
+				"image": "./assets/images/cases/investigacion-triangle.png",
+				"title": "Test de usuarios, Focus Group"
+			},
+			{
+				"image": "./assets/images/cases/design-triangle.png",
+				"title": "Arquitectura de Información, Propuesta de diseño"
+			}
+		]
+	},
+
+	"items": [
+		{
+			"col_content": "col-xs-12 col-sm-6",
+			"col_image": "col-xs-12 col-sm-6",
+			"title": "¿Qué estudiamos?",
+			"description": "Percepciones de los usuarios con respecto al sitio, a sus experiencias planificando viajes a Europa y a sus hábitos de navegación al momento de comprar en línea.",
+			"image": "./assets/images/cases/rail-europe/image-2.jpg"
+		},
+		{
+			"col_content": "col-xs-12 col-sm-6",
+			"col_image": "col-xs-12 col-sm-6",
+			"v_align": "middle-xs",
+			"title": "¿Cómo lo hicimos?",
+			"description": "Durante cinco semanas entrevistamos y aplicamos tests a más de ochenta personas de tres países, todas con distintas características, para conocer de primera fuente las percepciones que tenían con respecto al sitio, a sus experiencias planificando viajes a Europa, y entender sus hábitos de navegación cuando se trata de comprar en línea. <br/><br/> Complementamos esa investigación con una serie de actividades que incluyeron una auditoría al sitio y su app móvil, y una encuesta, dentro del sitio, para recopilar data más cuantitativa. <br/><br/> Agrupamos toda esa información procesada en once temas principales, basándonos en los testimonios entregados por los participantes. A partir de esta información, también obtuvimos cinco tipos de usuarios con necesidades y expectativas concretas, que nos servirán como guía al momento de pensar nuevas funcionalidades del sitio.<br/><br/> Terminamos el proyecto con una revisión de las quince secciones testeadas, en las que propusimos una serie de mejoras de rápida implementación para maximizar la experiencia de los usuarios en la versión actual del sitio, mientras se trabajaba en un completo rediseño del mismo.",
+			"image": "./assets/images/cases/rail-europe/image-3.jpg"
+		}
+	],
+
+	"deliverable": {
+		"title": "¿Cuál fue nuestro entregable?",
+		"steps": [
+			{
+				"description": "Reportes de las actividades por países, más un informe global con los descubrimientos y propuestas para mejorar las pantallas actuales.",
+				"image": "./assets/images/cases/rail-europe/image-4.png"
+			},
+			{
+				"description": "Benchmark de competidores del rubro. Analizamos los principales sites y apps del rubro, tanto locales como globales para descubrir buenas prácticas y analizar en detalle cada una de las interfaces.",
+				"image": "./assets/images/cases/rail-europe/image-5.png"
+			},
+			{
+				"description": "Encuestas <em>onsite</em> para complementar la data obtenida en las encuestas y focus groups.",
+				"image": "./assets/images/cases/rail-europe/image-6.png"
+			},
+			{
+				"description": "Una propuesta de <em>wireframes</em> para diseñar las principales pantallas del sitio.",
+				"image": "./assets/images/cases/rail-europe/image-7.png"
+			},
+			{
+				"description": "Una propuesta de diseño a cargo de nuestros amigos de <a href='http://www.deletec.info/' target='_blank'>DeleteC</a>",
+				"image": "./assets/images/cases/rail-europe/image-8.png"
+			}
+		]
+	},
+	"footer_title": "¿También te gustaría saber cómo piensan tus usuarios?"
+
+}

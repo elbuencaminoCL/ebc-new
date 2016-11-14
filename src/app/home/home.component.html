@@ -1,6 +1,6 @@
 
 	<div class="wrapper">
-		<header class="header center-xs" style="background-image: url( './../../assets/images/home/home-cover.jpg' )">
+		<header class="header center-xs">
 			<div class="header__container">
 				<div class="header__content u-container">
 					<h2 class="header__title white text-mavenPro">Somos un estudio especializado en Ux</h2>
@@ -24,7 +24,7 @@
 				</div>
 				<div class="do__boxes u-row center-sm" *ngIf="menus">
 					<div *ngFor="let menu of menus" class="do__box do__box__menu center-xs">
-						<a pageScroll routerLink="/services" fragment="{{menu.link}}">
+						<a *ngIf="menus.link" pageScroll [routerLink]="['services']" href="#{{menu.link}}">
 							<div class="do__box__menu__content">
 								<figure>
 									<img src="{{menu.image}}">
@@ -58,7 +58,7 @@
 				<template ngbSlide *ngFor="let slide of slides; let i = item">
 					<img src="{{slide.bg}}">
 					<div class="carousel-caption u-container u-row middle-sm">
-						<div class="carousel-caption__container col-xs-8 col-sm-6 col-md-4">
+						<div class="carousel-caption__container col-xs-8 col-sm-6 col-md-5">
 							<figure class="carousel__logo">
 								<img src="{{slide.logo}}" alt="Logotipo Terral">
 							</figure>

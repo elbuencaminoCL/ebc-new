@@ -1,5 +1,6 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { StaticDataService } from './../static-data.service';
+import { Title }     from '@angular/platform-browser';
 
 declare var $: any;
 
@@ -14,9 +15,10 @@ export class AboutComponent implements OnInit {
   public members;
 	public methodologies;
 
-  constructor( private staticDataService: StaticDataService ) { }
+  constructor( private staticDataService: StaticDataService, private titleService: Title ) { }
 
   ngOnInit() {
+    this.titleService.setTitle( 'Acerca de nosotros' );
     this.staticDataService.getData( 'about.json' )
       .subscribe(
         data => {

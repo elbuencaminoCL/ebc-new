@@ -7,7 +7,7 @@
 				<img src="{{case.bg}}" alt="Fondo" />
 			</figure>
 			<div class="sub-header__container center-xs">
-				<h3 class="sub-header__title" *ngIf="!case.logo">{{case.name}}</h3>
+				<h3 class="sub-header__title" *ngIf="!case.logo" [innerHTML]="case.name"></h3>
 				<figure class="sub-header__logo" *ngIf="case.logo">
 					<img src="{{case.logo}}">
 				</figure>
@@ -20,52 +20,92 @@
 		<section class="case__situation" *ngIf="case.situation">
 			<div class="case__situation__container u-container">
 				<div class="case__situation__content center-xs">
-					<h3 class="case__situation__title border-title">{{case.situation.title}}</h3>
-					<p class="case__situation__description text-lato">{{case.situation.description}}</p>
+					<h3 class="case__situation__title border-title" *ngIf="case.situation.title" [innerHTML]="case.situation.title"></h3>
+					<p class="case__situation__description text-lato" *ngIf="case.situation.description" [innerHTML]="case.situation.description"></p>
 				</div>
 			</div>
 		</section>
 
-		<figure class="case__situation__image" *ngIf="case.situation">
+		<figure class="case__situation__image center-xs" *ngIf="case.situation">
 			<img width="auto" height="auto" alt="..." src="{{case.situation.image}}" />
 		</figure>
 
 
 		<section class="case__works" *ngIf="case.works">
 			<div class="case__works__container u-container">
-				<h3 class="case__works__title border-title center-xs">{{case.works.title}}</h3>
-
+				<h3 class="case__works__title border-title center-xs" *ngIf="case.works.title" [innerHTML]="case.works.title"></h3>
 				<ul class="case__works__list u-row center-xs">
 					<li class="case__works__list-item col-xs-6 col-sm-3" *ngFor="let worksList of case.works.list">
 						<figure class="case__works__list__image">
 							<img class="img-responsive" alt="..." src="{{worksList.image}}" />
 						</figure>
-						<h4 class="case__works__list__title center-xs text-lato">{{worksList.title}}</h4>
+						<h4 class="case__works__list__title center-xs text-lato" *ngIf="worksList.title" [innerHTML]="worksList.title"></h4>
 					</li>
 				</ul>
 			</div>
 		</section>
 
+		<section class="case__wireframes" *ngIf="case.wireframes">
+			<div class="case__wireframes__container u-container">
+				<h3 class="case__wireframes__title center-xs" *ngIf="case.wireframes.title" [innerHTML]="case.wireframes.title"></h3>
+				<figure class="case__wireframes__list__image">
+					<img class="img-responsive" alt="..." src="{{case.wireframes.image}}" />
+				</figure>
+			</div>
+		</section>
+
+		<section class="case__interface" *ngIf="case.interface">
+			<div class="case__interface__container u-container">
+				<h3 class="case__interface__title border-title center-xs" *ngIf="case.interface.title" [innerHTML]="case.interface.title"></h3>
+				<figure class="case__interface__list__image">
+					<img class="img-responsive" alt="..." src="{{case.interface.image}}" />
+				</figure>
+			</div>
+		</section>
+
+		<section class="case__section" *ngIf="case.section">
+			<div class="case__section__container u-container">
+				<div *ngIf="case.section_title">
+					<h3 class="case__interface__title border-title center-xs" [innerHTML]="case.section_title.title" *ngIf="case.section_title.title"></h3>
+				</div>
+				<div class="case__section__row u-row">
+					<div class="case__section__col {{col.col_class}}" *ngFor="let col of case.section">
+						<h3 class="case__section__title" [innerHTML]="col.title" *ngIf="col.title"></h3>
+						<div class="case__section__description" [innerHTML]="col.description" *ngIf="col.description"></div>
+						<div *ngIf="col.list">
+							<div *ngFor="let item of col.list" class="case__section__list">
+								<h3 class="case__section__col__list__title" *ngIf="item.title" [innerHTML]="item.title"></h3>
+								<p class="case__section__col__list__description" *ngIf="item.description" [innerHTML]="item.description"></p>
+							</div>
+						</div>
+						<figure class="case__section__image" *ngIf="col.image">
+							<img src="{{col.image}}">
+						</figure>
+					</div>
+				</div>
+			</div>
+		</section>
+
 		<section class="case__items" *ngIf="case.items">
 			<div class="case__items__container u-container">
-				<div class="case__items__row u-row center-xs start-sm" *ngFor="let item of case.items">
-					<div class="case__items__content col-xs-12 col-sm-6">
-						<h3 class="case__items__content__title u-row middle-xs center-xs start-sm"><span>{{item.title}}</span> <i class="fa fa-arrow-right fa-3" aria-hidden="true"></i></h3>
-						<p class="case__items__content__description">{{item.description}}</p>
+				<div class="case__items__row u-row center-xs start-sm {{item.v_align}}" *ngFor="let item of case.items">
+					<div class="case__items__content {{item.col_content}}">
+						<h3 class="case__items__content__title u-row middle-xs center-xs start-sm"><span [innerHTML]="item.title" *ngIf="item.title"></span> </h3>
+						<p class="case__items__content__description" *ngIf="item.description" [innerHTML]="item.description"></p>
 					</div>
-					<figure class="case__items__image col-xs-12 col-sm-6">
+					<figure class="case__items__image {{item.col_image}}">
 						<img src="{{item.image}}">
 					</figure>
 				</div>
 			</div>
 		</section>
 
-		<section class="carousel-case">
+		<section class="carousel-case slider">
 			<ngb-carousel *ngIf="case.slides">
 				<template ngbSlide *ngFor="let slide of case.slides; let i = item">
 					<img src="{{slide.image}}">
 					<div class="carousel-caption">
-						<h3 class="border-title">{{slide.title}}</h3>
+						<h3 class="border-title" *ngIf="slide.title" [innerHTML]="slide.title"></h3>
 					</div>
 				</template>
 			</ngb-carousel>
@@ -74,11 +114,24 @@
 
 		<section class="case__deliverable" *ngIf="case.deliverable">
 			<div class="case__deliverable__container u-container">
-				<h3 class="case__deliverable__title u-row middle-xs center-xs start-sm"><span>{{case.deliverable.title}}</span> <i class="fa fa-arrow-right fa-3" aria-hidden="true"></i></h3>
+				<h3 class="case__deliverable__title u-row middle-xs center-xs start-sm"><span *ngIf="case.deliverable.title" [innerHTML]="case.deliverable.title"></span> </h3>
 				<div class="case__deliverable__step" *ngFor="let step of case.deliverable.steps; let i=index">
-					<div class="case__deliverable__step__row u-row middle-xs center-xs start-sm">
+					<div class="case__deliverable__step__row u-row center-xs start-sm">
 						<h4 class="case__deliverable__step__number">{{i+1}}</h4>
-						<p class="case__deliverable__step__description" *ngIf="step.description"><strong>{{step.title}} </strong>{{step.description}}</p>
+						<div class="case__deliverable__step__description"><h4 *ngIf="step.title" [innerHTML]="step.title"></h4><span *ngIf="step.description" [innerHTML]="step.description"></span></div>
+					</div>
+					<div *ngIf="step.section" class="u-row">
+						<div class="case__deliverable__step__section  {{col.col_class}}" *ngFor="let col of step.section">
+							<div class="case__deliverable__step__section__description"><span *ngIf="col.description" [innerHTML]="col.description"></span></div>
+							<figure class="case__deliverable__step__section__image center-xs" *ngIf="col.image">
+								<img src="{{col.image}}">
+							</figure>
+						</div>
+					</div>
+					<div *ngIf="step.lists">
+						<div class="case__deliverable__step__list" *ngFor="let list of step.lists">
+							<p class="case__deliverable__step__list__description case__deliverable__step__description"><i class="fa fa-6 fa-long-arrow-right" aria-hidden="true"></i> <span *ngIf="list.description" [innerHTML]="list.description"></span></p>
+						</div>
 					</div>
 					<figure class="case__deliverable__step__image center-xs" *ngIf="step.preview">
 						<img src="{{step.preview}}">
@@ -87,7 +140,7 @@
 						<img src="{{step.image}}">
 					</figure>
 					<div class="case__deliverable__step__image center-xs" *ngIf="step.images">
-						<figure *ngFor="let image of step.images">
+						<figure class="" *ngFor="let image of step.images">
 							<img src="{{image}}">
 						</figure>
 					</div>
@@ -103,7 +156,7 @@
 				<figure class="footer__logo">
 					<img width="174" height="143" alt="Logotipo El buen camino" src="./../../assets/images/global/logo2.png" />
 				</figure>
-				<h4 class="footer__title" *ngIf="case.footer_title">{{case.footer_title}}</h4>
+				<h4 class="footer__title" *ngIf="case.footer_title" [innerHTML]="case.footer_title"></h4>
 				<h4 class="footer__sub-title">como ves, tenemos experiencia</h4>
 				<a class="around__btn btn btn-lg btn-white" routerLink="/contact">Cuéntanos de tu proyecto</a>
 			</section>

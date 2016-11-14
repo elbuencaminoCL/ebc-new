@@ -19,6 +19,28 @@
 		</div>
 	</section>
 
+	<section class="methodology">
+		<div class="methodology__heading u-container-2">
+			<h3 class="methodology__title center-xs">Nuestra Metodología</h3>
+			<p class="methodology__description center-xs">Esta es la manera como encaramos nuestros proyectos. Existen muchas metodologías, pero esta es la nuestra.</p>
+		</div>
+		<div class="methodology__container u-container-3">
+			<div class="methodology__row u-row" *ngFor="let method of methodologies">
+				<div class="methodology__col col-xs-2 col-sm-6">
+					<figure class="methodology__col__image">
+						<span class="u-row center-xs middle-xs">
+							<i class="{{method.icon}}"></i>
+						</span>
+					</figure>
+				</div>
+				<div class="methodology__col col-xs-10 col-sm-6">
+					<h4 class="methodology__col__title">{{method.title}}</h4>
+					<p class="methodology__col__description">{{method.description}}</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
 	<section class="members" *ngIf="members">
 		<div class="members__container u-container">
 			<h3 class="members__title border-title center-xs">Los caminantes</h3>
@@ -31,6 +53,7 @@
 						<div class="members__item__content">
 							<h4 class="members__name">{{member.name}}</h4>
 							<p class="members__position">{{member.position}}</p>
+							<p class="members__phrase"><em [innerHTML]="member.phrase"></em></p>
 							<div class="members__item__social">
 								<a *ngIf="member.twitter" href="https://twitter.com/{{member.twitter}}">
 									<i class="fa fa-twitter-square" aria-hidden="true"></i>
@@ -44,28 +67,6 @@
 							</div>
 						</div>
 					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="methodology">
-		<div class="methodology__heading u-container-2">
-			<h3 class="methodology__title center-xs">Nuestra Metodología</h3>
-			<p class="methodology__description center-xs">Esta es la manera como encaramos nuestros proyectos. Existen muchas metodologías, pero esta es la nuestra.</p>
-		</div>
-		<div class="methodology__container u-container-3">
-			<div class="methodology__row u-row" *ngFor="let method of methodologies">
-				<div class="methodology__col col-xs-2 col-sm-6">
-					<figure class="methodology__col__image">
-						<span class="u-row center-xs middle-xs">
-							<img src="{{method.icon}}" alt="Icono metodologías" />
-						</span>
-					</figure>
-				</div>
-				<div class="methodology__col col-xs-10 col-sm-6">
-					<h4 class="methodology__col__title">{{method.title}}</h4>
-					<p class="methodology__col__description">{{method.description}}</p>
 				</div>
 			</div>
 		</div>

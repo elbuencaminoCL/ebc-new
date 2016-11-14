@@ -6,14 +6,111 @@
   <base href="/">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700|Maven+Pro|Open+Sans|Vollkorn">
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href=" https://cdn.jsdelivr.net/animatecss/3.5.1/animate.min.css">
   <script src="https://code.jquery.com/jquery-3.1.1.js"   integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="   crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
   <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}id=id+'_';if(!gi.call(d,id)){qs=ce.call(d,'link');qs.rel='stylesheet';qs.id=id;qs.href=b+'share-button.css';s=gt.call(d,'head')[0];s.appendChild(qs,s)}})()</script>
+  <!-- Google Analytics -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44982249-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+  <!-- End Google Analytics -->
 </head>
 <body>
-  <app-root>Loading...</app-root>
+  <app-root>
+    <style type="text/css">
+      body {
+        margin: 0;
+      }
+
+      .loading {
+        background-color: #9f1d1f;
+        height: 100vh;
+      }
+
+      .loading__container {
+        height: 100vh;
+      }
+
+      .loading__row {
+        height: 100vh;
+      }
+
+      .loading__image {
+        margin-bottom: 4rem;
+      }
+
+      .middle-xs {
+        align-items: center;
+      }
+
+      .u-row {
+        box-sizing: border-box;
+        display: flex;
+        flex: 0 1 auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+
+      .center-xs {
+        justify-content: center;
+        text-align: center;
+      }
+
+      .sk-spinner-pulse.sk-spinner {
+        width: 40px;
+        height: 40px;
+        margin: 0 auto;
+        background-color: #FFF;
+        border-radius: 100%;
+        -webkit-animation: sk-pulseScaleOut 1s infinite ease-in-out;
+                animation: sk-pulseScaleOut 1s infinite ease-in-out; }
+
+      @-webkit-keyframes sk-pulseScaleOut {
+        0% {
+          -webkit-transform: scale(0);
+                  transform: scale(0); }
+
+        100% {
+          -webkit-transform: scale(1);
+                  transform: scale(1);
+          opacity: 0; } }
+
+      @keyframes sk-pulseScaleOut {
+        0% {
+          -webkit-transform: scale(0);
+                  transform: scale(0); }
+
+        100% {
+          -webkit-transform: scale(1);
+                  transform: scale(1);
+          opacity: 0; } }
+    </style>
+    <section class="loading">
+      <div class="loading__container">
+        <div class="loading__row u-row middle-xs center-xs">
+          <div class="loading__content">
+            <figure class="loading__image">
+              <img src="./assets/images/global/logo2.png" alt="Logotipo El Buen Camino" />
+            </figure>
+            <div class="sk-spinner sk-spinner-pulse"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </app-root>
+  <script>
+    new WOW().init();
+  </script>
 </body>
 </html>

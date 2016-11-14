@@ -23,7 +23,7 @@
 		.carousel__content
 			height 100%
 
-		.carousel-control
+		.carousel-indicators
 			display none
 
 		.carousel__description
@@ -52,8 +52,20 @@
 			margin-bottom 2rem
 
 	.carousel-inner
+		height 500px
 		.carousel-item
-			height 500px
+			bottom 0
+			display block
+			left 0
+			opacity 0
+			position absolute
+			right 0
+			top 0
+			visibility hidden
+			transition all .6s cubic-bezier( .4,0,.2,1 )
+			&.active
+				opacity 1
+				visibility visible
 			&:before
 				background-color rgba( 0,0,0,.3 )
 				bottom 0
@@ -86,28 +98,16 @@
 
 
 
+
+
 	@media screen and ( min-width 48em )
 
 		.carousel-home
-			.carousel__dots__row
-				display flex
+			.carousel-caption
+				padding-left 8rem
 
-			.carousel-indicators
-				left 50%
-				padding-right 1rem
-				margin -48px auto 0 0
-				max-width 570px
-				top 50%
-				li
-					display block
-					margin 1rem 0 1rem auto
-
-		.carousel-inner
+		.carousel-vertical
 			.carousel-item
-				height 687px
-
-	@media screen and ( min-width 62em )
-
-		.carousel-home
-			.carousel-indicators
-				padding-right 0
+				height 0
+				&.active
+					height 500px
