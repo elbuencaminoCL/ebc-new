@@ -4,43 +4,36 @@
 			"pic": "./assets/images/about/claudio_merino.jpg",
 			"name": "Claudio Merino",
 			"position": "Director de Ux",
-			"phrase": "Esta es mi frase",
+			"phrase": "",
 			"twitter": "claudio_merino",
-			"linkedin": "claudio_merino",
 			"pic_dir": "left"
 		},
 		{
 			"pic": "./assets/images/about/martin_merino.jpg",
 			"name": "Martín Merino",
 			"position": "Director de Diseño",
-			"phrase": "Esta es mi frase",
-			"twitter": "claudio_merino",
+			"phrase": "",
 			"pic_dir": "left"
 		},
 		{
 			"pic": "./assets/images/about/zara_campagnon.jpg",
 			"name": "Zara Campagnon",
-			"position": "Diseñadora de interfaces",
-			"phrase": "Esta es mi frase",
-			"twitter": "claudio_merino",
-			"linkedin": "claudio_merino",
+			"position": "Diseñadora de Interfaces",
+			"phrase": "",
 			"pic_dir": "right"
 		},
 		{
 			"pic": "./assets/images/about/jair_garcia.jpg",
 			"name": "Jair Garcia",
 			"position": "Desarrollador Front-end",
-			"phrase": "Esta es mi frase",
-			"linkedin": "claudio_merino",
+			"phrase": "",
 			"pic_dir": "right"
 		},
 		{
 			"pic": "./assets/images/about/juanjo_vargas.jpg",
 			"name": "Juanjo Vargas",
 			"position": "Contenidos Digitales",
-			"phrase": "Esta es mi frase",
-			"twitter": "claudio_merino",
-			"linkedin": "claudio_merino",
+			"phrase": "",
 			"pic_dir": "left"
 		},
 		{
@@ -48,8 +41,6 @@
 			"name": "Maria Egea",
 			"position": "Productora Audiovisual",
 			"phrase": "Esta es mi frase",
-			"twitter": "claudio_merino",
-			"linkedin": "claudio_merino",
 			"pic_dir": "left"
 		},
 		{
@@ -64,12 +55,12 @@
 		{
 			"icon": "icon-ear",
 			"title": "I. Escuchamos",
-			"description": "Sabemos que eres el que más conoce de tu negocio, y creemos que un buen diseño depende de entender dónde tu proyecto está parado en este momento, hacia donde quieres llegar y cómo podemos ayudarte a llegar ahí. Tu hablas, nosotros escuchamos y compartimos lo que sabemos. En esta etapa nos dedicamos a recopilar información sobre tu negocio, tus clientes y tus competidores."
+			"description": "Sabemos que eres el que más conoce de tu negocio, y creemos que un buen diseño depende de entender dónde tu proyecto está parado en este momento, hacia donde quieres llegar y cómo podemos ayudarte a llegar ahí. Tú hablas, nosotros escuchamos y compartimos lo que sabemos. En esta etapa nos dedicamos a recopilar información sobre tu negocio, tus clientes y tus competidores."
 		},
 		{
 			"icon": "icon-planificar",
 			"title": "II. Planificamos",
-			"description": "Aquí comienzan a tomar forma las ideas. Lo que parten como dibujos en un cuaderno terminan siendo mapas y wireframes que detallan la estructura y contenidos de tu proyecto. Esto nos ayudará a visualizar el enlace y servirán como guía para el resto del proceso. Con esto claro planificamos los entregables y los tiempos de desarrollo."
+			"description": "Aquí comienzan a tomar forma las ideas. Lo que parte como dibujos en un cuaderno terminan siendo mapas y wireframes que detallan la estructura y contenidos de tu proyecto. Esto nos ayudará a visualizar el enlace y servirán como guía para el resto del proceso. Con esto claro planificamos los entregables y los tiempos de desarrollo."
 		},
 		{
 			"icon": "icon-pencil",
@@ -84,7 +75,7 @@
 		{
 			"icon": "icon-build",
 			"title": "V. Construimos",
-			"description": "HTML, CSS, JS... Nos especializamos en la parte front-end del desarrollo. Aquí los diseños toman vida. Aparecen las vistas responsivas, las animaciones y todas las secciones se llenan del contenido que tendrá tu proyecto una vez que lo lancemos"
+			"description": "HTML, CSS, JS... Nos especializamos en la parte front-end del desarrollo. Aquí los diseños toman vida. Aparecen las vistas responsivas, las animaciones y todas las secciones se llenan del contenido que tendrá tu proyecto una vez que lo lancemos."
 		},
 		{
 			"icon": "icon-launch",
