@@ -3,7 +3,7 @@
 		{
 			"link": "estrategia-digital",
 			"icon_class": "icon-consulting",
-			"service": "Estrategía digital",
+			"service": "Estrategia digital",
 			"service_br": ""
 		},
 		{
@@ -75,7 +75,7 @@
 			"image": "./assets/images/services/image2.png",
 			"image_alt": "Imagen",
 			"title": "Diseño Ux/UI",
-			"intro": "El diseño es la pieza clave en la presencia digital. Es lo que diferencia. Ponemos un cariño especial para conseguir diseños atractivos, memorables y orientados al negocio. Diseños pensados desde el móvil y la Web, dise&ntlde;os nativos al medio.",
+			"intro": "El diseño es la pieza clave en la presencia digital. Es lo que diferencia. Ponemos un cariño especial para conseguir diseños atractivos, memorables y orientados al negocio. Diseños pensados desde el móvil y la Web, diseños nativos al medio.",
 			"features_title": "¿Qué podríamos hacer juntos?",
 			"features": [
 				{
@@ -159,19 +159,19 @@
 			"features_title": "¿Qué podríamos hacer juntos?",
 			"features": [
 				{
-					"description": "Diseño y desarrollo de sitios Autoadministrables."
+					"description": "Diseño y desarrollo de sitios autoadministrables."
 				},
 				{
 					"description": "Diseño y desarrollo de Apps móviles."
 				},
 				{
-					"description": "Diseño y desarrollo de módulos de autoatención"
+					"description": "Diseño y desarrollo de módulos de autoatención."
 				},
 				{
-					"description": "Diseño y desarrollo de sitios E-commerce"
+					"description": "Diseño y desarrollo de sitios E-commerce."
 				},
 				{
-					"description": "Desarrollo Front-end"
+					"description": "Desarrollo Front-end."
 				}
 			],
 			"works_title": "Esto hemos hecho en Diseño y desarrollo web",
@@ -194,7 +194,7 @@
 			"image": "./assets/images/services/image5.png",
 			"image_alt": "Imagen",
 			"title": "Comunicación y RR.SS.",
-			"intro": "En internet hay que contar historias relevantes e interesantes. Tenemos especialistas en redacción y creación de estrategias de contenido, guionistas, realizadores de vídeo y dinamizadores en redes sociales, para conseguir que lo que contamos sea visto, oído y leído.",
+			"intro": "En internet hay que contar historias relevantes e interesantes. Tenemos especialistas en redacción y creación de estrategias de contenido, guionistas, realizadores de video y dinamizadores en redes sociales, para conseguir que lo que contamos sea visto, oído y leído.",
 			"features_title": "¿Qué podríamos hacer juntos?",
 			"features": [
 				{

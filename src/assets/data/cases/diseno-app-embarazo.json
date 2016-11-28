@@ -5,7 +5,7 @@
 	"bg": "./assets/images/cases/app-embarazo/banner.jpg",
 	"slug": "app-embarazo",
 	"categories": [
-		"Diseño de App."
+		"Diseño de App"
 	],
 	"situation": {
 		"description": "Fuimos contactados por una empresa de desarrollo para ayudarles a pensar y diseñar una app para una clínica<br/> chilena, para que sus pacientes pudieran hacer el seguimiento de su embarazo, contando con información desde la <br/> más general, hasta el poder agendar las horas para los controles médicos.",
@@ -41,7 +41,7 @@
 				"image": "./assets/images/cases/app-embarazo/image-3.jpg"
 			},
 			{
-				"description": "Una vez definimos todas las funcionalidades y contenidos de las pantallas, comenzamos a diseñar la interfaz, tomando como punto de partida el Framework Material Design de Google.",
+				"description": "Una vez que definimos todas las funcionalidades y contenidos de las pantallas, comenzamos a diseñar la interfaz, tomando como punto de partida el Framework Material Design de Google.",
 				"images": [
 					"./assets/images/cases/app-embarazo/image-4.png",
 					"./assets/images/cases/app-embarazo/image-5.jpg",

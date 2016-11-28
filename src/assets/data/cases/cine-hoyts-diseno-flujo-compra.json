@@ -17,7 +17,7 @@
 		"title": "¿Qué hicimos con ellos?",
 		"list": [
 			{
-				"image": "./assets/images/cases/ux-triangle.png",
+				"image": "./assets/images/cases/consultoria-triangle.png",
 				"title": "Consultoría"
 			},
 			{
@@ -44,7 +44,7 @@
 	"deliverable": {
 		"steps": [
 			{
-				"description": "Lo primero fue preguntarnos: ¿Cómo hacemos para facilitar el proceso de búsqueda y selección de películas a nuestros usuarios?. Para ello propusimos una navegación mediante cards, donde al pasar por encima (o pulsar en el caso de los móviles), el usuario pudiese ver la información más relevante de las películas y comenzar el proceso de compra desde ahí mismo.",
+				"description": "Lo primero fue preguntarnos: ¿Cómo hacemos para facilitar el proceso de búsqueda y selección de películas a nuestros usuarios? Para ello propusimos una navegación mediante cards, donde al pasar por encima (o pulsar en el caso de los móviles), el usuario pudiese ver la información más relevante de las películas y comenzar el proceso de compra desde ahí mismo.",
 				"image": "./assets/images/cases/hoyts/image-2.jpg",
 				"title": "Replantear la búsqueda de películas"
 			},
@@ -58,7 +58,7 @@
 				"image": "./assets/images/cases/hoyts/image-5.jpg",
 				"lists": [
 					{
-						"description": "Doblamos la cantidad de entradas vendidas mediante la web, en comparación al mismo período el año anterior"
+						"description": "Doblamos la cantidad de entradas vendidas mediante la web, en comparación al mismo período el año anterior."
 					},
 					{
 						"description": "Mejoramos significativamente la experiencia de compra, especialmente en móviles, donde pasamos de un 2% a más de un 25% en compras desde IOS y Android."

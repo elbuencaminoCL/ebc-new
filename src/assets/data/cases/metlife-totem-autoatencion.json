@@ -17,7 +17,7 @@
 		"title": "¿Qué hicimos con ellos?",
 		"list": [
 			{
-				"image": "./assets/images/cases/ux-triangle.png",
+				"image": "./assets/images/cases/consultoria-triangle.png",
 				"title": "Consultoría"
 			},
 			{
@@ -25,7 +25,7 @@
 				"title": "Diseño del Tótem <br/>de Autoatención"
 			},
 			{
-				"image": "./assets/images/cases/test-triangle.png",
+				"image": "./assets/images/cases/investigacion-triangle.png",
 				"title": "Pruebas de usabilidad<br/> con clientes finales"
 			}
 		]
@@ -51,11 +51,11 @@
 				},
 				{
 					"title": "¿Cómo lo hicimos?",
-					"description": "La actividad consistió en solicitar a un grupo de usuarios que utilizarán el prototipo del Tótem de Autoatención y realizaran cinco tareas que fueron previamente definidas con el cliente.<br/> Para ello, utilizamos consignas de interpretación abierta (por ejemplo, 'Imagina que necesitas pedir un certificado de afiliación') y las complementamos con consignas cerradas en los casos en que fuera necesario (por ejemplo, 'Localiza e imprime el comprobante de pago').<br/><br/> Los usuarios verbalizaron sus razonamientos y sus decisiones, siguiendo el protocolo Think Aloud, que fue complementado con observaciones y notas realizadas por un segundo consultor de soporte."
+					"description": "La actividad consistió en solicitar a un grupo de usuarios que utilizaran el prototipo del Tótem de Autoatención y realizaran cinco tareas que fueron previamente definidas con el cliente.<br/> Para ello, utilizamos consignas de interpretación abierta (por ejemplo, 'Imagina que necesitas pedir un certificado de afiliación') y las complementamos con consignas cerradas en los casos en que fuera necesario (por ejemplo, 'Localiza e imprime el comprobante de pago').<br/><br/> Los usuarios verbalizaron sus razonamientos y sus decisiones, siguiendo el protocolo Think Aloud, que fue complementado con observaciones y notas realizadas por un segundo consultor de soporte."
 				},
 				{
 					"title": "¿Qué aprendimos?",
-					"description": "El tótem no es solo una pantalla.</strong><br/>Durante todo el proceso de diseño nos habíamos preocupado de hacer la interfaz que estaba dentro de la pantalla fuera lo más usable e intuitiva posible, pero de nada servía si los usuarios confundían la ranura para insertar el DNI con la bandeja para la tarjeta de crédito.<br/><br/><strong>El rol del host que guía al usuario sigue siendo imprescindible.</strong><br/> El cliente que llega a la sucursal preferirá conversar con una persona en la mayoría de los casos, quien luego de escuchar las necesidades de la persona, lo deriva al tótem o a un ejecutivo, si fuera necesario.<br/><br/><strong>Testea rápido y testea temprano.</strong><br/>Parte de los descubrimientos que hicimos durante el testeo en la etapa de diseño nos permitió ver las falencias de nuestra interfaz antes de comenzar a construir."
+					"description": "El tótem no es solo una pantalla.</strong><br/>Durante todo el proceso de diseño nos habíamos preocupado de hacer que la interfaz que estaba dentro de la pantalla fuera lo más usable e intuitiva posible, pero de nada servía si los usuarios confundían la ranura para insertar el DNI con la bandeja para la tarjeta de crédito.<br/><br/><strong>El rol del host que guía al usuario sigue siendo imprescindible.</strong><br/> El cliente que llega a la sucursal preferirá conversar con una persona en la mayoría de los casos, quien luego de escuchar las necesidades de la persona, lo deriva al tótem o a un ejecutivo, si fuera necesario.<br/><br/><strong>Testea rápido y testea temprano.</strong><br/>Parte de los descubrimientos que hicimos durante el testeo en la etapa de diseño nos permitió ver las falencias de nuestra interfaz antes de comenzar a construir."
 				}
 			]
 		},
