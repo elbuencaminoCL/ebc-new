@@ -5,6 +5,7 @@
 			"link": "estrategia-digital",
 			"image": "./assets/images/home/target.png",
 			"image_hover": "./assets/images/home/target-white.png",
+			"icon_class": "icon-consulting",
 			"service": "Estrategia",
 			"service_br": "Digital"
 		},
@@ -12,6 +13,7 @@
 			"link": "diseno-ux-ui",
 			"image": "./assets/images/home/design.png",
 			"image_hover": "./assets/images/home/design-white.png",
+			"icon_class": "icon-design",
 			"service": "Diseño",
 			"service_br": "Ux / UI"
 		},
@@ -19,6 +21,7 @@
 			"link": "investigacion-con-usuarios",
 			"image": "./assets/images/home/devices.png",
 			"image_hover": "./assets/images/home/devices-white.png",
+			"icon_class": "icon-devices",
 			"service": "Investigación",
 			"service_br": "con usuarios"
 		},
@@ -26,6 +29,7 @@
 			"link": "desarrollo-front-end",
 			"image": "./assets/images/home/build.png",
 			"image_hover": "./assets/images/home/build-white.png",
+			"icon_class": "icon-build",
 			"service": "Desarrollo",
 			"service_br": "Front-end"
 		},
@@ -33,6 +37,7 @@
 			"link": "comunicacion-rrss",
 			"image": "./assets/images/home/microphone.png",
 			"image_hover": "./assets/images/home/data-white.png",
+			"icon_class": "icon-micro",
 			"service": "Comunicación",
 			"service_br": "y RR.SS"
 		}

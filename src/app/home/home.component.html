@@ -24,11 +24,10 @@
 				</div>
 				<div class="do__boxes u-row center-sm" *ngIf="menus">
 					<div *ngFor="let menu of menus" class="do__box do__box__menu center-xs">
-						<a *ngIf="menus.link" pageScroll [routerLink]="['services']" href="#{{menu.link}}">
+						<a pageScroll [routerLink]="['services']" href="#{{menu.link}}">
 							<div class="do__box__menu__content">
 								<figure>
-									<img src="{{menu.image}}">
-									<img src="{{menu.image_hover}}">
+									<span class="{{menu.icon_class}}"></span>
 								</figure>
 								<p>{{menu.service}}</p>
 								<p *ngIf="menu.service_br">{{menu.service_br}}</p>
